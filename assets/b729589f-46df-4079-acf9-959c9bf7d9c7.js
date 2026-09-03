@@ -23,13 +23,13 @@ function FavProvider({ children }) {
 const useFav = () => useContext(FavCtx);
 
 /* ---------- Placeholder image ---------- */
-function Ph({ grad, label, ratio, className = "", style = {}, children, labelSize = 15, img, alt }) {
+function Ph({ grad, label, ratio, className = "", style = {}, children, labelSize = 15, img, imgStyle, alt }) {
   const st = { background: grad || "var(--beige)", ...style };
   if (ratio) st.aspectRatio = ratio;
   return (
     <div className={"ph " + className} style={st}>
       {img
-        ? <img className="ph__img" src={img} alt={alt || label || ""} loading="lazy" />
+        ? <img className="ph__img" src={img} alt={alt || label || ""} loading="lazy" style={imgStyle} />
         : <div className="ph__grain"></div>}
       {label && !img && <div className="ph__label" style={{ fontSize: labelSize }}>{label}</div>}
       {children}

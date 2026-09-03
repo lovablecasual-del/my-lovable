@@ -13,6 +13,11 @@ function Hero({ variant }) {
     : <>毎日のちょっとしたご褒美に。<br />コスメも、服も、暮らしの道具も。</>;
   const heroImg = site.image || null;
   const tiles = Array.isArray(site.images) ? site.images : [];
+  // Tiles can be either a plain data-URL string (legacy) or a
+  // { u, x, y, z } crop record (u = image, x/y = focal point %, z = zoom)
+  // saved by the admin's "TOP画像" cropper — unwrap either shape here.
+  const tileVal = (t) => (t && typeof t === "object") ? { u: t.u || null, x: t.x ?? 50, y: t.y ?? 50, z: t.z ?? 1 } : { u: t || null, x: 50, y: 50, z: 1 };
+  const tileStyle = (t) => ({ objectPosition: t.x + "% " + t.y + "%", transform: "scale(" + t.z + ")" });
 
   if (variant === "split") {
     return (
@@ -68,10 +73,11 @@ function Hero({ variant }) {
         )}
       </nav>
       <div className="hero__strip reveal in">
-        <Ph grad={LB.GRAD.blush} img={tiles[0] || heroImg} label={T("top.hero.tile1")} ratio="1 / 1" />
-        <Ph grad={LB.GRAD.taupe} img={tiles[1] || null} label={T("top.hero.tile2")} ratio="1 / 1" />
-        <Ph grad={LB.GRAD.mist} img={tiles[2] || null} label={T("top.hero.tile3")} ratio="1 / 1" />
-        <Ph grad={LB.GRAD.cocoa} img={tiles[3] || null} label={T("top.hero.tile4")} ratio="1 / 1" />
+        {[0, 1, 2, 3].map((i) => {
+          const t = tileVal(tiles[i]);
+          const grad = [LB.GRAD.blush, LB.GRAD.taupe, LB.GRAD.mist, LB.GRAD.cocoa][i];
+          return <Ph key={i} grad={grad} img={t.u || (i === 0 ? heroImg : null)} imgStyle={tileStyle(t)} label={T("top.hero.tile" + (i + 1))} ratio="1 / 1" />;
+        })}
       </div>
     </section>);}
 
