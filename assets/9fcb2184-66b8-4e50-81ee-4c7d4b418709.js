@@ -152,6 +152,11 @@ function ProductPage({ id, onOpen }) {
   if (!p) return <main className="wrap sect"><p>{T("pdp.notFound")}</p></main>;
 
   const cat = LB.CATEGORIES.find(c => c.key === p.cat);
+  // Ikkun's own one-line take + personal star rating for this item (optional,
+  // set from the admin "おすすめポイント" card — stored in spec so it needs
+  // no schema change). Shown compactly above the points list.
+  const ikkunRating = Math.max(0, Math.min(5, Number(p.spec && p.spec.ikkunRating) || 0));
+  const ikkunComment = (p.spec && p.spec.ikkunComment) || "";
   const related = LB.byCat(p.cat).filter(x => x.id !== p.id).slice(0,4);
   const relatedFill = LB.PRODUCTS.filter(x => x.id !== p.id && !related.some(r => r.id === x.id));
   const rel = (related.length>=4?related:[...related,...relatedFill].slice(0,4));
@@ -184,13 +189,18 @@ function ProductPage({ id, onOpen }) {
               <p className="pdp__affnote">{T("pdp.affNote")}</p>
             </div>
 
-            <ShareRow p={p} />
           </div>
         </div>
 
         {/* Points */}
         <section className="pdp__section reveal">
           <div className="pdp__sechead"><span className="eyebrow">{T("pdp.pointsEyebrow")}</span><h2 className="section-title">{T("pdp.pointsTitle")}</h2></div>
+          {(ikkunComment || ikkunRating > 0) && (
+            <div className="ikkunnote">
+              {ikkunRating > 0 && <Stars value={ikkunRating} size={15} />}
+              {ikkunComment && <p className="ikkunnote__text">{ikkunComment}</p>}
+            </div>
+          )}
           <div className="points">
             {p.points.map((pt,i) => (
               <div key={i} className="point">
@@ -203,12 +213,6 @@ function ProductPage({ id, onOpen }) {
 
         {/* Spec / item detail */}
         {p.spec && <ProductSpec p={p} />}
-
-        {/* Reviews — real per-product reviews only */}
-        <section className="pdp__section reveal">
-          <div className="pdp__sechead"><span className="eyebrow">{T("pdp.reviewsEyebrow")}</span><h2 className="section-title">{T("pdp.reviewsTitle")}</h2></div>
-          <Reviews p={p} />
-        </section>
       </div>
 
       {/* Related */}

@@ -24,14 +24,18 @@ const useFav = () => useContext(FavCtx);
 
 /* ---------- Placeholder image ---------- */
 function Ph({ grad, label, ratio, className = "", style = {}, children, labelSize = 15, img, imgStyle, alt }) {
+  // If a registered image URL 404s or otherwise fails to load, fall back to
+  // the placeholder tint instead of showing a broken-image icon.
+  const [broken, setBroken] = useState(false);
+  const showImg = img && !broken;
   const st = { background: grad || "var(--beige)", ...style };
   if (ratio) st.aspectRatio = ratio;
   return (
     <div className={"ph " + className} style={st}>
-      {img
-        ? <img className="ph__img" src={img} alt={alt || label || ""} loading="lazy" style={imgStyle} />
+      {showImg
+        ? <img className="ph__img" src={img} alt={alt || label || ""} loading="lazy" style={imgStyle} onError={() => setBroken(true)} />
         : <div className="ph__grain"></div>}
-      {label && !img && <div className="ph__label" style={{ fontSize: labelSize }}>{label}</div>}
+      {label && !showImg && <div className="ph__label" style={{ fontSize: labelSize }}>{label}</div>}
       {children}
     </div>
   );
