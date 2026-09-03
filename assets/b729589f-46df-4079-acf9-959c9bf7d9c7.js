@@ -101,7 +101,11 @@ function ProductCardInner({ p, onOpen, index = 0, showRank = false }) {
   // the shop chips below already convey that; showing it twice as a sticker
   // on the photo reads as an affiliate listing. Only genuinely descriptive
   // tags (新着 / 韓国 etc.) get shown as the on-image pill.
-  const isShopNameTag = p.tag && Object.values(LB.SHOPS).some(s => s.name === p.tag || s.short === p.tag);
+  // Real tag values seen in data are things like "Rakuten Fashion" — match
+  // against shop keys/names/short labels AND common shop brand words, since
+  // the tag text doesn't consistently match LB.SHOPS' own (Japanese) labels.
+  const SHOP_WORDS = ["rakuten","amazon","qoo10","tiktok","楽天","アマゾン"];
+  const isShopNameTag = p.tag && SHOP_WORDS.some(w => p.tag.toLowerCase().includes(w));
   return (
     <article className="card reveal" style={{ transitionDelay: (index%4)*70 + "ms" }}
       onClick={() => onOpen(p.id)} role="link" tabIndex={0}
