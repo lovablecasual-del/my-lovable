@@ -193,11 +193,22 @@ function useReveal(deps = []) {
     // queried/observed above and would stay invisible (.reveal without
     // .in) forever — watch the DOM for anything added later and hook it
     // into the same observer.
+    const revealLate = (e) => {
+      io.observe(e);
+      // Content that shows up after this effect's initial scan is almost
+      // always async data that just finished loading (products/articles
+      // from Supabase), not something the visitor scrolled to — reveal it
+      // right away instead of gambling on the intersection callback firing
+      // for a post-hoc observe() call, which isn't reliable in every
+      // environment. The IntersectionObserver above still owns the normal
+      // scroll-reveal animation for whatever was already on the page.
+      setTimeout(() => e.classList.add("in"), 50);
+    };
     const mo = new MutationObserver((mutations) => {
       mutations.forEach((m) => m.addedNodes.forEach((node) => {
         if (node.nodeType !== 1) return;
-        if (node.matches && node.matches(".reveal:not(.in)")) io.observe(node);
-        if (node.querySelectorAll) node.querySelectorAll(".reveal:not(.in)").forEach((e) => io.observe(e));
+        if (node.matches && node.matches(".reveal:not(.in)")) revealLate(node);
+        if (node.querySelectorAll) node.querySelectorAll(".reveal:not(.in)").forEach(revealLate);
       }));
     });
     mo.observe(document.body, { childList: true, subtree: true });
