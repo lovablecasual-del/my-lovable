@@ -149,7 +149,7 @@ function App() {
       if (!m) { m = document.createElement("meta"); m.setAttribute("name", "description"); document.head.appendChild(m); }
       m.setAttribute("content", desc);
     }
-  }, [route.name, route.id, route.cat]);
+  }, [route.name, route.id, route.cat, route.slug]);
 
   // handle top-anchor on load
   useEffect(() => {
