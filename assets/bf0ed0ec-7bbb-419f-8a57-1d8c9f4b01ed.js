@@ -102,6 +102,12 @@
     { key: "pdp.relatedTitle", page: "pdp", label: "関連商品：見出し", type: "text", default: "関連アイテム" },
     { key: "pdp.stickyCta", page: "pdp", label: "追従バー：購入ボタン", type: "text", default: "ストアを見る" },
 
+    // ---- Journal (article detail) ----
+    { key: "journal.crumbLabel", page: "journal", label: "パンくず：ジャーナル", type: "text", default: "Journal" },
+    { key: "journal.notFound", page: "journal", label: "記事が見つからない場合のメッセージ", type: "text", default: "記事が見つかりませんでした。" },
+    { key: "journal.itemsEyebrow", page: "journal", label: "紹介アイテム：上部ラベル", type: "text", default: "Featured in this story" },
+    { key: "journal.itemsTitle", page: "journal", label: "紹介アイテム：見出し", type: "text", default: "この記事で紹介したアイテム" },
+
     // ---- Footer ----
     { key: "footer.brandBlurb", page: "footer", label: "フッター：ブランド説明文", type: "textarea", default: "「このサイトを見ればセンスの良いものが見つかる」。雑誌のように眺めて、気になったものはそのまま各ストアへ。" },
     { key: "footer.colShop", page: "footer", label: "フッター列見出し：Shop", type: "text", default: "Shop" },
@@ -133,12 +139,13 @@
     { key: "seo.category.titleSuffix", page: "seo", label: "カテゴリー：タイトル末尾（カテゴリー名の後に付く）", type: "text", default: "｜LOVABLE" },
     { key: "seo.product.titleSuffix", page: "seo", label: "商品詳細：タイトル末尾（商品名の後に付く）", type: "text", default: "｜LOVABLE" },
     { key: "seo.saved.title", page: "seo", label: "お気に入り：タイトルタグ", type: "text", default: "保存したお気に入り｜LOVABLE" },
+    { key: "seo.article.titleSuffix", page: "seo", label: "記事詳細：タイトル末尾（記事タイトルの後に付く）", type: "text", default: "｜LOVABLE" },
   ];
 
   const PAGE_LABELS = {
     header: "ヘッダー", top: "TOPページ", catalog: "商品一覧（共通）", all: "すべてのアイテム",
     saved: "お気に入り", pdp: "商品詳細", footer: "フッター",
-    buttons: "共通ボタン", system: "システムメッセージ", seo: "SEO（ページ別）",
+    buttons: "共通ボタン", system: "システムメッセージ", seo: "SEO（ページ別）", journal: "ジャーナル（記事詳細）",
   };
 
   const byKey = {};

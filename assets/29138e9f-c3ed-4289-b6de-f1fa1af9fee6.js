@@ -90,7 +90,6 @@ function CategoryGrid({ onOpen }) {
           <span className="eyebrow">{T("top.categories.eyebrow")}</span>
           <h2 className="section-title">{T("top.categories.title")}</h2>
         </div>
-        <a className="link-more" href="#" onClick={(e) => {e.preventDefault();}}>{T("top.categories.more")}<span className="arrow"></span></a>
       </div>
       <div className="catgrid">
         {LB.CATEGORIES.map((c, i) =>
@@ -195,8 +194,11 @@ function NewArrivals({ onOpen }) {
 
 }
 
-/* ---------- Features ---------- */
+/* ---------- Features (Journal teaser) ---------- */
 function Features({ onOpen }) {
+  // Hidden until at least one article is published — an empty "Journal"
+  // header with no cards below it reads as broken, not "coming soon".
+  if (!LB.FEATURES.length) return null;
   return (
     <section className="sect sect--sink" id="features">
       <div className="wrap-wide">
@@ -205,16 +207,14 @@ function Features({ onOpen }) {
             <span className="eyebrow">{T("top.features.eyebrow")}</span>
             <h2 className="section-title">{T("top.features.title")}</h2>
           </div>
-          <a className="link-more" href="#" onClick={(e) => {e.preventDefault();}}>{T("top.features.more")}<span className="arrow"></span></a>
         </div>
         <div className="featgrid">
           {LB.FEATURES.map((f, i) => {
-            const first = (f.items || []).map((id) => LB.get(id)).find(Boolean);
             return (
           <article key={f.key} className={"featcard reveal" + (i === 0 ? " featcard--lead" : "")}
           style={{ transitionDelay: i * 60 + "ms" }}
-          onClick={() => { if (first) onOpen(first.id); }}>
-              <Ph grad={f.grad} ratio={i === 0 ? "16 / 10" : "3 / 2"} className="featcard__img" labelSize={0}>
+          onClick={() => window.LBnav("/article/" + f.key)}>
+              <Ph grad={f.cover ? null : f.grad} img={f.cover} ratio={i === 0 ? "16 / 10" : "3 / 2"} className="featcard__img" labelSize={0}>
                 <div className="featcard__veil"></div>
                 <div className="featcard__overlay">
                   <span className="featcard__kicker">{f.kicker} · {f.read}</span>
@@ -251,6 +251,7 @@ function TopPage({ heroVariant, onOpen }) {
       <Hero variant={heroVariant} />
       <Ranking onOpen={onOpen} />
       <NewArrivals onOpen={onOpen} />
+      <CategoryGrid onOpen={onOpen} />
       <QuoteBand />
       <Features onOpen={onOpen} />
     </main>);
