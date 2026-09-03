@@ -24,6 +24,7 @@ function useRoute() {
     if (parts[0] === "all")      return { name: "all", raw: h };
     if (parts[0] === "product")  return { name: "product", id: parts[1], raw: h };
     if (parts[0] === "article")  return { name: "article", id: parts[1], raw: h };
+    if (parts[0] === "page")     return { name: "page", slug: parts[1], raw: h };
     if (parts[0] === "saved")    return { name: "saved", raw: h };
     return { name: "top", anchor: anchor || (parts.length===0?null:path), raw: h };
   };
@@ -112,6 +113,7 @@ function App() {
   const showHome = window.LB && window.LB.site ? window.LB.site.showHomePage !== false : true;
   if (route.name === "product")      { page = <ProductPage id={route.id} onOpen={onOpen} />; key = "product:"+route.id; }
   else if (route.name === "article") { page = <ArticlePage id={route.id} onOpen={onOpen} />; key = "article:"+route.id; }
+  else if (route.name === "page")    { page = <StaticPage slug={route.slug} />; key = "page:"+route.slug; }
   else if (route.name === "category"){ page = <CategoryPage catKey={route.cat} onOpen={onOpen} />; key = "category:"+route.cat; }
   else if (route.name === "all")     { page = <AllPage onOpen={onOpen} />; key = "all"; }
   else if (route.name === "saved")   { page = <SavedPage onOpen={onOpen} />; key = "saved"; }
@@ -130,6 +132,10 @@ function App() {
       const a = window.LBStore && window.LBStore.getArticle(route.id);
       title = a ? a.title + T("seo.article.titleSuffix") : T("seo.top.title");
       desc = a ? ((a.seo && a.seo.desc) || a.excerpt) : T("seo.top.desc");
+    } else if (route.name === "page") {
+      const def = window.PAGES && window.PAGES[route.slug];
+      title = def ? T(def.titleKey) + T("seo.page.titleSuffix") : T("seo.top.title");
+      desc = T("seo.top.desc");
     } else if (route.name === "category") {
       const cat = window.LB.CATEGORIES.find(c => c.key === route.cat);
       title = (cat ? cat.en : route.cat) + T("seo.category.titleSuffix");

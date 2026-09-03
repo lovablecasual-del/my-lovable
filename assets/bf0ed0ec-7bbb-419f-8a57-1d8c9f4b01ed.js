@@ -108,6 +108,17 @@
     { key: "journal.itemsEyebrow", page: "journal", label: "紹介アイテム：上部ラベル", type: "text", default: "Featured in this story" },
     { key: "journal.itemsTitle", page: "journal", label: "紹介アイテム：見出し", type: "text", default: "この記事で紹介したアイテム" },
 
+    // ---- Static pages (About / Contact / Privacy / Operator) ----
+    { key: "pages.notFound", page: "pages", label: "ページが見つからない場合のメッセージ", type: "text", default: "ページが見つかりませんでした。" },
+    { key: "pages.about.title", page: "pages", label: "このサイトについて：タイトル", type: "text", default: "LOVABLEについて" },
+    { key: "pages.about.body", page: "pages", label: "このサイトについて：本文（Markdown可）", type: "textarea", default: "LOVABLEは、いっくんが「本当に良いと思ったものだけ」を紹介する、パーソナルなセレクトメディアです。\n\nコスメ・スキンケア・ファッション・暮らしの道具まで、実際に使って気に入ったものだけを、素直な言葉で紹介しています。ランキングサイトのような「売れ筋」ではなく、「なぜ良いと思ったか」を大切にしています。\n\n紹介しているアイテムは、楽天市場・Amazonなど実際に購入できるストアへのリンクを通じて購入いただけます。リンクの詳細は各商品ページでご確認ください。" },
+    { key: "pages.contact.title", page: "pages", label: "お問い合わせ：タイトル", type: "text", default: "お問い合わせ" },
+    { key: "pages.contact.body", page: "pages", label: "お問い合わせ：本文（Markdown可）", type: "textarea", default: "現在、お問い合わせフォームを準備中です。\n\n内容によってお時間をいただく場合がございますが、今しばらくお待ちください。" },
+    { key: "pages.privacy.title", page: "pages", label: "プライバシー：タイトル", type: "text", default: "プライバシーポリシー" },
+    { key: "pages.privacy.body", page: "pages", label: "プライバシー：本文（Markdown可）", type: "textarea", default: "LOVABLE（以下「当サイト」）は、訪問者のプライバシーを尊重し、以下の方針に基づいて情報を取り扱います。\n\n## アクセス解析について\n当サイトでは、サイトの改善を目的として、簡易的なアクセス解析（閲覧ページ・滞在時間など）を取得する場合があります。氏名・メールアドレスなど、個人を特定できる情報は取得しません。\n\n## Cookie・ローカルストレージについて\nお気に入り機能など、一部の機能はブラウザのローカルストレージを利用しています。これらが他のサイトやサービスに送信されることはありません。\n\n## 広告・アフィリエイトリンクについて\n当サイトは、楽天市場・Amazonなどのアフィリエイトプログラムを利用しています。商品リンクを経由してご購入いただいた場合、当サイトに紹介料が支払われることがあります。価格・在庫状況は遷移先の各ストアでご確認ください。\n\n## 第三者への提供について\n当サイトは、法令に基づく場合を除き、取得した情報を第三者に提供することはありません。\n\n## お問い合わせ\n本ポリシーに関するお問い合わせは、お問い合わせページよりご連絡ください。" },
+    { key: "pages.operator.title", page: "pages", label: "運営者：タイトル", type: "text", default: "運営者情報" },
+    { key: "pages.operator.body", page: "pages", label: "運営者：本文（Markdown可）", type: "textarea", default: "サイト名：LOVABLE\n運営：いっくん\n\n本サイトは、個人が運営するアフィリエイトメディアです。掲載している商品情報・レビューは、実際の使用経験にもとづいています。\n\nお問い合わせは、お問い合わせページよりご連絡ください。" },
+
     // ---- Footer ----
     { key: "footer.brandBlurb", page: "footer", label: "フッター：ブランド説明文", type: "textarea", default: "「このサイトを見ればセンスの良いものが見つかる」。雑誌のように眺めて、気になったものはそのまま各ストアへ。" },
     { key: "footer.colShop", page: "footer", label: "フッター列見出し：Shop", type: "text", default: "Shop" },
@@ -140,12 +151,14 @@
     { key: "seo.product.titleSuffix", page: "seo", label: "商品詳細：タイトル末尾（商品名の後に付く）", type: "text", default: "｜LOVABLE" },
     { key: "seo.saved.title", page: "seo", label: "お気に入り：タイトルタグ", type: "text", default: "保存したお気に入り｜LOVABLE" },
     { key: "seo.article.titleSuffix", page: "seo", label: "記事詳細：タイトル末尾（記事タイトルの後に付く）", type: "text", default: "｜LOVABLE" },
+    { key: "seo.page.titleSuffix", page: "seo", label: "固定ページ：タイトル末尾（ページタイトルの後に付く）", type: "text", default: "｜LOVABLE" },
   ];
 
   const PAGE_LABELS = {
     header: "ヘッダー", top: "TOPページ", catalog: "商品一覧（共通）", all: "すべてのアイテム",
     saved: "お気に入り", pdp: "商品詳細", footer: "フッター",
     buttons: "共通ボタン", system: "システムメッセージ", seo: "SEO（ページ別）", journal: "ジャーナル（記事詳細）",
+    pages: "固定ページ（About/Contact等）",
   };
 
   const byKey = {};
