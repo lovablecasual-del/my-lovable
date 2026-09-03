@@ -153,7 +153,7 @@ function ProductPage({ id, onOpen }) {
 
   const cat = LB.CATEGORIES.find(c => c.key === p.cat);
   const related = LB.byCat(p.cat).filter(x => x.id !== p.id).slice(0,4);
-  const relatedFill = LB.PRODUCTS.filter(x=>x.id!==p.id).slice(0,4);
+  const relatedFill = LB.PRODUCTS.filter(x => x.id !== p.id && !related.some(r => r.id === x.id));
   const rel = (related.length>=4?related:[...related,...relatedFill].slice(0,4));
 
   return (
