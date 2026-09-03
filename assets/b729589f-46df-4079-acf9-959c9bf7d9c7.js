@@ -179,14 +179,30 @@ function ShopButtons({ p, layout = "grid" }) {
 /* ---------- Section reveal-on-scroll hook ---------- */
 function useReveal(deps = []) {
   useEffect(() => {
-    const els = document.querySelectorAll(".reveal:not(.in)");
-    if (!("IntersectionObserver" in window)) { els.forEach(e=>e.classList.add("in")); return; }
+    if (!("IntersectionObserver" in window)) {
+      document.querySelectorAll(".reveal:not(.in)").forEach(e => e.classList.add("in"));
+      return;
+    }
     const io = new IntersectionObserver((entries) => {
       entries.forEach(en => { if (en.isIntersecting) { en.target.classList.add("in"); io.unobserve(en.target); } });
     }, { threshold: 0.12, rootMargin: "0px 0px -8% 0px" });
-    els.forEach(e => io.observe(e));
-    const safety = setTimeout(() => els.forEach(e => e.classList.add("in")), 2600);
-    return () => { io.disconnect(); clearTimeout(safety); };
+    document.querySelectorAll(".reveal:not(.in)").forEach(e => io.observe(e));
+    // Product/article data now loads from Supabase asynchronously, so
+    // sections can render *after* this effect already ran (data arrives
+    // post first-paint). Those late elements would otherwise never be
+    // queried/observed above and would stay invisible (.reveal without
+    // .in) forever — watch the DOM for anything added later and hook it
+    // into the same observer.
+    const mo = new MutationObserver((mutations) => {
+      mutations.forEach((m) => m.addedNodes.forEach((node) => {
+        if (node.nodeType !== 1) return;
+        if (node.matches && node.matches(".reveal:not(.in)")) io.observe(node);
+        if (node.querySelectorAll) node.querySelectorAll(".reveal:not(.in)").forEach((e) => io.observe(e));
+      }));
+    });
+    mo.observe(document.body, { childList: true, subtree: true });
+    const safety = setTimeout(() => document.querySelectorAll(".reveal:not(.in)").forEach(e => e.classList.add("in")), 2600);
+    return () => { io.disconnect(); mo.disconnect(); clearTimeout(safety); };
   }, deps);
 }
 
