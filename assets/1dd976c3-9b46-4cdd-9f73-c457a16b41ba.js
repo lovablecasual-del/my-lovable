@@ -134,7 +134,7 @@ function Footer() {
             <p>{T("footer.brandBlurb")}</p>
           </div>
           {col(T("footer.colShop"), [["All Items","/all"],["Beauty","/category/beauty"],["Fashion","/category/fashion"],["Lifestyle","/category/lifestyle"],["Travel","/category/travel"]])}
-          {col(T("footer.colRead"), [["買ってよかった美容","/#features"],["本当に使ってるコスメ","/#features"],["韓国旅行の持ちもの","/#features"],["垢抜けたいあなたへ","/#features"]])}
+          {col(T("footer.colRead"), [["ジャーナルをすべて見る","/journal"]])}
           {col(T("footer.colAbout"), [["このサイトについて","/page/about"],["お問い合わせ","/page/contact"],["プライバシー","/page/privacy"],["運営者","/page/operator"]])}
         </div>
         <div className="ftr__bot">

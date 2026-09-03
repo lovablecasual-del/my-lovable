@@ -61,4 +61,37 @@ function ArticlePage({ id, onOpen }) {
     </main>);
 }
 
-Object.assign(window, { ArticlePage });
+/* ---------- Journal index (all published articles) ---------- */
+function JournalIndex() {
+  const list = (window.LB && window.LB.FEATURES) || [];
+  useReveal([list.length]);
+  useEffect(() => { window.scrollTo({ top: 0, behavior: "auto" }); }, []);
+  return (
+    <main className="wrap-wide sect">
+      <div className="allhead">
+        <span className="eyebrow">{T("top.features.eyebrow")}</span>
+        <h1 className="section-title">{T("top.features.title")}</h1>
+      </div>
+      {!list.length ? (
+        <div className="empty">{T("journal.indexEmpty")}</div>
+      ) : (
+        <div className="featgrid">
+          {list.map((f, i) => (
+            <article key={f.key} className={"featcard reveal in" + (i === 0 ? " featcard--lead" : "")}
+              onClick={() => window.LBnav("/article/" + f.key)}>
+              <Ph grad={f.cover ? null : f.grad} img={f.cover} ratio={i === 0 ? "16 / 10" : "3 / 2"} className="featcard__img" labelSize={0}>
+                <div className="featcard__veil"></div>
+                <div className="featcard__overlay">
+                  <span className="featcard__kicker">{f.kicker}{f.kicker && f.read ? " · " : ""}{f.read}</span>
+                  <h3 className="featcard__title serif">{f.title}</h3>
+                  {i === 0 && <p className="featcard__excerpt">{f.excerpt}</p>}
+                </div>
+              </Ph>
+            </article>
+          ))}
+        </div>
+      )}
+    </main>);
+}
+
+Object.assign(window, { ArticlePage, JournalIndex });

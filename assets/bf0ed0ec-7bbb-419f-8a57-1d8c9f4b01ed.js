@@ -107,6 +107,7 @@
     { key: "journal.notFound", page: "journal", label: "記事が見つからない場合のメッセージ", type: "text", default: "記事が見つかりませんでした。" },
     { key: "journal.itemsEyebrow", page: "journal", label: "紹介アイテム：上部ラベル", type: "text", default: "Featured in this story" },
     { key: "journal.itemsTitle", page: "journal", label: "紹介アイテム：見出し", type: "text", default: "この記事で紹介したアイテム" },
+    { key: "journal.indexEmpty", page: "journal", label: "記事一覧：0件のときのメッセージ", type: "text", default: "まだ記事がありません。" },
 
     // ---- Static pages (About / Contact / Privacy / Operator) ----
     { key: "pages.notFound", page: "pages", label: "ページが見つからない場合のメッセージ", type: "text", default: "ページが見つかりませんでした。" },

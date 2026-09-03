@@ -207,6 +207,7 @@ function Features({ onOpen }) {
             <span className="eyebrow">{T("top.features.eyebrow")}</span>
             <h2 className="section-title">{T("top.features.title")}</h2>
           </div>
+          <a className="link-more" href="#/journal" onClick={(e) => {e.preventDefault();window.LBnav("/journal");}}>{T("top.features.more")}<span className="arrow"></span></a>
         </div>
         <div className="featgrid">
           {LB.FEATURES.map((f, i) => {
