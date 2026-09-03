@@ -97,6 +97,11 @@ function Badges({ p, className = "", max }) {
 }
 
 function ProductCardInner({ p, onOpen, index = 0, showRank = false }) {
+  // Some products' "tag" is really a shop label (e.g. "Rakuten Fashion") —
+  // the shop chips below already convey that; showing it twice as a sticker
+  // on the photo reads as an affiliate listing. Only genuinely descriptive
+  // tags (新着 / 韓国 etc.) get shown as the on-image pill.
+  const isShopNameTag = p.tag && Object.values(LB.SHOPS).some(s => s.name === p.tag || s.short === p.tag);
   return (
     <article className="card reveal" style={{ transitionDelay: (index%4)*70 + "ms" }}
       onClick={() => onOpen(p.id)} role="link" tabIndex={0}
@@ -104,7 +109,7 @@ function ProductCardInner({ p, onOpen, index = 0, showRank = false }) {
       <div className="card__media">
         <Ph grad={p.grad} label={p.name} ratio="3 / 4" img={p.imgs && p.imgs[0]} />
         {showRank && p.rank && <span className="card__rank">{String(p.rank).padStart(2,"0")}</span>}
-        {p.tag && <span className="card__tag">{p.tag}</span>}
+        {p.tag && !isShopNameTag && <span className="card__tag">{p.tag}</span>}
         <Badges p={p} className="card__badges" max={2} />
         <div className="card__heart"><Heart id={p.id} /></div>
         <div className="card__shops">
@@ -115,6 +120,7 @@ function ProductCardInner({ p, onOpen, index = 0, showRank = false }) {
       <div className="card__body">
         <div className="card__brand">{p.brand}</div>
         <h3 className="card__name">{p.name}</h3>
+        {p.copy && <p className="card__copy">{p.copy}</p>}
         <div className="card__meta">
           <Stars value={p.rating} />
           <span className="card__rev">({p.reviews.toLocaleString()})</span>
@@ -144,16 +150,19 @@ const SHOP_ICON = {
   qoo10: "Q",
 };
 function ShopButtons({ p, layout = "grid" }) {
-  // TikTok always rendered first & emphasized
-  const order = ["tiktok", ...p.shops.filter(s => s !== "tiktok")];
+  // Only show shops that actually have a working link — never lead with a
+  // dead placeholder button. A shop is only visually "featured" if it's
+  // both flagged as such (LB.SHOPS[s].feature) and actually usable.
   const linkFor = (s) => (p.links && p.links[s]) ? p.links[s] : "";
+  const order = Object.keys(LB.SHOPS).filter(s => linkFor(s));
   return (
     <div className={"shopbtns shopbtns--" + layout}>
+      {!order.length && <p style={{fontSize:13,color:"var(--fg-muted)",margin:"4px 0"}}>現在、購入先を準備中です。</p>}
       {order.map(s => {
         const sh = LB.SHOPS[s];
-        const feat = s === "tiktok";
         const url = linkFor(s);
         const ready = !!url;
+        const feat = !!sh.feature && ready;
         return (
           <a key={s}
              href={ready ? url : "#"}

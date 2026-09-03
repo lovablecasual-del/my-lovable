@@ -112,11 +112,13 @@ function CategoryGrid({ onOpen }) {
 
 /* ---------- Ranking ---------- */
 function Ranking({ onOpen }) {
-  let ranked = LB.PRODUCTS.filter((p) => p.rank).sort((a, b) => a.rank - b.rank).slice(0, 5);
-  // fall back to most-reviewed when nothing is explicitly ranked (e.g. after deletions)
-  if (ranked.length === 0) {
-    ranked = [...LB.PRODUCTS].sort((a, b) => (b.reviews || 0) - (a.reviews || 0)).slice(0, 5);
-  }
+  // Editor's Picks: explicitly curated items (p.rank set in admin) come
+  // first in the given order; remaining slots are filled by the
+  // highest-reviewed items so the section never looks sparse when only a
+  // few products have been curated yet.
+  const explicit = LB.PRODUCTS.filter((p) => p.rank).sort((a, b) => a.rank - b.rank);
+  const fillers = [...LB.PRODUCTS].filter((p) => !p.rank).sort((a, b) => (b.reviews || 0) - (a.reviews || 0));
+  const ranked = [...explicit, ...fillers].slice(0, 5);
   const [hero, ...rest] = ranked;
   if (!hero) return null;
   return (

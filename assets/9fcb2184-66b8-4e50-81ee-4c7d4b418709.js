@@ -42,63 +42,9 @@ function Gallery({ p }) {
   );
 }
 
-/* ---------- Comparison table ---------- */
-function CompareTable({ p }) {
-  const order = ["tiktok", ...p.shops.filter(s=>s!=="tiktok")];
-  const rows = [
-    { label: "参考価格", val: (s) => "¥" + (p.price + ({tiktok:-300,qoo10:-150,rakuten:0,amazon:120})[s]).toLocaleString() },
-    { label: "ポイント", val: (s) => ({tiktok:"LIVE割クーポン",rakuten:"楽天ポイント最大10%",amazon:"プライム翌日",qoo10:"メガ割対象"})[s] },
-    { label: "配送目安", val: (s) => ({tiktok:"3–5日",rakuten:"1–3日",amazon:"翌日",qoo10:"5–9日"})[s] },
-    { label: "こんな人に", val: (s) => ({tiktok:"動画で見たい",rakuten:"ポイ活派",amazon:"今すぐ欲しい",qoo10:"韓国コスメ狙い"})[s] },
-  ];
-  return (
-    <div className="compare">
-      <div className="compare__scroll">
-        <table>
-          <thead>
-            <tr>
-              <th></th>
-              {order.map(s => (
-                <th key={s} className={s==="tiktok"?"compare__feat":""}>
-                  <span className="compare__shop" style={{"--sa":LB.SHOPS[s].accent}}>{LB.SHOPS[s].name}</span>
-                  {s==="tiktok" && <span className="compare__badge">話題</span>}
-                </th>
-              ))}
-            </tr>
-          </thead>
-          <tbody>
-            {rows.map(r => (
-              <tr key={r.label}>
-                <td className="compare__rowlabel">{r.label}</td>
-                {order.map(s => <td key={s} className={s==="tiktok"?"compare__feat":""}>{r.val(s)}</td>)}
-              </tr>
-            ))}
-            <tr>
-              <td></td>
-              {order.map(s => {
-                const url = (p.links && p.links[s]) ? p.links[s] : "";
-                return (
-                  <td key={s} className={s==="tiktok"?"compare__feat":""}>
-                    <a href={url || "#"}
-                       target={url ? "_blank" : undefined}
-                       rel={url ? "sponsored noopener noreferrer" : undefined}
-                       onClick={url ? undefined : (e)=>e.preventDefault()}
-                       className={"compare__go"+(s==="tiktok"?" compare__go--feat":"")}>{url ? "見る ↗" : "未設定"}</a>
-                  </td>
-                );
-              })}
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-  );
-}
-
-/* ---------- Reviews ---------- */
+/* ---------- Reviews (real per-product reviews only — no fabricated data) ---------- */
 function Reviews({ p }) {
-  const dist = [72, 21, 5, 1, 1];
-  const list = (p.userReviews && p.userReviews.length) ? p.userReviews : LB.REVIEWS;
+  const list = (p.userReviews && p.userReviews.length) ? p.userReviews : [];
   return (
     <div className="reviews">
       <div className="reviews__summary">
@@ -107,16 +53,8 @@ function Reviews({ p }) {
           <Stars value={p.rating} size={17} />
           <span className="reviews__count">{p.reviews.toLocaleString()}件のレビュー</span>
         </div>
-        <div className="reviews__bars">
-          {dist.map((v,i) => (
-            <div key={i} className="reviews__bar">
-              <span>{5-i}</span>
-              <div className="reviews__track"><div style={{width:v+"%"}}></div></div>
-              <em>{v}%</em>
-            </div>
-          ))}
-        </div>
       </div>
+      {!list.length && <p style={{fontSize:13,color:"var(--fg-muted)"}}>レビューはまだありません。</p>}
       <div className="reviews__list">
         {list.map((r,i) => (
           <article key={i} className="review">
@@ -136,28 +74,19 @@ function Reviews({ p }) {
   );
 }
 
-/* ---------- Recommended-for ---------- */
-function RecoFor() {
-  const tags = ["骨格ウェーブ", "152cm前後", "Quiet Luxury好き", "通勤にも休日にも", "肌をきれいに見せたい"];
-  return (
-    <div className="recofor">
-      <span className="eyebrow">{T("pdp.recoForLabel")}</span>
-      <div className="recofor__tags">{tags.map(t => <span key={t} className="pill">{t}</span>)}</div>
-    </div>
-  );
-}
-
 /* ---------- Share ---------- */
 function ShareRow({ p }) {
   const [copied, setCopied] = useState(false);
-  const copy = () => { setCopied(true); setTimeout(()=>setCopied(false), 1600); };
+  const copy = () => {
+    const url = window.location.href;
+    const done = () => { setCopied(true); setTimeout(()=>setCopied(false), 1600); };
+    if (navigator.clipboard && navigator.clipboard.writeText) navigator.clipboard.writeText(url).then(done).catch(done);
+    else done();
+  };
   return (
     <div className="share">
       <span className="share__label">{T("pdp.shareLabel")}</span>
       <div className="share__btns">
-        {["Instagram","TikTok","Pinterest","LINE"].map(s => (
-          <button key={s} className="share__btn" onClick={(e)=>e.preventDefault()}>{s}</button>
-        ))}
         <button className="share__btn share__btn--copy" onClick={copy}>{copied ? T("pdp.shareCopied") : T("pdp.shareCopy")}</button>
       </div>
     </div>
@@ -240,8 +169,6 @@ function ProductPage({ id, onOpen }) {
             <div className="pdp__meta reveal in">
               <Stars value={p.rating} size={15} />
               <span>{p.rating} ・ {p.reviews.toLocaleString()}件</span>
-              <span className="pdp__dot">·</span>
-              <span>保存 {1240 + p.reviews}</span>
             </div>
             <p className="pdp__copy reveal in">{p.copy}</p>
             <div className="pdp__price reveal in">
@@ -257,7 +184,6 @@ function ProductPage({ id, onOpen }) {
               <p className="pdp__affnote">{T("pdp.affNote")}</p>
             </div>
 
-            <RecoFor />
             <ShareRow p={p} />
           </div>
         </div>
@@ -278,10 +204,10 @@ function ProductPage({ id, onOpen }) {
         {/* Spec / item detail */}
         {p.spec && <ProductSpec p={p} />}
 
-        {/* Comparison */}
+        {/* Reviews — real per-product reviews only */}
         <section className="pdp__section reveal">
-          <div className="pdp__sechead"><span className="eyebrow">{T("pdp.compareEyebrow")}</span><h2 className="section-title">{T("pdp.compareTitle")}</h2></div>
-          <CompareTable p={p} />
+          <div className="pdp__sechead"><span className="eyebrow">{T("pdp.reviewsEyebrow")}</span><h2 className="section-title">{T("pdp.reviewsTitle")}</h2></div>
+          <Reviews p={p} />
         </section>
       </div>
 
