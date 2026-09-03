@@ -60,7 +60,10 @@ function Hero({ variant }) {
     <section className="hero hero--stack">
       <div className="hero__stack-head wrap">
         <span className="eyebrow reveal in">{T("top.hero.eyebrow.stack")}</span>
-        <h1 className="hero__title display reveal in" style={{ fontSize: "min(" + titleSize + "px, 11vw)", color: "#7b5544" }}>{headline}</h1>
+        <svg className="hero__flourish reveal in" width="44" height="13" viewBox="0 0 44 13" fill="none" aria-hidden="true">
+          <path d="M1 8.5c2.8-6.8 6.6-6.8 9.5-1.8s6.7 5 9.6-.7 6.7-5.8 9.6-.9 6.7 5.4 9.6.4" stroke="#b98f6f" strokeWidth="1.4" strokeLinecap="round" />
+        </svg>
+        <h1 className="hero__title display reveal in" style={{ fontSize: "clamp(30px, 8vw, " + Math.min(titleSize, 92) + "px)", color: "#7b5544" }}>{headline}</h1>
         <p className="hero__sub reveal in">{sub}</p>
       </div>
       <nav className="hero__cats reveal in">
