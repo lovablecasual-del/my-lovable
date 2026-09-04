@@ -18,26 +18,47 @@ function Breadcrumb({ items }) {
 }
 
 /* ---------- Gallery ---------- */
+// Thumbnails: only for photos that actually exist. A registered image URL
+// that 404s (product photo not really there) is verified in the background
+// and silently dropped instead of showing an empty placeholder square.
 function Gallery({ p }) {
   const hasImg = p.imgs && p.imgs.length;
-  const tints = hasImg ? p.imgs : [p.grad, LB.GRAD.pearl, LB.GRAD.sand, p.grad];
-  const labels = ["Main", "Detail", "On model", "Flatlay"];
+  const mainTints = hasImg ? p.imgs : [p.grad, LB.GRAD.pearl, LB.GRAD.sand, p.grad];
   const [active, setActive] = useState(0);
+  const [thumbSrcs, setThumbSrcs] = useState([]);
+
+  useEffect(() => {
+    setActive(0);
+    setThumbSrcs([]);
+    if (!hasImg || p.imgs.length < 2) return;
+    let cancelled = false;
+    Promise.all(p.imgs.map((src) => new Promise((resolve) => {
+      const im = new Image();
+      im.onload = () => resolve(src);
+      im.onerror = () => resolve(null);
+      im.src = src;
+    }))).then((results) => { if (!cancelled) setThumbSrcs(results.filter(Boolean)); });
+    return () => { cancelled = true; };
+  }, [p.id]);
+
+  const activeSrc = hasImg ? mainTints[active] : null;
+  const activeGrad = hasImg ? null : mainTints[active];
+
   return (
-    <div className="gallery">
+    <div className="gallery" style={thumbSrcs.length ? undefined : { gridTemplateColumns: "1fr" }}>
       <div className="gallery__main">
-        <Ph grad={hasImg ? null : tints[active]} img={hasImg ? tints[active] : null} label={p.name} ratio="4 / 5" labelSize={18} />
-        <span className="card__tag" style={{top:14,left:14}}>{p.tag}</span>
+        <Ph grad={activeGrad} img={activeSrc} label={p.name} ratio="4 / 5" labelSize={18} />
         <div className="gallery__heart"><Heart id={p.id} /></div>
       </div>
-      <div className="gallery__thumbs">
-        {tints.map((g,i) => (
-          <button key={i} className={"gallery__thumb"+(i===active?" is-active":"")} onClick={()=>setActive(i)}>
-            <Ph grad={hasImg ? null : g} img={hasImg ? g : null} ratio="1 / 1" labelSize={0} />
-            {!hasImg && <span className="gallery__thumblabel">{labels[i]}</span>}
-          </button>
-        ))}
-      </div>
+      {thumbSrcs.length > 0 && (
+        <div className="gallery__thumbs">
+          {thumbSrcs.map((src) => (
+            <button key={src} className={"gallery__thumb"+(mainTints[active]===src?" is-active":"")} onClick={()=>setActive(mainTints.indexOf(src))}>
+              <Ph img={src} ratio="1 / 1" labelSize={0} />
+            </button>
+          ))}
+        </div>
+      )}
     </div>
   );
 }
@@ -170,15 +191,8 @@ function ProductPage({ id, onOpen }) {
         <div className="pdp__top">
           <div className="pdp__media reveal in"><Gallery p={p} /></div>
           <div className="pdp__info">
-            <div className="card__brand reveal in">{p.brand}</div>
             <Badges p={p} className="pdp__badges reveal in" />
             <h1 className="pdp__title serif reveal in">{p.name}</h1>
-            {p.reviews > 0 && (
-              <div className="pdp__meta reveal in">
-                <Stars value={p.rating} size={15} />
-                <span>{p.rating} ・ {p.reviews.toLocaleString()}件</span>
-              </div>
-            )}
             <p className="pdp__copy reveal in">{p.copy}</p>
             <div className="pdp__price reveal in">
               ¥{p.price.toLocaleString()}<span className="card__taxnote">税込 / 各ストア目安</span>
