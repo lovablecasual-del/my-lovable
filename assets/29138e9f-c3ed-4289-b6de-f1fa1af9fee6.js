@@ -144,7 +144,6 @@ function Ranking({ onOpen }) {
             </div>
             <div className="rankhero__body">
               {hero.badge && <span className="pill pill--active">{hero.badge}</span>}
-              <div className="card__brand">{hero.brand}</div>
               <h3 className="rankhero__name serif">{hero.name}</h3>
               <p className="rankhero__copy">{hero.copy}</p>
               <div className="card__meta"><Stars value={hero.rating} size={15} /><span className="card__rev">{hero.rating} ・ {hero.reviews.toLocaleString()}件のレビュー</span></div>
