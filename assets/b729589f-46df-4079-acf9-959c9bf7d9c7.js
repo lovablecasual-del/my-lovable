@@ -129,10 +129,12 @@ function ProductCardInner({ p, onOpen, index = 0, showRank = false }) {
         <div className="card__brand">{p.brand}</div>
         <h3 className="card__name">{p.name}</h3>
         {p.copy && <p className="card__copy">{p.copy}</p>}
-        <div className="card__meta">
-          <Stars value={p.rating} />
-          <span className="card__rev">({p.reviews.toLocaleString()})</span>
-        </div>
+        {p.reviews > 0 && (
+          <div className="card__meta">
+            <Stars value={p.rating} />
+            <span className="card__rev">({p.reviews.toLocaleString()})</span>
+          </div>
+        )}
         <div className="card__price">¥{p.price.toLocaleString()}<span className="card__taxnote">税込 / 目安</span></div>
       </div>
     </article>

@@ -47,13 +47,15 @@ function Reviews({ p }) {
   const list = (p.userReviews && p.userReviews.length) ? p.userReviews : [];
   return (
     <div className="reviews">
-      <div className="reviews__summary">
-        <div className="reviews__score">
-          <span className="reviews__num serif">{p.rating.toFixed(1)}</span>
-          <Stars value={p.rating} size={17} />
-          <span className="reviews__count">{p.reviews.toLocaleString()}件のレビュー</span>
+      {p.reviews > 0 && (
+        <div className="reviews__summary">
+          <div className="reviews__score">
+            <span className="reviews__num serif">{p.rating.toFixed(1)}</span>
+            <Stars value={p.rating} size={17} />
+            <span className="reviews__count">{p.reviews.toLocaleString()}件のレビュー</span>
+          </div>
         </div>
-      </div>
+      )}
       {!list.length && <p style={{fontSize:13,color:"var(--fg-muted)"}}>レビューはまだありません。</p>}
       <div className="reviews__list">
         {list.map((r,i) => (
@@ -171,10 +173,12 @@ function ProductPage({ id, onOpen }) {
             <div className="card__brand reveal in">{p.brand}</div>
             <Badges p={p} className="pdp__badges reveal in" />
             <h1 className="pdp__title serif reveal in">{p.name}</h1>
-            <div className="pdp__meta reveal in">
-              <Stars value={p.rating} size={15} />
-              <span>{p.rating} ・ {p.reviews.toLocaleString()}件</span>
-            </div>
+            {p.reviews > 0 && (
+              <div className="pdp__meta reveal in">
+                <Stars value={p.rating} size={15} />
+                <span>{p.rating} ・ {p.reviews.toLocaleString()}件</span>
+              </div>
+            )}
             <p className="pdp__copy reveal in">{p.copy}</p>
             <div className="pdp__price reveal in">
               ¥{p.price.toLocaleString()}<span className="card__taxnote">税込 / 各ストア目安</span>

@@ -146,7 +146,7 @@ function Ranking({ onOpen }) {
               {hero.badge && <span className="pill pill--active">{hero.badge}</span>}
               <h3 className="rankhero__name serif">{hero.name}</h3>
               <p className="rankhero__copy">{hero.copy}</p>
-              <div className="card__meta"><Stars value={hero.rating} size={15} /><span className="card__rev">{hero.rating} ・ {hero.reviews.toLocaleString()}件のレビュー</span></div>
+              {hero.reviews > 0 && <div className="card__meta"><Stars value={hero.rating} size={15} /><span className="card__rev">{hero.rating} ・ {hero.reviews.toLocaleString()}件のレビュー</span></div>}
               <div className="rankhero__foot">
                 <span className="card__price">¥{hero.price.toLocaleString()}</span>
                 <button className="btn btn--dark" onClick={(e) => {e.stopPropagation();onOpen(hero.id);}}>{T("top.ranking.cta")}</button>
@@ -161,7 +161,7 @@ function Ranking({ onOpen }) {
                 <div className="rankrow__body">
                   <div className="card__brand">{p.brand}</div>
                   <h4 className="rankrow__name">{p.name}</h4>
-                  <div className="card__meta"><Stars value={p.rating} /><span className="card__rev">({p.reviews.toLocaleString()})</span></div>
+                  {p.reviews > 0 && <div className="card__meta"><Stars value={p.rating} /><span className="card__rev">({p.reviews.toLocaleString()})</span></div>}
                 </div>
                 <div className="rankrow__right">
                   <span className="card__price">¥{p.price.toLocaleString()}</span>
