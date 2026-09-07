@@ -125,6 +125,10 @@ function Footer() {
       ))}
     </div>
   );
+  // Social links are optional — set from the admin content editor (site content →
+  // フッター). Nothing renders until an operator actually pastes a profile URL.
+  const igUrl = (T("footer.sns.instagram") || "").trim();
+  const ttUrl = (T("footer.sns.tiktok") || "").trim();
   return (
     <footer className="ftr">
       <div className="wrap-wide">
@@ -132,6 +136,27 @@ function Footer() {
           <div className="ftr__brand">
             <Logo />
             <p>{T("footer.brandBlurb")}</p>
+            {(igUrl || ttUrl) && (
+              <div className="ftr__social">
+                {igUrl && (
+                  <a href={igUrl} target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
+                      <rect x="3.5" y="3.5" width="17" height="17" rx="5"/>
+                      <circle cx="12" cy="12" r="4.2"/>
+                      <circle cx="17.2" cy="6.8" r="0.9" fill="currentColor" stroke="none"/>
+                    </svg>
+                  </a>
+                )}
+                {ttUrl && (
+                  <a href={ttUrl} target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round">
+                      <path d="M14 4v9.6a3.6 3.6 0 1 1-3-3.55"/>
+                      <path d="M14 4c.5 2.4 2.2 4 4.6 4.2"/>
+                    </svg>
+                  </a>
+                )}
+              </div>
+            )}
           </div>
           {col(T("footer.colShop"), [["All Items","/all"],["Beauty","/category/beauty"],["Fashion","/category/fashion"],["Lifestyle","/category/lifestyle"],["Travel","/category/travel"]])}
           {col(T("footer.colRead"), [["ジャーナルをすべて見る","/journal"]])}
