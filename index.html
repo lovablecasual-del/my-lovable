@@ -443,10 +443,14 @@ document.addEventListener('DOMContentLoaded', async function() {
         '.rankgrid { grid-template-columns: 1fr !important; gap: 24px; }\n' +
         '.rankhero__no { font-size: 52px !important; }\n' +
         '.rankhero__copy { font-size: 14px; line-height: 1.8; }\n' +
-        '.rankrow { grid-template-columns: 28px 58px 1fr auto !important; gap: 10px !important; padding: 13px 2px !important; }\n' +
-        '.rankrow__no { font-size: 20px !important; }\n' +
-        '.rankrow__name { font-size: 12.5px !important; }\n' +
+        '.rankrow { grid-template-columns: 24px 64px 1fr !important; gap: 8px !important; padding: 13px 4px !important; align-items: center !important; overflow: visible !important; }\n' +
+        '.rankrow__no { font-size: 18px !important; overflow: visible !important; }\n' +
+        '.rankrow__img { width: 64px !important; height: 64px !important; flex-shrink: 0; }\n' +
+        '.rankrow__name { font-size: 12px !important; overflow: hidden; }\n' +
+        '.rankrow__brand { font-size: 9px !important; letter-spacing: .1em; display: block; margin-bottom: 2px; }\n' +
+        '.rankrow__right { display: none !important; }\n' +
         '.rankrow__heart { display: none !important; }\n' +
+        '.rankrow__price { font-size: 13px !important; display: block; margin-top: 4px; font-weight: 600; }\n' +
         '.quoteband { padding-block: 32px !important; }\n' +
         '.quoteband__text { font-size: clamp(17px, 5vw, 22px) !important; }\n' +
         '.featgrid { grid-template-columns: 1fr !important; gap: 10px; }\n' +
