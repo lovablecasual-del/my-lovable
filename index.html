@@ -1524,6 +1524,15 @@ window.__LB_OVERRIDE__ = {
     }
   }
 };
+
+// Restore category nav images on this device
+try {
+  if (window.__LB_OVERRIDE__ && window.__LB_OVERRIDE__.NAVIMGS) {
+    Object.entries(window.__LB_OVERRIDE__.NAVIMGS).forEach(([k,v]) => {
+      if (v) localStorage.setItem("LB_navimg_" + k, v);
+    });
+  }
+} catch(e) {}
 </script>
 </head>
 <body>
