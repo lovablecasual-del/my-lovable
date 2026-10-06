@@ -113,6 +113,144 @@ try {
   }
 } catch(e) {}
 </script>
+<style>
+/* ============================================================
+   LOVABLE SP — Instagram → iPhone → 商品発見 最適化
+   20〜30代女性向け Quiet Luxury セレクトメディア
+   ============================================================ */
+@media (max-width: 767px) {
+
+  /* ---- Wrap: tighter padding ---- */
+  .wrap, .wrap-wide { padding-inline: 16px !important; }
+
+  /* ---- Sections: compact vertical spacing ---- */
+  .sect { padding-block: 32px !important; }
+  .sect--sink { padding-block: 32px !important; }
+  .section-title { font-size: 20px !important; word-break: keep-all; }
+  .section-head {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 4px !important;
+    margin-bottom: 16px !important;
+  }
+  .link-more { font-size: 11px; }
+
+  /* ---- Hero: compact ---- */
+  .hero--stack { padding-top: 22px !important; padding-bottom: 4px; }
+  .hero__title { font-size: min(9vw, 34px) !important; margin-bottom: 12px !important; }
+  .hero--stack .eyebrow { margin-bottom: 10px; }
+  .hero__sub { display: none !important; }
+  .hero__stack-head { padding-inline: 20px; }
+  .hero__lead {
+    margin-top: 14px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 8px !important;
+    padding-inline: 20px;
+    margin-bottom: 0 !important;
+  }
+  .hero__lead .btn {
+    width: 100% !important;
+    justify-content: center;
+    font-size: 13.5px;
+    padding: 13px 18px;
+    border-radius: 12px;
+  }
+  .hero__lead .btn--dark { background: #5c3d2e !important; color: #fff !important; border-color: #5c3d2e !important; }
+  .hero__lead .btn--ghost { border-color: #c9a88a; color: #7b5544; }
+  .hero__strip { display: none !important; }
+
+  /* ---- Categories: horizontal scroll pill row ---- */
+  .hero__cats {
+    flex-wrap: nowrap !important;
+    overflow-x: auto !important;
+    overflow-y: hidden !important;
+    justify-content: flex-start !important;
+    gap: 8px !important;
+    padding: 6px 20px 14px !important;
+    margin-top: 18px !important;
+    width: 100% !important;
+    max-width: none !important;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    mask-image: linear-gradient(to right, transparent 0%, black 6%, black 88%, transparent 100%);
+    -webkit-mask-image: linear-gradient(to right, transparent 0%, black 6%, black 88%, transparent 100%);
+  }
+  .hero__cats::-webkit-scrollbar { display: none; }
+  .hero__cat {
+    flex-shrink: 0 !important;
+    flex-direction: row !important;
+    align-items: center !important;
+    gap: 6px !important;
+    padding: 7px 14px !important;
+    min-width: auto !important;
+  }
+  .hero__cat-img { width: 24px !important; height: 24px !important; margin: 0 !important; }
+  .hero__cat-icon { font-size: 18px !important; margin-bottom: 0 !important; line-height: 1 !important; }
+  .hero__cat-jp { font-size: 12px !important; font-weight: 600; }
+  .hero__cat-en { display: none !important; }
+
+  /* ---- Product cards: SP optimized ---- */
+  .card__tag { display: none !important; } /* hide shop source on list */
+  .card__body { padding: 10px 2px 4px !important; }
+  .card__brand { font-size: 9.5px !important; letter-spacing: .12em; margin-bottom: 4px; }
+  .card__name { font-size: 12px !important; line-height: 1.4; margin-bottom: 5px !important; }
+  .card__price { font-size: 15px !important; }
+  .card__taxnote { display: none; }
+  .card__meta { margin-bottom: 4px !important; }
+  .card__copy { display: none !important; }
+  .card__cta { display: none !important; }
+
+  /* ---- Rankings: full-width on SP ---- */
+  .rankgrid { grid-template-columns: 1fr !important; gap: 24px; }
+  .rankhero__name { font-size: 20px !important; }
+  .rankhero__no { font-size: 52px !important; top: 4px !important; left: 14px !important; }
+  .rankhero__copy { font-size: 14px; line-height: 1.8; }
+  .rankhero .card__price { font-size: 20px !important; }
+  .rankrow { grid-template-columns: 28px 58px 1fr auto !important; gap: 10px !important; padding: 13px 2px !important; }
+  .rankrow__no { font-size: 20px !important; }
+  .rankrow__name { font-size: 12.5px !important; }
+  .rankrow__right .card__price { font-size: 13px !important; }
+  .rankrow__heart { display: none !important; }
+
+  /* ---- QuoteBand: compact ---- */
+  .quoteband { padding-block: 32px !important; }
+  .quoteband__text { font-size: clamp(17px, 5vw, 22px) !important; }
+  .quoteband .eyebrow { margin-bottom: 14px; }
+
+  /* ---- Journal / Features: SP ---- */
+  .featgrid { grid-template-columns: 1fr !important; gap: 10px; }
+  .featcard--lead { grid-column: auto !important; }
+  .featcard__title { font-size: 17px !important; }
+  .featcard--lead .featcard__title { font-size: 20px !important; }
+  .featcard__excerpt { font-size: 13px !important; -webkit-line-clamp: 2; }
+  .featcard__overlay { padding: 14px 16px !important; }
+
+  /* ---- Product detail page ---- */
+  .pdp__sticky { display: flex !important; }
+  body:has(.pdp) { padding-bottom: 0; }
+  .pdp__title { font-size: 20px !important; }
+  .pdp__price { font-size: 22px !important; margin-bottom: 16px; }
+  .pdp__copy { font-size: 14px !important; line-height: 1.9; margin: 16px 0; }
+  .pdp__buybox { padding: 16px !important; }
+  .points { grid-template-columns: 1fr !important; gap: 8px; }
+  .point { padding: 16px !important; }
+  .gallery { grid-template-columns: 50px 1fr; gap: 10px; }
+  .gallery__thumbs { gap: 8px; }
+
+  /* ---- Category page ---- */
+  .cathero__bg { height: 140px !important; }
+  .cathero__title { font-size: 24px !important; }
+  .cathero__sub { font-size: 12px; }
+  .catgrid { grid-template-columns: 1fr 1fr !important; gap: 10px; }
+
+  /* ---- Product grid ---- */
+  .prodgrid--4, .prodgrid--3 { grid-template-columns: 1fr 1fr !important; gap: 12px; }
+
+  /* ---- Footer: compact ---- */
+  .ftr { margin-top: 48px !important; }
+}
+</style>
 </head>
 <body>
   <div id="__bundler_thumbnail">
