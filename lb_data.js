@@ -1298,7 +1298,7 @@ window.__LB_OVERRIDE__ = {
       "en": "Beauty",
       "jp": "美容・コスメ",
       "blurb": "肌も気分も整える、毎日の小さな贅沢。",
-      "icon": "",
+      "icon": "✨",
       "color": "",
       "grad": "linear-gradient(150deg,#f0e4df 0%,#e3cfc8 55%,#d2b3aa 100%)",
       "subs": [
@@ -1321,7 +1321,7 @@ window.__LB_OVERRIDE__ = {
       "en": "Fashion",
       "jp": "ファッション",
       "blurb": "上質をさりげなく。骨格に寄り添う一着。",
-      "icon": "",
+      "icon": "👗",
       "color": "",
       "grad": "linear-gradient(150deg,#e3ddd2 0%,#cabfa9 60%,#a99d83 100%)",
       "subs": [
@@ -1345,7 +1345,7 @@ window.__LB_OVERRIDE__ = {
       "en": "Lifestyle",
       "jp": "暮らし",
       "blurb": "暮らしの解像度を上げる、選び抜いた道具。",
-      "icon": "",
+      "icon": "🏠",
       "color": "",
       "grad": "linear-gradient(150deg,#e2e2dc 0%,#cdccc0 60%,#b0afa0 100%)",
       "subs": [
@@ -1368,7 +1368,7 @@ window.__LB_OVERRIDE__ = {
       "en": "Travel",
       "jp": "旅行：韓国",
       "blurb": "旅先まで連れていきたいもの。",
-      "icon": "",
+      "icon": "✈️",
       "color": "",
       "grad": "linear-gradient(150deg,#ddcdbf 0%,#b89a82 58%,#8f6f56 100%)",
       "subs": [
