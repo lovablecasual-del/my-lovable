@@ -518,6 +518,25 @@ document.addEventListener('DOMContentLoaded', async function() {
         // Saved page
         '.savedhead { margin-bottom: 20px !important; }\n' +
         '.savedhead__sub { font-size: 13px !important; }\n' +
+        // 商品詳細ページ (PDP)
+        '.pdp__top { grid-template-columns: 1fr !important; gap: 0 !important; padding-bottom: 28px !important; }\n' +
+        '.pdp__media { position: static !important; }\n' +
+        // Gallery: 縦並び（メイン上・サムネ下横スクロール）
+        '.gallery { grid-template-columns: 1fr !important; direction: ltr !important; gap: 10px !important; }\n' +
+        '.gallery__thumbs { flex-direction: row !important; overflow-x: auto; -webkit-overflow-scrolling: touch; gap: 8px !important; scrollbar-width: none; }\n' +
+        '.gallery__thumbs::-webkit-scrollbar { display: none; }\n' +
+        '.gallery__thumb { flex-shrink: 0; width: 56px !important; height: 56px !important; }\n' +
+        '.pdp__info { padding-top: 18px !important; }\n' +
+        '.pdp__title { font-size: 19px !important; line-height: 1.35 !important; margin: 6px 0 10px !important; }\n' +
+        '.pdp__copy { font-size: 13.5px !important; line-height: 1.85 !important; margin: 14px 0 !important; }\n' +
+        '.pdp__price { font-size: 24px !important; margin-bottom: 16px !important; }\n' +
+        '.pdp__buybox { border-radius: 14px !important; padding: 16px !important; }\n' +
+        '.shopbtns--grid { grid-template-columns: 1fr !important; gap: 8px !important; }\n' +
+        '.shopbtns--grid .shopbtn--feature { grid-column: auto !important; }\n' +
+        '.shopbtn { padding: 12px 14px !important; }\n' +
+        // 関連商品・ポイントなど
+        '.pdp__points { padding: 16px !important; }\n' +
+        '.pdp__spec { font-size: 12px !important; }\n' +
         '}';
       document.head.appendChild(s);
     })();
