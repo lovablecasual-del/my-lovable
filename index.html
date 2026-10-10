@@ -498,9 +498,26 @@ document.addEventListener('DOMContentLoaded', async function() {
         '.featcard--lead .featcard__title { font-size: 18px !important; }\n' +
         '.featcard__overlay { padding: 14px 16px !important; }\n' +
         '.featcard__excerpt { -webkit-line-clamp: 2; display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden; }\n' +
-        // Category page
-        '.cathero__bg { height: 140px !important; }\n' +
+        // Category page & filter bar
+        '.cathero__bg { height: 160px !important; }\n' +
+        '.cathero__title { font-size: 26px !important; }\n' +
+        '.cathero__sub { display: none !important; }\n' +
         '.catgrid { grid-template-columns: 1fr 1fr !important; gap: 10px; }\n' +
+        // FilterBar — pills横スクロール・ソートを下に
+        '.filterbar { flex-direction: column !important; align-items: stretch !important; gap: 10px !important; margin-bottom: 14px !important; }\n' +
+        '.filterbar__pills { flex-wrap: nowrap !important; overflow-x: auto !important; -webkit-overflow-scrolling: touch; scrollbar-width: none; gap: 7px !important; padding-bottom: 2px; }\n' +
+        '.filterbar__pills::-webkit-scrollbar { display: none; }\n' +
+        '.filterbar__sort { justify-content: space-between !important; }\n' +
+        '.filterbar__sort select { flex: 1; font-size: 12px !important; padding: 6px 10px !important; }\n' +
+        '.catcount { margin-bottom: 14px !important; font-size: 11px !important; }\n' +
+        // All items page
+        '.allhead { margin-bottom: 20px !important; }\n' +
+        '.allhead .section-title { font-size: 20px !important; }\n' +
+        '.allhead__sub { display: none !important; }\n' +
+        '.allbar { margin-bottom: 14px !important; padding-bottom: 14px !important; }\n' +
+        // Saved page
+        '.savedhead { margin-bottom: 20px !important; }\n' +
+        '.savedhead__sub { font-size: 13px !important; }\n' +
         '}';
       document.head.appendChild(s);
     })();
