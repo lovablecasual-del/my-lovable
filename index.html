@@ -534,9 +534,25 @@ document.addEventListener('DOMContentLoaded', async function() {
         '.shopbtns--grid { grid-template-columns: 1fr !important; gap: 8px !important; }\n' +
         '.shopbtns--grid .shopbtn--feature { grid-column: auto !important; }\n' +
         '.shopbtn { padding: 12px 14px !important; }\n' +
-        // 関連商品・ポイントなど
-        '.pdp__points { padding: 16px !important; }\n' +
-        '.pdp__spec { font-size: 12px !important; }\n' +
+        // PDP セクション（ポイント・スペック・比較）
+        '.pdp__section { padding-block: 24px !important; }\n' +
+        '.pdp__sechead { margin-bottom: 16px !important; }\n' +
+        '.points { grid-template-columns: 1fr !important; gap: 10px !important; }\n' +
+        '.point { padding: 16px !important; }\n' +
+        '.point__no { font-size: 22px !important; margin-bottom: 8px !important; }\n' +
+        '.point p { font-size: 13.5px !important; }\n' +
+        '.spec { grid-template-columns: 1fr !important; gap: 16px !important; }\n' +
+        // カテゴリグリッド（TOPページ）— SP最適化
+        '.catgrid { grid-template-columns: 1fr 1fr !important; gap: 10px !important; }\n' +
+        '.catcard__body { padding-top: 10px !important; }\n' +
+        '.catcard__en { font-size: 16px !important; }\n' +
+        '.catcard__blurb { display: none !important; }\n' +
+        '.catcard__subs { display: none !important; }\n' +
+        // フッター
+        '.ftr { margin-top: 40px !important; }\n' +
+        '.ftr__brand p { display: none !important; }\n' +
+        '.ftr__bot { flex-direction: column !important; align-items: flex-start !important; gap: 10px !important; padding: 18px 0 !important; }\n' +
+        '.ftr__disc { font-size: 10.5px !important; max-width: 100% !important; }\n' +
         '}';
       document.head.appendChild(s);
     })();
