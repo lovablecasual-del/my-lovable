@@ -1128,9 +1128,7 @@ window.__LB_OVERRIDE__ = {
       "spec": {},
       "userReviews": [],
       "tags": [],
-      "badges": [
-        "favorite"
-      ],
+      "badges": [],
       "repeatPurchase": false,
       "status": "published",
       "order": 17,
