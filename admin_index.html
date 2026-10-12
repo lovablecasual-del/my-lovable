@@ -24,8 +24,11 @@
 </div>
   <div id="__bundler_loading">Unpacking...</div>
 
+  <!-- Load product data so admin migrateSeed can access window.__LB_OVERRIDE__ -->
+  <script src="lb_data.js"></script>
+
   <script>
-    
+
 document.addEventListener('DOMContentLoaded', async function() {
   const loading = document.getElementById('__bundler_loading');
   function setStatus(msg) { if (loading) loading.textContent = msg; }
