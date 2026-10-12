@@ -32,7 +32,7 @@ window.__LB_OVERRIDE__ = {
         "tiktok"
       ],
       "links": {
-        "rakuten": "https://room.rakuten.co.jp/room_ikkun/1700382304428347"
+        "rakuten": "https://a.r10.to/h5gqLM"
       },
       "social": {},
       "spec": {},
@@ -88,7 +88,7 @@ window.__LB_OVERRIDE__ = {
         "tiktok"
       ],
       "links": {
-        "rakuten": "https://room.rakuten.co.jp/room_ikkun/1700382304611274"
+        "rakuten": "https://a.r10.to/h5oC5m"
       },
       "social": {},
       "spec": {
@@ -193,7 +193,7 @@ window.__LB_OVERRIDE__ = {
         "qoo10"
       ],
       "links": {
-        "rakuten": "https://room.rakuten.co.jp/room_ikkun/1700382304212420"
+        "rakuten": "https://a.r10.to/hPKK0E"
       },
       "social": {},
       "spec": {},
@@ -306,7 +306,7 @@ window.__LB_OVERRIDE__ = {
         "qoo10"
       ],
       "links": {
-        "rakuten": "https://room.rakuten.co.jp/room_ikkun/1700382313602210"
+        "rakuten": "https://a.r10.to/hgwjPt"
       },
       "social": {},
       "spec": {},
@@ -364,7 +364,7 @@ window.__LB_OVERRIDE__ = {
         "qoo10"
       ],
       "links": {
-        "rakuten": "https://room.rakuten.co.jp/room_ikkun/1700382375884301"
+        "rakuten": "https://a.r10.to/hgSi7t"
       },
       "social": {},
       "spec": {
@@ -486,7 +486,7 @@ window.__LB_OVERRIDE__ = {
         "qoo10"
       ],
       "links": {
-        "rakuten": "https://room.rakuten.co.jp/room_ikkun/1700382313508584"
+        "rakuten": "https://a.r10.to/hPL7Wv"
       },
       "social": {},
       "spec": {},
@@ -541,7 +541,7 @@ window.__LB_OVERRIDE__ = {
         "qoo10"
       ],
       "links": {
-        "rakuten": "https://room.rakuten.co.jp/room_ikkun/1700382364521126"
+        "rakuten": "https://a.r10.to/hPzEct"
       },
       "social": {},
       "spec": {},
@@ -713,7 +713,8 @@ window.__LB_OVERRIDE__ = {
         "amazon"
       ],
       "links": {
-        "rakuten": "https://room.rakuten.co.jp/room_ikkun/1700382363206253"
+        "rakuten": "https://room.rakuten.co.jp/room_ikkun/1700382363206253",
+        "qoo10": "https://www.qoo10.jp/g/832558479"
       },
       "social": {},
       "spec": {},
@@ -827,7 +828,8 @@ window.__LB_OVERRIDE__ = {
         "amazon"
       ],
       "links": {
-        "rakuten": "https://room.rakuten.co.jp/room_ikkun/1700382363622176"
+        "rakuten": "https://room.rakuten.co.jp/room_ikkun/1700382363622176",
+        "qoo10": "https://www.qoo10.jp/g/1191375561"
       },
       "social": {},
       "spec": {},
@@ -1000,7 +1002,7 @@ window.__LB_OVERRIDE__ = {
         "qoo10"
       ],
       "links": {
-        "rakuten": "https://room.rakuten.co.jp/room_ikkun/1700382310883101"
+        "rakuten": "https://a.r10.to/TLdtyP"
       },
       "social": {},
       "spec": {},
@@ -1058,7 +1060,7 @@ window.__LB_OVERRIDE__ = {
         "qoo10"
       ],
       "links": {
-        "rakuten": "https://room.rakuten.co.jp/room_ikkun/1700382308516499"
+        "rakuten": "https://a.r10.to/h5NEyK"
       },
       "social": {},
       "spec": {},
@@ -1118,7 +1120,7 @@ window.__LB_OVERRIDE__ = {
         "tiktok"
       ],
       "links": {
-        "rakuten": "https://room.rakuten.co.jp/room_ikkun/1700393064217389"
+        "rakuten": "https://a.r10.to/hPRZFc"
       },
       "social": {
         "ig": "",
@@ -1182,7 +1184,7 @@ window.__LB_OVERRIDE__ = {
         "tiktok"
       ],
       "links": {
-        "rakuten": "https://room.rakuten.co.jp/room_ikkun/1700395688953240"
+        "rakuten": "https://a.r10.to/h5MCsJ"
       },
       "social": {
         "ig": "",
@@ -1247,7 +1249,7 @@ window.__LB_OVERRIDE__ = {
         "tiktok"
       ],
       "links": {
-        "rakuten": "https://room.rakuten.co.jp/room_ikkun/1700395963382333"
+        "rakuten": "https://a.r10.to/hPx2DW"
       },
       "social": {
         "ig": "",
@@ -1278,6 +1280,1065 @@ window.__LB_OVERRIDE__ = {
         "mappedAt": "2026-10-06T13:34:57.415Z",
         "auto": true
       }
+    },
+    {
+      "id": "p56",
+      "name": "COTA アイ ケア シャンプー9 ＆ トリートメント9 セット",
+      "brand": "COTA",
+      "cat": "haircare",
+      "sub": "シャンプー",
+      "price": 0,
+      "rating": 0,
+      "reviews": 0,
+      "copy": "",
+      "points": [],
+      "tag": "",
+      "badge": "",
+      "rank": null,
+      "grad": "linear-gradient(150deg,#e8e8f0 0%,#c8c8dc 60%,#9999bb 100%)",
+      "imgs": [],
+      "shops": [
+        "rakuten"
+      ],
+      "links": {
+        "rakuten": "https://a.r10.to/hPzEct"
+      },
+      "social": {},
+      "spec": {},
+      "userReviews": [],
+      "tags": [],
+      "badges": [],
+      "repeatPurchase": false,
+      "status": "published",
+      "order": 0,
+      "publishedAt": "2026-10-13T00:00:00.000Z",
+      "updatedAt": "2026-10-13T00:00:00.000Z",
+      "_rev": 0,
+      "_edited": false,
+      "catManual": false,
+      "categoryMeta": {}
+    },
+    {
+      "id": "p28",
+      "name": "cado 加湿器 STEM 700i",
+      "brand": "cado",
+      "cat": "electronics",
+      "sub": "加湿器",
+      "price": 0,
+      "rating": 0,
+      "reviews": 0,
+      "copy": "",
+      "points": [],
+      "tag": "",
+      "badge": "",
+      "rank": null,
+      "grad": "linear-gradient(150deg,#e8eaf0 0%,#c8cedc 60%,#9099bb 100%)",
+      "imgs": [],
+      "shops": [
+        "rakuten"
+      ],
+      "links": {
+        "rakuten": "https://a.r10.to/hgTDf3"
+      },
+      "social": {},
+      "spec": {},
+      "userReviews": [],
+      "tags": [],
+      "badges": [],
+      "repeatPurchase": false,
+      "status": "published",
+      "order": 0,
+      "publishedAt": "2026-10-13T00:00:00.000Z",
+      "updatedAt": "2026-10-13T00:00:00.000Z",
+      "_rev": 0,
+      "_edited": false,
+      "catManual": false,
+      "categoryMeta": {}
+    },
+    {
+      "id": "p29",
+      "name": "cado 加湿器専用カートリッジ STEM 700i・630i・620対応",
+      "brand": "cado",
+      "cat": "electronics",
+      "sub": "消耗品",
+      "price": 0,
+      "rating": 0,
+      "reviews": 0,
+      "copy": "",
+      "points": [],
+      "tag": "",
+      "badge": "",
+      "rank": null,
+      "grad": "linear-gradient(150deg,#e8eaf0 0%,#c8cedc 60%,#9099bb 100%)",
+      "imgs": [],
+      "shops": [
+        "rakuten"
+      ],
+      "links": {
+        "rakuten": "https://a.r10.to/hgayrr"
+      },
+      "social": {},
+      "spec": {},
+      "userReviews": [],
+      "tags": [],
+      "badges": [],
+      "repeatPurchase": false,
+      "status": "published",
+      "order": 0,
+      "publishedAt": "2026-10-13T00:00:00.000Z",
+      "updatedAt": "2026-10-13T00:00:00.000Z",
+      "_rev": 0,
+      "_edited": false,
+      "catManual": false,
+      "categoryMeta": {}
+    },
+    {
+      "id": "p30",
+      "name": "cado 空気清浄機用フィルター FL-C320",
+      "brand": "cado",
+      "cat": "electronics",
+      "sub": "消耗品",
+      "price": 0,
+      "rating": 0,
+      "reviews": 0,
+      "copy": "",
+      "points": [],
+      "tag": "",
+      "badge": "",
+      "rank": null,
+      "grad": "linear-gradient(150deg,#e8eaf0 0%,#c8cedc 60%,#9099bb 100%)",
+      "imgs": [],
+      "shops": [
+        "rakuten"
+      ],
+      "links": {
+        "rakuten": "https://a.r10.to/h5umld"
+      },
+      "social": {},
+      "spec": {},
+      "userReviews": [],
+      "tags": [],
+      "badges": [],
+      "repeatPurchase": false,
+      "status": "published",
+      "order": 0,
+      "publishedAt": "2026-10-13T00:00:00.000Z",
+      "updatedAt": "2026-10-13T00:00:00.000Z",
+      "_rev": 0,
+      "_edited": false,
+      "catManual": false,
+      "categoryMeta": {}
+    },
+    {
+      "id": "p31",
+      "name": "LILY BROWN シャーリングフリルトップス",
+      "brand": "LILY BROWN",
+      "cat": "fashion",
+      "sub": "トップス",
+      "price": 0,
+      "rating": 0,
+      "reviews": 0,
+      "copy": "",
+      "points": [],
+      "tag": "",
+      "badge": "",
+      "rank": null,
+      "grad": "linear-gradient(150deg,#e8e4dc 0%,#c5bfb0 60%,#a3998a 100%)",
+      "imgs": [],
+      "shops": [],
+      "links": {
+        "other": "https://lily-brw.com/Form/Product/ProductDetail.aspx?shop=0&pid=LWFT264071&vid=LWFT26407108999&bid=LBW01&cid=&_type=&cat=&swrd=&iam___iku"
+      },
+      "social": {},
+      "spec": {},
+      "userReviews": [],
+      "tags": [],
+      "badges": [],
+      "repeatPurchase": false,
+      "status": "published",
+      "order": 0,
+      "publishedAt": "2026-10-13T00:00:00.000Z",
+      "updatedAt": "2026-10-13T00:00:00.000Z",
+      "_rev": 0,
+      "_edited": false,
+      "catManual": false,
+      "categoryMeta": {}
+    },
+    {
+      "id": "p32",
+      "name": "SNIDEL タックワイドパンツ",
+      "brand": "SNIDEL",
+      "cat": "fashion",
+      "sub": "パンツ",
+      "price": 0,
+      "rating": 0,
+      "reviews": 0,
+      "copy": "",
+      "points": [],
+      "tag": "",
+      "badge": "",
+      "rank": null,
+      "grad": "linear-gradient(150deg,#e8e4dc 0%,#c5bfb0 60%,#a3998a 100%)",
+      "imgs": [],
+      "shops": [],
+      "links": {
+        "other": "https://snidel.com/Form/Product/ProductDetail.aspx?shop=0&pid=SWFP264264&vid=&bid=SND01&cid=&_type=&cat=PTE&swrd=&iam___iku"
+      },
+      "social": {},
+      "spec": {},
+      "userReviews": [],
+      "tags": [],
+      "badges": [],
+      "repeatPurchase": false,
+      "status": "published",
+      "order": 0,
+      "publishedAt": "2026-10-13T00:00:00.000Z",
+      "updatedAt": "2026-10-13T00:00:00.000Z",
+      "_rev": 0,
+      "_edited": false,
+      "catManual": false,
+      "categoryMeta": {}
+    },
+    {
+      "id": "p33",
+      "name": "アゼライン酸15 インテンスカーミングセラム 30ml",
+      "brand": "",
+      "cat": "skincare",
+      "sub": "美容液",
+      "price": 0,
+      "rating": 0,
+      "reviews": 0,
+      "copy": "",
+      "points": [],
+      "tag": "",
+      "badge": "",
+      "rank": null,
+      "grad": "linear-gradient(150deg,#e8f0e8 0%,#c8dcc8 60%,#99bb99 100%)",
+      "imgs": [],
+      "shops": [
+        "qoo10"
+      ],
+      "links": {
+        "qoo10": "https://www.qoo10.jp/g/1103518685"
+      },
+      "social": {},
+      "spec": {},
+      "userReviews": [],
+      "tags": [],
+      "badges": [],
+      "repeatPurchase": false,
+      "status": "published",
+      "order": 0,
+      "publishedAt": "2026-10-13T00:00:00.000Z",
+      "updatedAt": "2026-10-13T00:00:00.000Z",
+      "_rev": 0,
+      "_edited": false,
+      "catManual": false,
+      "categoryMeta": {}
+    },
+    {
+      "id": "p34",
+      "name": "リジュビネックス PDRNクリーム 10g×2個セット",
+      "brand": "",
+      "cat": "skincare",
+      "sub": "クリーム",
+      "price": 0,
+      "rating": 0,
+      "reviews": 0,
+      "copy": "",
+      "points": [],
+      "tag": "",
+      "badge": "",
+      "rank": null,
+      "grad": "linear-gradient(150deg,#e8f0e8 0%,#c8dcc8 60%,#99bb99 100%)",
+      "imgs": [],
+      "shops": [
+        "qoo10"
+      ],
+      "links": {
+        "qoo10": "https://www.qoo10.jp/g/1191375561"
+      },
+      "social": {},
+      "spec": {},
+      "userReviews": [],
+      "tags": [],
+      "badges": [],
+      "repeatPurchase": false,
+      "status": "published",
+      "order": 0,
+      "publishedAt": "2026-10-13T00:00:00.000Z",
+      "updatedAt": "2026-10-13T00:00:00.000Z",
+      "_rev": 0,
+      "_edited": false,
+      "catManual": false,
+      "categoryMeta": {}
+    },
+    {
+      "id": "p35",
+      "name": "FRAY I.D 2WAYフロッキーチュールトップス",
+      "brand": "FRAY I.D",
+      "cat": "fashion",
+      "sub": "トップス",
+      "price": 0,
+      "rating": 0,
+      "reviews": 0,
+      "copy": "",
+      "points": [],
+      "tag": "",
+      "badge": "",
+      "rank": null,
+      "grad": "linear-gradient(150deg,#e8e4dc 0%,#c5bfb0 60%,#a3998a 100%)",
+      "imgs": [],
+      "shops": [
+        "rakuten"
+      ],
+      "links": {
+        "rakuten": "https://a.r10.to/h5g9yh"
+      },
+      "social": {},
+      "spec": {},
+      "userReviews": [],
+      "tags": [],
+      "badges": [],
+      "repeatPurchase": false,
+      "status": "published",
+      "order": 0,
+      "publishedAt": "2026-10-13T00:00:00.000Z",
+      "updatedAt": "2026-10-13T00:00:00.000Z",
+      "_rev": 0,
+      "_edited": false,
+      "catManual": false,
+      "categoryMeta": {}
+    },
+    {
+      "id": "p36",
+      "name": "FRAY I.D ドレープデザインカットソードレス",
+      "brand": "FRAY I.D",
+      "cat": "fashion",
+      "sub": "ワンピース",
+      "price": 0,
+      "rating": 0,
+      "reviews": 0,
+      "copy": "",
+      "points": [],
+      "tag": "",
+      "badge": "",
+      "rank": null,
+      "grad": "linear-gradient(150deg,#e8e4dc 0%,#c5bfb0 60%,#a3998a 100%)",
+      "imgs": [],
+      "shops": [
+        "rakuten"
+      ],
+      "links": {
+        "rakuten": "https://a.r10.to/hPip8M"
+      },
+      "social": {},
+      "spec": {},
+      "userReviews": [],
+      "tags": [],
+      "badges": [],
+      "repeatPurchase": false,
+      "status": "published",
+      "order": 0,
+      "publishedAt": "2026-10-13T00:00:00.000Z",
+      "updatedAt": "2026-10-13T00:00:00.000Z",
+      "_rev": 0,
+      "_edited": false,
+      "catManual": false,
+      "categoryMeta": {}
+    },
+    {
+      "id": "p37",
+      "name": "DIOR ルージュ ディオール オン ステージ",
+      "brand": "DIOR",
+      "cat": "beauty",
+      "sub": "リップ",
+      "price": 0,
+      "rating": 0,
+      "reviews": 0,
+      "copy": "",
+      "points": [],
+      "tag": "",
+      "badge": "",
+      "rank": null,
+      "grad": "linear-gradient(150deg,#f5e8e8 0%,#e8c8c8 60%,#cc9999 100%)",
+      "imgs": [],
+      "shops": [],
+      "links": {
+        "other": "https://www.dior.com/ja_jp/beauty/products/iam___iku/ルージュ-ディオール-オン-ステージ-Y0000108.html"
+      },
+      "social": {},
+      "spec": {},
+      "userReviews": [],
+      "tags": [],
+      "badges": [],
+      "repeatPurchase": false,
+      "status": "published",
+      "order": 0,
+      "publishedAt": "2026-10-13T00:00:00.000Z",
+      "updatedAt": "2026-10-13T00:00:00.000Z",
+      "_rev": 0,
+      "_edited": false,
+      "catManual": false,
+      "categoryMeta": {}
+    },
+    {
+      "id": "p38",
+      "name": "JOLEN クリームブリーチ マイルドタイプ 28g",
+      "brand": "JOLEN",
+      "cat": "skincare",
+      "sub": "脱色",
+      "price": 0,
+      "rating": 0,
+      "reviews": 0,
+      "copy": "",
+      "points": [],
+      "tag": "",
+      "badge": "",
+      "rank": null,
+      "grad": "linear-gradient(150deg,#e8f0e8 0%,#c8dcc8 60%,#99bb99 100%)",
+      "imgs": [],
+      "shops": [
+        "amazon"
+      ],
+      "links": {
+        "amazon": "https://www.amazon.co.jp/JOLEN-JAPAN-bleach-ジョレン-マイルドタイプ/dp/B00GNTXR1Q"
+      },
+      "social": {},
+      "spec": {},
+      "userReviews": [],
+      "tags": [],
+      "badges": [],
+      "repeatPurchase": false,
+      "status": "published",
+      "order": 0,
+      "publishedAt": "2026-10-13T00:00:00.000Z",
+      "updatedAt": "2026-10-13T00:00:00.000Z",
+      "_rev": 0,
+      "_edited": false,
+      "catManual": false,
+      "categoryMeta": {}
+    },
+    {
+      "id": "p39",
+      "name": "SAVAS シェイプ＆ビューティ ミルクティー風味 920g",
+      "brand": "SAVAS",
+      "cat": "food",
+      "sub": "プロテイン",
+      "price": 0,
+      "rating": 0,
+      "reviews": 0,
+      "copy": "",
+      "points": [],
+      "tag": "",
+      "badge": "",
+      "rank": null,
+      "grad": "linear-gradient(150deg,#f0ece8 0%,#dcd4c8 60%,#bba899 100%)",
+      "imgs": [],
+      "shops": [
+        "amazon"
+      ],
+      "links": {
+        "amazon": "https://www.amazon.co.jp/dp/B0DGFW5LXM"
+      },
+      "social": {},
+      "spec": {},
+      "userReviews": [],
+      "tags": [],
+      "badges": [],
+      "repeatPurchase": false,
+      "status": "published",
+      "order": 0,
+      "publishedAt": "2026-10-13T00:00:00.000Z",
+      "updatedAt": "2026-10-13T00:00:00.000Z",
+      "_rev": 0,
+      "_edited": false,
+      "catManual": false,
+      "categoryMeta": {}
+    },
+    {
+      "id": "p40",
+      "name": "味の素 プロテインスープ コーンクリーム 600g",
+      "brand": "味の素",
+      "cat": "food",
+      "sub": "スープ",
+      "price": 0,
+      "rating": 0,
+      "reviews": 0,
+      "copy": "",
+      "points": [],
+      "tag": "",
+      "badge": "",
+      "rank": null,
+      "grad": "linear-gradient(150deg,#f0ece8 0%,#dcd4c8 60%,#bba899 100%)",
+      "imgs": [],
+      "shops": [
+        "amazon"
+      ],
+      "links": {
+        "amazon": "https://www.amazon.co.jp/dp/B0BQVBS6RP"
+      },
+      "social": {},
+      "spec": {},
+      "userReviews": [],
+      "tags": [],
+      "badges": [],
+      "repeatPurchase": false,
+      "status": "published",
+      "order": 0,
+      "publishedAt": "2026-10-13T00:00:00.000Z",
+      "updatedAt": "2026-10-13T00:00:00.000Z",
+      "_rev": 0,
+      "_edited": false,
+      "catManual": false,
+      "categoryMeta": {}
+    },
+    {
+      "id": "p41",
+      "name": "Lypo-C リポ・カプセル ビタミンC 28包",
+      "brand": "Lypo-C",
+      "cat": "food",
+      "sub": "サプリメント",
+      "price": 0,
+      "rating": 0,
+      "reviews": 0,
+      "copy": "",
+      "points": [],
+      "tag": "",
+      "badge": "",
+      "rank": null,
+      "grad": "linear-gradient(150deg,#f0ece8 0%,#dcd4c8 60%,#bba899 100%)",
+      "imgs": [],
+      "shops": [
+        "amazon"
+      ],
+      "links": {
+        "amazon": "https://www.amazon.co.jp/dp/B0DTHGD8RV"
+      },
+      "social": {},
+      "spec": {},
+      "userReviews": [],
+      "tags": [],
+      "badges": [],
+      "repeatPurchase": false,
+      "status": "published",
+      "order": 0,
+      "publishedAt": "2026-10-13T00:00:00.000Z",
+      "updatedAt": "2026-10-13T00:00:00.000Z",
+      "_rev": 0,
+      "_edited": false,
+      "catManual": false,
+      "categoryMeta": {}
+    },
+    {
+      "id": "p42",
+      "name": "3M ネクスケア 靴ずれ保護テープ 4.5m",
+      "brand": "3M",
+      "cat": "other",
+      "sub": "テープ",
+      "price": 0,
+      "rating": 0,
+      "reviews": 0,
+      "copy": "",
+      "points": [],
+      "tag": "",
+      "badge": "",
+      "rank": null,
+      "grad": "linear-gradient(150deg,#eaeaea 0%,#d0d0d0 60%,#b0b0b0 100%)",
+      "imgs": [],
+      "shops": [
+        "amazon"
+      ],
+      "links": {
+        "amazon": "https://www.amazon.co.jp/dp/B07CYJ1L8P"
+      },
+      "social": {},
+      "spec": {},
+      "userReviews": [],
+      "tags": [],
+      "badges": [],
+      "repeatPurchase": false,
+      "status": "published",
+      "order": 0,
+      "publishedAt": "2026-10-13T00:00:00.000Z",
+      "updatedAt": "2026-10-13T00:00:00.000Z",
+      "_rev": 0,
+      "_edited": false,
+      "catManual": false,
+      "categoryMeta": {}
+    },
+    {
+      "id": "p43",
+      "name": "光のとこにいてね",
+      "brand": "一穂ミチ",
+      "cat": "book",
+      "sub": "小説",
+      "price": 0,
+      "rating": 0,
+      "reviews": 0,
+      "copy": "",
+      "points": [],
+      "tag": "",
+      "badge": "",
+      "rank": null,
+      "grad": "linear-gradient(150deg,#f0eee8 0%,#dcd8c8 60%,#bbb499 100%)",
+      "imgs": [],
+      "shops": [
+        "amazon"
+      ],
+      "links": {
+        "amazon": "https://www.amazon.co.jp/dp/4167924099"
+      },
+      "social": {},
+      "spec": {},
+      "userReviews": [],
+      "tags": [],
+      "badges": [],
+      "repeatPurchase": false,
+      "status": "published",
+      "order": 0,
+      "publishedAt": "2026-10-13T00:00:00.000Z",
+      "updatedAt": "2026-10-13T00:00:00.000Z",
+      "_rev": 0,
+      "_edited": false,
+      "catManual": false,
+      "categoryMeta": {}
+    },
+    {
+      "id": "p44",
+      "name": "凍りのくじら",
+      "brand": "辻村深月",
+      "cat": "book",
+      "sub": "小説",
+      "price": 0,
+      "rating": 0,
+      "reviews": 0,
+      "copy": "",
+      "points": [],
+      "tag": "",
+      "badge": "",
+      "rank": null,
+      "grad": "linear-gradient(150deg,#f0eee8 0%,#dcd8c8 60%,#bbb499 100%)",
+      "imgs": [],
+      "shops": [
+        "amazon"
+      ],
+      "links": {
+        "amazon": "https://www.amazon.co.jp/dp/4062762005"
+      },
+      "social": {},
+      "spec": {},
+      "userReviews": [],
+      "tags": [],
+      "badges": [],
+      "repeatPurchase": false,
+      "status": "published",
+      "order": 0,
+      "publishedAt": "2026-10-13T00:00:00.000Z",
+      "updatedAt": "2026-10-13T00:00:00.000Z",
+      "_rev": 0,
+      "_edited": false,
+      "catManual": false,
+      "categoryMeta": {}
+    },
+    {
+      "id": "p45",
+      "name": "朝が来る",
+      "brand": "辻村深月",
+      "cat": "book",
+      "sub": "小説",
+      "price": 0,
+      "rating": 0,
+      "reviews": 0,
+      "copy": "",
+      "points": [],
+      "tag": "",
+      "badge": "",
+      "rank": null,
+      "grad": "linear-gradient(150deg,#f0eee8 0%,#dcd8c8 60%,#bbb499 100%)",
+      "imgs": [],
+      "shops": [
+        "amazon"
+      ],
+      "links": {
+        "amazon": "https://www.amazon.co.jp/dp/4167991330"
+      },
+      "social": {},
+      "spec": {},
+      "userReviews": [],
+      "tags": [],
+      "badges": [],
+      "repeatPurchase": false,
+      "status": "published",
+      "order": 0,
+      "publishedAt": "2026-10-13T00:00:00.000Z",
+      "updatedAt": "2026-10-13T00:00:00.000Z",
+      "_rev": 0,
+      "_edited": false,
+      "catManual": false,
+      "categoryMeta": {}
+    },
+    {
+      "id": "p46",
+      "name": "52ヘルツのクジラたち",
+      "brand": "町田そのこ",
+      "cat": "book",
+      "sub": "小説",
+      "price": 0,
+      "rating": 0,
+      "reviews": 0,
+      "copy": "",
+      "points": [],
+      "tag": "",
+      "badge": "",
+      "rank": null,
+      "grad": "linear-gradient(150deg,#f0eee8 0%,#dcd8c8 60%,#bbb499 100%)",
+      "imgs": [],
+      "shops": [
+        "amazon"
+      ],
+      "links": {
+        "amazon": "https://www.amazon.co.jp/dp/B0C4XK99M1"
+      },
+      "social": {},
+      "spec": {},
+      "userReviews": [],
+      "tags": [],
+      "badges": [],
+      "repeatPurchase": false,
+      "status": "published",
+      "order": 0,
+      "publishedAt": "2026-10-13T00:00:00.000Z",
+      "updatedAt": "2026-10-13T00:00:00.000Z",
+      "_rev": 0,
+      "_edited": false,
+      "catManual": false,
+      "categoryMeta": {}
+    },
+    {
+      "id": "p47",
+      "name": "VOGUE ON ココ・シャネル",
+      "brand": "ブロンウィン・コスグレーヴ",
+      "cat": "book",
+      "sub": "ファッション本",
+      "price": 0,
+      "rating": 0,
+      "reviews": 0,
+      "copy": "",
+      "points": [],
+      "tag": "",
+      "badge": "",
+      "rank": null,
+      "grad": "linear-gradient(150deg,#f0eee8 0%,#dcd8c8 60%,#bbb499 100%)",
+      "imgs": [],
+      "shops": [
+        "amazon"
+      ],
+      "links": {
+        "amazon": "https://www.amazon.co.jp/dp/488282860X"
+      },
+      "social": {},
+      "spec": {},
+      "userReviews": [],
+      "tags": [],
+      "badges": [],
+      "repeatPurchase": false,
+      "status": "published",
+      "order": 0,
+      "publishedAt": "2026-10-13T00:00:00.000Z",
+      "updatedAt": "2026-10-13T00:00:00.000Z",
+      "_rev": 0,
+      "_edited": false,
+      "catManual": false,
+      "categoryMeta": {}
+    },
+    {
+      "id": "p48",
+      "name": "法廷遊戯",
+      "brand": "五十嵐律人",
+      "cat": "book",
+      "sub": "小説",
+      "price": 0,
+      "rating": 0,
+      "reviews": 0,
+      "copy": "",
+      "points": [],
+      "tag": "",
+      "badge": "",
+      "rank": null,
+      "grad": "linear-gradient(150deg,#f0eee8 0%,#dcd8c8 60%,#bbb499 100%)",
+      "imgs": [],
+      "shops": [
+        "amazon"
+      ],
+      "links": {
+        "amazon": "https://www.amazon.co.jp/dp/B0C1BQWT73"
+      },
+      "social": {},
+      "spec": {},
+      "userReviews": [],
+      "tags": [],
+      "badges": [],
+      "repeatPurchase": false,
+      "status": "published",
+      "order": 0,
+      "publishedAt": "2026-10-13T00:00:00.000Z",
+      "updatedAt": "2026-10-13T00:00:00.000Z",
+      "_rev": 0,
+      "_edited": false,
+      "catManual": false,
+      "categoryMeta": {}
+    },
+    {
+      "id": "p49",
+      "name": "殺戮にいたる病",
+      "brand": "我孫子武丸",
+      "cat": "book",
+      "sub": "小説",
+      "price": 0,
+      "rating": 0,
+      "reviews": 0,
+      "copy": "",
+      "points": [],
+      "tag": "",
+      "badge": "",
+      "rank": null,
+      "grad": "linear-gradient(150deg,#f0eee8 0%,#dcd8c8 60%,#bbb499 100%)",
+      "imgs": [],
+      "shops": [
+        "amazon"
+      ],
+      "links": {
+        "amazon": "https://www.amazon.co.jp/dp/B076Z8GN9X"
+      },
+      "social": {},
+      "spec": {},
+      "userReviews": [],
+      "tags": [],
+      "badges": [],
+      "repeatPurchase": false,
+      "status": "published",
+      "order": 0,
+      "publishedAt": "2026-10-13T00:00:00.000Z",
+      "updatedAt": "2026-10-13T00:00:00.000Z",
+      "_rev": 0,
+      "_edited": false,
+      "catManual": false,
+      "categoryMeta": {}
+    },
+    {
+      "id": "p50",
+      "name": "FRAY I.D ギャザーパフスリーブブラウス",
+      "brand": "FRAY I.D",
+      "cat": "fashion",
+      "sub": "トップス",
+      "price": 0,
+      "rating": 0,
+      "reviews": 0,
+      "copy": "",
+      "points": [],
+      "tag": "",
+      "badge": "",
+      "rank": null,
+      "grad": "linear-gradient(150deg,#e8e4dc 0%,#c5bfb0 60%,#a3998a 100%)",
+      "imgs": [],
+      "shops": [
+        "rakuten"
+      ],
+      "links": {
+        "rakuten": "https://a.r10.to/hHLIxr"
+      },
+      "social": {},
+      "spec": {},
+      "userReviews": [],
+      "tags": [],
+      "badges": [],
+      "repeatPurchase": false,
+      "status": "published",
+      "order": 0,
+      "publishedAt": "2026-10-13T00:00:00.000Z",
+      "updatedAt": "2026-10-13T00:00:00.000Z",
+      "_rev": 0,
+      "_edited": false,
+      "catManual": false,
+      "categoryMeta": {}
+    },
+    {
+      "id": "p51",
+      "name": "SNIDEL プリーツティアードスカート",
+      "brand": "SNIDEL",
+      "cat": "fashion",
+      "sub": "スカート",
+      "price": 0,
+      "rating": 0,
+      "reviews": 0,
+      "copy": "",
+      "points": [],
+      "tag": "",
+      "badge": "",
+      "rank": null,
+      "grad": "linear-gradient(150deg,#e8e4dc 0%,#c5bfb0 60%,#a3998a 100%)",
+      "imgs": [],
+      "shops": [],
+      "links": {
+        "other": "https://snidel.com/Form/Product/ProductDetail.aspx?shop=0&pid=SWFS264118&vid=&bid=SND01&cid=&_type=&cat=SKE&swrd=&iam___iku"
+      },
+      "social": {},
+      "spec": {},
+      "userReviews": [],
+      "tags": [],
+      "badges": [],
+      "repeatPurchase": false,
+      "status": "published",
+      "order": 0,
+      "publishedAt": "2026-10-13T00:00:00.000Z",
+      "updatedAt": "2026-10-13T00:00:00.000Z",
+      "_rev": 0,
+      "_edited": false,
+      "catManual": false,
+      "categoryMeta": {}
+    },
+    {
+      "id": "p52",
+      "name": "FRAY I.D ハーフジップニットプルオーバー",
+      "brand": "FRAY I.D",
+      "cat": "fashion",
+      "sub": "ニット",
+      "price": 0,
+      "rating": 0,
+      "reviews": 0,
+      "copy": "",
+      "points": [],
+      "tag": "",
+      "badge": "",
+      "rank": null,
+      "grad": "linear-gradient(150deg,#e8e4dc 0%,#c5bfb0 60%,#a3998a 100%)",
+      "imgs": [],
+      "shops": [],
+      "links": {
+        "other": "https://fray-id.com/Form/Product/ProductDetail.aspx?shop=0&pid=FWNT264149&vid=FWNT26414900699&bid=FID01&cid=&_type=&cat=&swrd=&iam___iku"
+      },
+      "social": {},
+      "spec": {},
+      "userReviews": [],
+      "tags": [],
+      "badges": [],
+      "repeatPurchase": false,
+      "status": "published",
+      "order": 0,
+      "publishedAt": "2026-10-13T00:00:00.000Z",
+      "updatedAt": "2026-10-13T00:00:00.000Z",
+      "_rev": 0,
+      "_edited": false,
+      "catManual": false,
+      "categoryMeta": {}
+    },
+    {
+      "id": "p53",
+      "name": "FRAY I.D ニットショートパンツ",
+      "brand": "FRAY I.D",
+      "cat": "fashion",
+      "sub": "パンツ",
+      "price": 0,
+      "rating": 0,
+      "reviews": 0,
+      "copy": "",
+      "points": [],
+      "tag": "",
+      "badge": "",
+      "rank": null,
+      "grad": "linear-gradient(150deg,#e8e4dc 0%,#c5bfb0 60%,#a3998a 100%)",
+      "imgs": [],
+      "shops": [],
+      "links": {
+        "other": "https://fray-id.com/Form/Product/ProductDetail.aspx?shop=0&pid=FWNP264150&vid=&bid=FID01&cid=&_type=&cat=PTE001&swrd=&iam___iku"
+      },
+      "social": {},
+      "spec": {},
+      "userReviews": [],
+      "tags": [],
+      "badges": [],
+      "repeatPurchase": false,
+      "status": "published",
+      "order": 0,
+      "publishedAt": "2026-10-13T00:00:00.000Z",
+      "updatedAt": "2026-10-13T00:00:00.000Z",
+      "_rev": 0,
+      "_edited": false,
+      "catManual": false,
+      "categoryMeta": {}
+    },
+    {
+      "id": "p54",
+      "name": "DIOR プレステージ ル ゴマージュ N",
+      "brand": "DIOR",
+      "cat": "skincare",
+      "sub": "スクラブ",
+      "price": 0,
+      "rating": 0,
+      "reviews": 0,
+      "copy": "",
+      "points": [],
+      "tag": "",
+      "badge": "",
+      "rank": null,
+      "grad": "linear-gradient(150deg,#e8f0e8 0%,#c8dcc8 60%,#99bb99 100%)",
+      "imgs": [],
+      "shops": [],
+      "links": {
+        "other": "https://www.dior.com/ja_jp/beauty/products/プレステージ-ル-ゴマージュ-n-Y0000252.html"
+      },
+      "social": {},
+      "spec": {},
+      "userReviews": [],
+      "tags": [],
+      "badges": [],
+      "repeatPurchase": false,
+      "status": "published",
+      "order": 0,
+      "publishedAt": "2026-10-13T00:00:00.000Z",
+      "updatedAt": "2026-10-13T00:00:00.000Z",
+      "_rev": 0,
+      "_edited": false,
+      "catManual": false,
+      "categoryMeta": {}
+    },
+    {
+      "id": "p55",
+      "name": "SNIDEL ドレープギャザーニットプルオーバー",
+      "brand": "SNIDEL",
+      "cat": "fashion",
+      "sub": "ニット",
+      "price": 0,
+      "rating": 0,
+      "reviews": 0,
+      "copy": "",
+      "points": [],
+      "tag": "",
+      "badge": "",
+      "rank": null,
+      "grad": "linear-gradient(150deg,#e8e4dc 0%,#c5bfb0 60%,#a3998a 100%)",
+      "imgs": [],
+      "shops": [
+        "rakuten"
+      ],
+      "links": {
+        "rakuten": "https://a.r10.to/hYWqZJ"
+      },
+      "social": {},
+      "spec": {},
+      "userReviews": [],
+      "tags": [],
+      "badges": [],
+      "repeatPurchase": false,
+      "status": "published",
+      "order": 0,
+      "publishedAt": "2026-10-13T00:00:00.000Z",
+      "updatedAt": "2026-10-13T00:00:00.000Z",
+      "_rev": 0,
+      "_edited": false,
+      "catManual": false,
+      "categoryMeta": {}
     }
   ],
   "CATEGORIES": [
