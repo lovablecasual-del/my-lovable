@@ -143,6 +143,81 @@ try {
 } catch(e) {}
 </script>
 
+
+<script>
+/* ============================================================
+   LOVABLE — Copy Protection
+   © 2026 LOVABLE. All rights reserved.
+   Unauthorized reproduction or distribution prohibited.
+   ============================================================ */
+(function() {
+  // Disable right-click
+  document.addEventListener('contextmenu', function(e) {
+    e.preventDefault();
+    return false;
+  });
+
+  // Disable keyboard shortcuts
+  document.addEventListener('keydown', function(e) {
+    // Ctrl/Cmd + U (view source), S (save), A (select all), C (copy page), P (print)
+    if ((e.ctrlKey || e.metaKey) && ['u','s','p'].includes(e.key.toLowerCase())) {
+      e.preventDefault();
+      return false;
+    }
+    // F12 (devtools)
+    if (e.key === 'F12') {
+      e.preventDefault();
+      return false;
+    }
+    // Ctrl+Shift+I / Ctrl+Shift+J / Ctrl+Shift+C (devtools)
+    if ((e.ctrlKey || e.metaKey) && e.shiftKey && ['i','j','c'].includes(e.key.toLowerCase())) {
+      e.preventDefault();
+      return false;
+    }
+  });
+
+  // DevTools detection
+  var devtoolsOpen = false;
+  var threshold = 160;
+  function checkDevTools() {
+    var widthDiff = window.outerWidth - window.innerWidth;
+    var heightDiff = window.outerHeight - window.innerHeight;
+    if (widthDiff > threshold || heightDiff > threshold) {
+      if (!devtoolsOpen) {
+        devtoolsOpen = true;
+        document.body.style.filter = 'blur(8px)';
+        if (!document.getElementById('lb-devtools-warning')) {
+          var el = document.createElement('div');
+          el.id = 'lb-devtools-warning';
+          el.style.cssText = 'position:fixed;top:0;left:0;right:0;bottom:0;z-index:99999;display:flex;align-items:center;justify-content:center;background:rgba(255,255,255,0.95);';
+          el.innerHTML = '<div style="text-align:center;font-family:sans-serif;color:#1a1a1a;"><p style="font-size:20px;font-weight:600;margin-bottom:8px">© 2026 LOVABLE</p><p style="font-size:14px;color:#666">このサイトのコンテンツは著作権により保護されています。</p></div>';
+          document.body.appendChild(el);
+        }
+      }
+    } else {
+      if (devtoolsOpen) {
+        devtoolsOpen = false;
+        document.body.style.filter = '';
+        var el = document.getElementById('lb-devtools-warning');
+        if (el) el.remove();
+      }
+    }
+  }
+  setInterval(checkDevTools, 1000);
+
+  // Disable drag on images
+  document.addEventListener('dragstart', function(e) {
+    if (e.target.tagName === 'IMG') {
+      e.preventDefault();
+      return false;
+    }
+  });
+
+  // Copyright in console
+  console.log('%c© 2026 LOVABLE — All rights reserved.', 'color:#7b5544;font-size:16px;font-weight:bold;');
+  console.log('%cこのサイトのコードや画像の無断使用・転用は禁止されています。', 'color:#999;font-size:12px;');
+})();
+</script>
 </head>
 <body>
   <div id="__bundler_thumbnail">
