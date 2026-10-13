@@ -2440,7 +2440,7 @@ window.__LB_OVERRIDE__ = {
     "theme": "light",
     "accent": "#6b4e34",
     "seo": {
-      "title": "LOVABLE — 暮らしを整える小さな贅沢。",
+      "title": "LOVABLE — ときめくものだけ、日常に。",
       "desc": "20〜30代のためのQuiet Luxuryなライフスタイルセレクト。コスメ・スキンケア・美容家電・ファッション・韓国アイテムを各ストアへ。",
       "ogimg": ""
     },
