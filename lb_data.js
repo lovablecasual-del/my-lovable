@@ -44,7 +44,9 @@ window.__LB_OVERRIDE__ = {
           "body": "アシンメトリーのペプラムシルエットがあまり見ないデザインでおしゃれで可愛い。ハイウエストでの切り替えになっていて、取り外し可能なベルトでウエストマークするとよりスタイルアップして見えます。個人的に普段肩幅の広さが気になるのですが、肩のラインが出すぎず出なさすぎず綺麗に見えるラインで大満足。本当に買ってよかった1着です◎ だいぶ暖かくなってきたので沢山着てお出かけしたいです！"
         }
       ],
-      "tags": [],
+      "tags": [
+        "Rakuten Fashion"
+      ],
       "badges": [],
       "repeatPurchase": false,
       "status": "published",
@@ -2346,6 +2348,8 @@ window.__LB_OVERRIDE__ = {
       "isVisible": true,
       "locked": true,
       "isSystem": true,
+      "img": "",
+      "imgObjectPos": "center",
       "createdAt": "2026-09-03T06:19:46.046Z",
       "updatedAt": "2026-09-03T06:19:46.046Z"
     },
@@ -2368,6 +2372,8 @@ window.__LB_OVERRIDE__ = {
       "isVisible": true,
       "locked": true,
       "isSystem": true,
+      "img": "",
+      "imgObjectPos": "center",
       "createdAt": "2026-09-03T06:19:46.046Z",
       "updatedAt": "2026-09-03T06:19:46.046Z"
     },
@@ -2389,6 +2395,8 @@ window.__LB_OVERRIDE__ = {
       "isVisible": true,
       "locked": true,
       "isSystem": true,
+      "img": "",
+      "imgObjectPos": "center",
       "createdAt": "2026-09-03T06:19:46.046Z",
       "updatedAt": "2026-09-03T06:19:46.046Z"
     },
@@ -2409,6 +2417,8 @@ window.__LB_OVERRIDE__ = {
       "isVisible": true,
       "locked": true,
       "isSystem": true,
+      "img": "",
+      "imgObjectPos": "center",
       "createdAt": "2026-09-03T06:19:46.046Z",
       "updatedAt": "2026-09-10T15:34:12.361Z"
     }
@@ -2419,7 +2429,7 @@ window.__LB_OVERRIDE__ = {
     "logoHeight": 34,
     "hero": {
       "variant": "stack",
-      "copy": "暮らしを整える\n小さな贅沢。",
+      "copy": "ときめくものだけ\n日常に。",
       "copySize": 70,
       "sub": "毎日のちょっとしたご褒美に。コスメも、服も、暮らしの道具も。",
       "image": null,
@@ -2440,7 +2450,7 @@ window.__LB_OVERRIDE__ = {
     "theme": "light",
     "accent": "#6b4e34",
     "seo": {
-      "title": "LOVABLE — ときめくものだけ、日常に。",
+      "title": "LOVABLE — 暮らしを整える小さな贅沢。",
       "desc": "20〜30代のためのQuiet Luxuryなライフスタイルセレクト。コスメ・スキンケア・美容家電・ファッション・韓国アイテムを各ストアへ。",
       "ogimg": ""
     },
