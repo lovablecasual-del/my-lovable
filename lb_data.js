@@ -1284,58 +1284,35 @@ window.__LB_OVERRIDE__ = {
       }
     },
     {
-      "id": "p56",
-      "name": "COTA アイ ケア シャンプー9 ＆ トリートメント9 セット",
-      "brand": "COTA",
-      "cat": "haircare",
-      "sub": "シャンプー",
-      "price": 0,
-      "rating": 0,
-      "reviews": 0,
-      "copy": "",
-      "points": [],
-      "tag": "",
-      "badge": "",
-      "rank": null,
-      "grad": "linear-gradient(150deg,#e8e8f0 0%,#c8c8dc 60%,#9999bb 100%)",
-      "imgs": [],
-      "shops": [
-        "rakuten"
-      ],
-      "links": {
-        "rakuten": "https://a.r10.to/hPzEct"
-      },
-      "social": {},
-      "spec": {},
-      "userReviews": [],
-      "tags": [],
-      "badges": [],
-      "repeatPurchase": false,
-      "status": "published",
-      "order": 0,
-      "publishedAt": "2026-10-13T00:00:00.000Z",
-      "updatedAt": "2026-10-13T00:00:00.000Z",
-      "_rev": 0,
-      "_edited": false,
-      "catManual": false,
-      "categoryMeta": {}
-    },
-    {
       "id": "p28",
       "name": "cado 加湿器 STEM 700i",
       "brand": "cado",
-      "cat": "electronics",
-      "sub": "加湿器",
-      "price": 0,
+      "cat": "lifestyle",
+      "sub": "ガジェット",
+      "price": 54890,
       "rating": 0,
       "reviews": 0,
-      "copy": "",
-      "points": [],
-      "tag": "",
+      "copy": "（ カドー ）正規販売店。 \n上から給水できホワイトダストも除去する加湿器 HM-C700i。 \n対応でアプリから操作も可能。 \n加湿器 STEM700i ステム700i カドー【2大特典付き】お手入れ簡単 HM-C700i 加湿機 おしゃれ カドー加湿器 抗菌 除菌 加湿 WiFi対応 上から給水 上部給水 タワー加湿器 フレグランス Wi-Fi 静か 静音 大容量 スリム オフィス リビング 寝室 kado［ cado STEM 700i ］",
+      "points": [
+        "上から給水できホワイトダストも除去する加湿器 HM-C700i。",
+        "対応でアプリから操作も可能。",
+        "その他 美容家電 アロマディフューザー",
+        "水切りラック シンクサイド設置タイプ シンク上タイプ 置きタイプ 突っ張りタイプ"
+      ],
+      "tag": "cado",
       "badge": "",
       "rank": null,
       "grad": "linear-gradient(150deg,#e8eaf0 0%,#c8cedc 60%,#9099bb 100%)",
-      "imgs": [],
+      "imgs": [
+        "https://shop.r10s.jp/roomy/cabinet/500cart_all/500cart_11g/p10n-4/ecl2011-mz006-1_gt01.jpg",
+        "https://image.rakuten.co.jp/roomy/cabinet/500cart_all/500cart_ca2_6/ecl2011-mz006-1_sz01.jpg",
+        "https://image.rakuten.co.jp/roomy/cabinet/500cart_all/500cart_ca2_6/ecl2011-mz006-1_cv01.jpg",
+        "https://tshop.r10s.jp/roomy/cabinet/500cart_all/500cart_ca2_6/ecl2011-mz006-1_sz01.jpg",
+        "https://tshop.r10s.jp/roomy/cabinet/sp_page/sp_sl08/ecl2011-mz006-1_a_05.jpg",
+        "https://tshop.r10s.jp/roomy/cabinet/sp_page/sp_sl08/ecl2011-mz006-1_a_07.jpg",
+        "https://tshop.r10s.jp/roomy/cabinet/sp_page/sp_sl08/ecl2011-mz006-1_a_15.jpg",
+        "https://tshop.r10s.jp/roomy/cabinet/sp_page/sp_sl08/ecl2011-mz006-1_a_09.jpg"
+      ],
       "shops": [
         "rakuten"
       ],
@@ -1344,35 +1321,65 @@ window.__LB_OVERRIDE__ = {
       },
       "social": {},
       "spec": {},
-      "userReviews": [],
-      "tags": [],
+      "userReviews": [
+        {
+          "name": "ikkun",
+          "meta": "30代・骨格ウェーブ",
+          "rating": 5,
+          "body": "お手入れも便利で一年中使っている加湿器。\ncadoの加湿器使い始めてから部屋の乾燥が気にならなくなった♪\nそしておしゃれなデザインで部屋に馴染むのがさらにお気に入りポイント♡\n"
+        }
+      ],
+      "tags": [
+        "cado",
+        "加湿器"
+      ],
       "badges": [],
       "repeatPurchase": false,
       "status": "published",
       "order": 0,
       "publishedAt": "2026-10-13T00:00:00.000Z",
-      "updatedAt": "2026-10-13T00:00:00.000Z",
-      "_rev": 0,
-      "_edited": false,
+      "updatedAt": "2026-10-20T15:12:51.294Z",
+      "_rev": 1,
+      "_edited": true,
       "catManual": false,
-      "categoryMeta": {}
+      "categoryMeta": {
+        "common": "Electronics",
+        "source": "rakuten-genreName",
+        "confidence": "high",
+        "originalCategory": "楽天市場",
+        "originalCategoryId": "204549",
+        "shopCategory": "楽天市場",
+        "mappedAt": "2026-10-20T15:09:01.595Z",
+        "auto": true
+      }
     },
     {
       "id": "p29",
       "name": "cado 加湿器専用カートリッジ STEM 700i・630i・620対応",
       "brand": "cado",
-      "cat": "electronics",
-      "sub": "消耗品",
-      "price": 0,
+      "cat": "lifestyle",
+      "sub": "ガジェット",
+      "price": 6380,
       "rating": 0,
       "reviews": 0,
-      "copy": "",
-      "points": [],
-      "tag": "",
+      "copy": "STEM630i、STEM620専用の交換カートリッジ。 \n定期的な交換がおすすめです。 \n家具や壁などにミストが付着することで残る、白い粉（ ホワイトダスト ）を抑制します。 カートリッジ 加湿器 STEM700i STEM630i STEM620 専用 HM-C700i HM-C630i HM-C620 超音波式加湿器 カドー カド ホワイトダスト防止 フィルター オプション 交換用 交換 CT-C700【送料無料】［ cado STEM 700i / 630i / 620用 交換用カートリッジ ］",
+      "points": [
+        "その他 美容家電 アロマディフューザー",
+        "水切りラック シンクサイド設置タイプ シンク上タイプ 置きタイプ 突っ張りタイプ",
+        "ゴミ箱 フタ付き フタなし 分別タイプ 卓上タイプ 丸型 角型",
+        "時計 目覚し時計 置き時計 掛け時計 電波時計 振り子時計 鳩時計 温度湿度計"
+      ],
+      "tag": "cado",
       "badge": "",
       "rank": null,
       "grad": "linear-gradient(150deg,#e8eaf0 0%,#c8cedc 60%,#9099bb 100%)",
-      "imgs": [],
+      "imgs": [
+        "https://shop.r10s.jp/roomy/cabinet/500cart_all/500cart_11g/4/ecl2911-mz007-0_gt01.jpg",
+        "https://image.rakuten.co.jp/roomy/cabinet/500cart_all/500cart_ca2_6/ecl2911-mz007-0_sz01.jpg",
+        "https://tshop.r10s.jp/roomy/cabinet/500cart_all/500cart_11g/4/ecl2911-mz007-0_gt01.jpg",
+        "https://tshop.r10s.jp/roomy/cabinet/sp_page/sp_sl09/ecl2911-mz007-0_a_01.jpg",
+        "https://tshop.r10s.jp/roomy/cabinet/500cart_all/500cart_ca2_3/ecl2911-mz007-0_sz01.jpg"
+      ],
       "shops": [
         "rakuten"
       ],
@@ -1381,35 +1388,57 @@ window.__LB_OVERRIDE__ = {
       },
       "social": {},
       "spec": {},
-      "userReviews": [],
-      "tags": [],
+      "userReviews": [
+        {
+          "name": "ikkun",
+          "meta": "30代",
+          "rating": 5,
+          "body": "cadoの加湿器のフィルター。\nフィルター汚いと部屋汚くなる気がして1年に1回フィルター交換してる！\n"
+        }
+      ],
+      "tags": [
+        "cado",
+        "加湿器"
+      ],
       "badges": [],
       "repeatPurchase": false,
       "status": "published",
       "order": 0,
       "publishedAt": "2026-10-13T00:00:00.000Z",
-      "updatedAt": "2026-10-13T00:00:00.000Z",
-      "_rev": 0,
-      "_edited": false,
+      "updatedAt": "2026-10-20T15:17:45.357Z",
+      "_rev": 1,
+      "_edited": true,
       "catManual": false,
-      "categoryMeta": {}
+      "categoryMeta": {
+        "common": "Electronics",
+        "source": "rakuten-genreName",
+        "confidence": "high",
+        "originalCategory": "楽天市場",
+        "originalCategoryId": "212249",
+        "shopCategory": "楽天市場",
+        "mappedAt": "2026-10-20T15:13:24.195Z",
+        "auto": true
+      }
     },
     {
       "id": "p30",
       "name": "cado 空気清浄機用フィルター FL-C320",
       "brand": "cado",
-      "cat": "electronics",
-      "sub": "消耗品",
-      "price": 0,
+      "cat": "lifestyle",
+      "sub": "ガジェット",
+      "price": 5200,
       "rating": 0,
       "reviews": 0,
-      "copy": "",
+      "copy": "加湿器 フィルター 空気清浄機フィルター AP-C200 シリーズ AP-C320i（ LEAF 320i ） シリーズ 対応。 【★全店舗ポイント5倍】 cado (カドー) 空気清浄機 フィルター AP-C200用フィルター FL-C320【送料無料】 【旧FL-C200後継品】「互換品」 空気清浄機フィルター",
       "points": [],
-      "tag": "",
+      "tag": "cado",
       "badge": "",
       "rank": null,
       "grad": "linear-gradient(150deg,#e8eaf0 0%,#c8cedc 60%,#9099bb 100%)",
-      "imgs": [],
+      "imgs": [
+        "https://shop.r10s.jp/shinsou/cabinet/08705102/08705104/imgrc0091044163.jpg",
+        "https://tshop.r10s.jp/shinsou/cabinet/08705102/08705104/imgrc0091044163.jpg"
+      ],
       "shops": [
         "rakuten"
       ],
@@ -1418,17 +1447,27 @@ window.__LB_OVERRIDE__ = {
       },
       "social": {},
       "spec": {},
-      "userReviews": [],
-      "tags": [],
+      "userReviews": [
+        {
+          "name": "ikkun",
+          "meta": "",
+          "rating": 5,
+          "body": "cadoの空気清浄機のフィルター。\n普段は掃除機でゴミをとってるけどフィルター替えたときは全力で稼働してくれるようになるから1年に1回買い替えてる♪"
+        }
+      ],
+      "tags": [
+        "cado",
+        "空気清浄機"
+      ],
       "badges": [],
       "repeatPurchase": false,
       "status": "published",
       "order": 0,
       "publishedAt": "2026-10-13T00:00:00.000Z",
-      "updatedAt": "2026-10-13T00:00:00.000Z",
-      "_rev": 0,
-      "_edited": false,
-      "catManual": false,
+      "updatedAt": "2026-10-20T15:22:15.032Z",
+      "_rev": 1,
+      "_edited": true,
+      "catManual": true,
       "categoryMeta": {}
     },
     {
