@@ -1220,7 +1220,7 @@ window.__LB_OVERRIDE__ = {
     },
     {
       "id": "pmuwq1znve3vz",
-      "name": "YANUK/(W)ワイドフレア\"LYDIA\" ヤヌーク パンツ ジーンズ・デニムパンツ ネイビー",
+      "name": "YANUK ワイドフレアデニム「LYDIA」｜ネイビー",
       "brand": "YANUK",
       "cat": "fashion",
       "sub": "ボトムス",
@@ -1268,8 +1268,8 @@ window.__LB_OVERRIDE__ = {
       "status": "published",
       "order": 19,
       "publishedAt": "2026-10-06T13:36:00.715Z",
-      "updatedAt": "2026-10-06T13:36:15.721Z",
-      "_rev": 2,
+      "updatedAt": "2026-10-20T15:25:14.365Z",
+      "_rev": 3,
       "_edited": true,
       "catManual": false,
       "categoryMeta": {
