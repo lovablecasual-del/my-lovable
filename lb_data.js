@@ -1220,7 +1220,7 @@ window.__LB_OVERRIDE__ = {
     },
     {
       "id": "pmuwq1znve3vz",
-      "name": "YANUK ワイドフレアデニム「LYDIA」｜ネイビー",
+      "name": "YANUK/(W)ワイドフレア\"LYDIA\" ヤヌーク パンツ ジーンズ・デニムパンツ ネイビー",
       "brand": "YANUK",
       "cat": "fashion",
       "sub": "ボトムス",
@@ -1268,8 +1268,8 @@ window.__LB_OVERRIDE__ = {
       "status": "published",
       "order": 19,
       "publishedAt": "2026-10-06T13:36:00.715Z",
-      "updatedAt": "2026-10-20T15:25:14.365Z",
-      "_rev": 3,
+      "updatedAt": "2026-10-06T13:36:15.721Z",
+      "_rev": 2,
       "_edited": true,
       "catManual": false,
       "categoryMeta": {
@@ -1475,33 +1475,62 @@ window.__LB_OVERRIDE__ = {
       "name": "LILY BROWN シャーリングフリルトップス",
       "brand": "LILY BROWN",
       "cat": "fashion",
-      "sub": "トップス",
-      "price": 0,
+      "sub": "アクセサリー",
+      "price": 13970,
       "rating": 0,
       "reviews": 0,
-      "copy": "",
-      "points": [],
-      "tag": "",
+      "copy": "【上品なボートネックと流れるシアーフリルで魅せる、ヴィンテージ調シャーリングブラウス】\n\n【Design/Styling】\n毎シーズン高い人気を博すシャーリングブラウスが、シーズンムードをドラマティックに高めるヴィンテージライクな素材感を纏って新登場。シアー感のある楊柳素材から生まれる流れるようなフリルが、女性らしく優美な佇まいを演出します。首元はすっきりとした上品なボートネックに仕立てることで大人の抜け感をプラスし、オフィスシーンにも着用できるクリーンな印象に仕上げました。シルエットに美しいメリハリを生むシャーリング使いで、ボトムスにインしてもアウトしてもバランスよく決まります。フェミニンなスカートからカジュアルなデニムまで幅広く落とし込みやすい、スタイリングの主役になるアイテムです。同色のインナーキャミソール付きなので、安心してブラウスの繊細な透け感をお楽しみいただけます。\n\n【Fabric】\n表情豊かな表面感と微細なシアー感が魅力の、上質な楊柳生地を使用しました。さらりとした軽やかな肌触りで、流れるようなフリルの立体感やドレープを美しく引き立てます。\n\n透け感;あり\n裏地;インナー付属\n伸縮性;なし\n光沢感;ややあり\n生地の厚さ;薄手\n\n※照明の関係により、実際よりも色味が違って見える場合があります。\nまたパソコン・スマートフォンなどの環境により、若干製品と画像のカラーが異なる場合もございます。予めご了承ください。\n商品の色味は、商品単品画像をご参照下さい。\n※商品画像はサンプルのため、色味やサイズ等の仕様に変更がある場合がございますので、予めご了承ください。\nアイテム詳細\n\n素材\n表地:【WHT･NVY】ポリエステル100%【PNK】ポリエステル73%、ナイロン27%\nインナー:ポリエステル100%\n原産国\n中国\nメーカー品番\nLWFT264071 (店舗でお問い合わせの際には、上記品番をお伝え下さい。)\n洗濯表記\n\nサイズ\t着丈\tバスト\t肩幅\t前下がり\tウエスト\t裾幅\t\n【インナーキャミソール】総丈\t【インナーキャミソール】バスト\nF\t55cm\t74.5cm\t33cm\t5.5cm\t58cm\t94cm\t47.5cm\t82cm\n",
+      "points": [
+        "*【上品なボートネックと流れるシアーフリルで魅せる、ヴィンテージ調シャーリングブラウス】**",
+        "[骨格ナチュラル]",
+        "[この商品に関する問い合わせ]",
+        "[特定商取引法に基づく表記]"
+      ],
+      "tag": "Lillybrown",
       "badge": "",
       "rank": null,
       "grad": "linear-gradient(150deg,#e8e4dc 0%,#c5bfb0 60%,#a3998a 100%)",
-      "imgs": [],
+      "imgs": [
+        "https://benent.net/images/541084100004/contents/LIL/LIL19016/coordinate/000166753/000166753_5fKknhZ1VDjF59ysRlhz.jpeg?dh=400&ds=s",
+        "https://benent.net/images/541084100004/contents/LIL/LIL15084/coordinate/000166646/000166646_fg3jZwrci4YG90WM5LHc.jpeg?dh=400&ds=s",
+        "https://benent.net/images/541084100004/contents/LIL/LIL221218/coordinate/000166522/000166522_5esu1N2m9lZbx3AJ00BL.jpeg?dh=400&ds=s",
+        "https://benent.net/images/541084100004/contents/LIL/LIL11317/coordinate/000165299/000165299_A4hV4njcaXQJZTWwVqb6.jpeg?dh=400&ds=s"
+      ],
       "shops": [],
       "links": {},
       "social": {},
       "spec": {},
-      "userReviews": [],
-      "tags": [],
+      "userReviews": [
+        {
+          "name": "ikkun",
+          "meta": "30代・骨格ウェーブ",
+          "rating": 5,
+          "body": "ネイビーを購入しました♡\n今季はドットアイテムが可愛くて、ついつい目がいっちゃう…♡\n\nふんわりとしたシフォン素材で、甘めにも大人上品にも着られるお気に入りの1枚。\n私はデニムと合わせて、少しカジュアルダウンして着るのが好き！\n\nショート丈でウエスト位置にデザインがあるので、自然と腰位置が高く見えてスタイルアップ効果も◎\n骨格ウェーブさんにもおすすめしたいトップスです♡"
+        }
+      ],
+      "tags": [
+        "Lillybrown",
+        "トップス"
+      ],
       "badges": [],
       "repeatPurchase": false,
       "status": "published",
       "order": 0,
       "publishedAt": "2026-10-13T00:00:00.000Z",
-      "updatedAt": "2026-10-13T00:00:00.000Z",
-      "_rev": 0,
-      "_edited": false,
+      "updatedAt": "2026-10-20T15:47:08.600Z",
+      "_rev": 1,
+      "_edited": true,
       "catManual": false,
-      "categoryMeta": {}
+      "categoryMeta": {
+        "common": "Fashion",
+        "source": "keyword-assist",
+        "confidence": "medium",
+        "originalCategory": "",
+        "originalCategoryId": "",
+        "shopCategory": "",
+        "mappedAt": "2026-10-20T15:39:23.739Z",
+        "auto": true
+      }
     },
     {
       "id": "p32",
