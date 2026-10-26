@@ -173,6 +173,26 @@
 })();
 </script>
 <script>
+// LOVABLE: fix hero copy — update old bundle default to lb_data.js value
+(function(){
+  try {
+    var KEY = 'lovable.cms.v2';
+    var raw = localStorage.getItem(KEY);
+    if (!raw) return;
+    var s = JSON.parse(raw);
+    if (!s || !s.site || !s.site.hero) return;
+    // Only overwrite if still showing the old bundle default (not an admin-edited value)
+    var OLD = '暮らしを整える\n小さな贅沢。';
+    var NEW = 'ときめくものだけ\n日常に。';
+    if (s.site.hero.copy === OLD) {
+      s.site.hero.copy = NEW;
+      localStorage.setItem(KEY, JSON.stringify(s));
+      console.log('[LOVABLE] Updated hero copy to current lb_data.js value');
+    }
+  } catch(e) {}
+})();
+</script>
+<script>
 // LOVABLE: restore admin control over ranking labels (remove migration overrides)
 (function(){
   try {
