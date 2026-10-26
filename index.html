@@ -1003,6 +1003,7 @@ document.addEventListener('DOMContentLoaded', async function() {
         '.socialgrid { grid-template-columns: 1fr 1fr !important; gap: 12px !important; }\n' +
         '.socialcard__name { font-size: 12px !important; }\n' +
         // 商品詳細ページ (PDP)
+        '.pdp { overflow-x: hidden !important; }\n' +
         '.pdp__top { grid-template-columns: 1fr !important; gap: 0 !important; padding-bottom: 20px !important; }\n' +
         '.pdp__media { position: static !important; }\n' +
         // Gallery: 縦並び（メイン上・サムネ下横スクロール）
@@ -1010,6 +1011,7 @@ document.addEventListener('DOMContentLoaded', async function() {
         '.gallery__thumbs { flex-direction: row !important; overflow-x: auto; -webkit-overflow-scrolling: touch; gap: 8px !important; scrollbar-width: none; }\n' +
         '.gallery__thumbs::-webkit-scrollbar { display: none; }\n' +
         '.gallery__thumb { flex-shrink: 0; width: 68px !important; height: 68px !important; }\n' +
+        '.gallery__main { touch-action: pan-y !important; }\n' +
         // Gallery メイン画像：vh基準で縦幅を最適化（スクロール距離を短縮）\n' +
         '.gallery__main .ph { aspect-ratio: unset !important; height: min(50vh, 430px) !important; padding-top: 0 !important; }\n' +
         '.pdp__info { padding-top: 14px !important; }\n' +
