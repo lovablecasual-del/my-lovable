@@ -361,6 +361,11 @@ try {
    「AIっぽさをなくす」引き算デザイン
    ============================================================ */
 
+/* ─── SP横スクロール防止 ─── */
+@media (max-width: 767px) {
+  body { overflow-x: hidden; }
+}
+
 /* ─── Global token refinements ─── */
 :root {
   --r-md: 6px;
@@ -577,15 +582,10 @@ try {
   .gallery__thumb { border-radius: 4px !important; }
 
   /* ── ギャラリー横スクロール overflow fix ── */
-  .gallery { overflow: hidden !important; }
   .gallery__thumbs {
-    min-width: 0 !important;
-    width: 100% !important;
-    display: flex !important;
-    flex-direction: row !important;
+    max-width: calc(100vw - 40px) !important;
     overflow-x: auto !important;
     -webkit-overflow-scrolling: touch !important;
-    flex-wrap: nowrap !important;
   }
 }
 </style>
