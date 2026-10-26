@@ -16,6 +16,7 @@ window.__LB_OVERRIDE__ = {
         "アシメントリーなペプラムで上半身を華やかに"
       ],
       "tag": "Rakuten Fashion",
+      "badge": "",
       "rank": 2,
       "grad": "linear-gradient(150deg,#e3ddd2 0%,#cabfa9 60%,#a99d83 100%)",
       "imgs": [
@@ -178,6 +179,7 @@ window.__LB_OVERRIDE__ = {
         "重ねてハイライトとしても使える"
       ],
       "tag": "Rakuten",
+      "badge": "",
       "rank": null,
       "grad": "linear-gradient(150deg,#f0e4df 0%,#e3cfc8 55%,#d2b3aa 100%)",
       "imgs": [
@@ -235,6 +237,7 @@ window.__LB_OVERRIDE__ = {
         "アウトバス・スタイリング両用"
       ],
       "tag": "Rakuten",
+      "badge": "",
       "rank": null,
       "grad": "linear-gradient(150deg,#ece2d0 0%,#dcccae 60%,#c8b386 100%)",
       "imgs": [
@@ -347,6 +350,7 @@ window.__LB_OVERRIDE__ = {
         "152cmは23インチ＋ベルト調整で好バランス（いっくん着用）"
       ],
       "tag": "ランキング1位",
+      "badge": "",
       "rank": 4,
       "grad": "linear-gradient(150deg,#e3ddd2 0%,#cabfa9 60%,#a99d83 100%)",
       "imgs": [
@@ -449,8 +453,8 @@ window.__LB_OVERRIDE__ = {
       "status": "published",
       "order": 15,
       "publishedAt": "2026-08-19T06:19:46.046Z",
-      "updatedAt": "2026-10-06T13:36:37.216Z",
-      "_rev": 1,
+      "updatedAt": "2026-10-26T09:55:35.752Z",
+      "_rev": 2,
       "_edited": true,
       "catManual": false,
       "categoryMeta": {}
@@ -526,6 +530,7 @@ window.__LB_OVERRIDE__ = {
         "細め・乾燥しやすい髪と好相性"
       ],
       "tag": "Rakuten",
+      "badge": "",
       "rank": null,
       "grad": "linear-gradient(150deg,#ece2d0 0%,#dcccae 60%,#c8b386 100%)",
       "imgs": [
@@ -1198,8 +1203,8 @@ window.__LB_OVERRIDE__ = {
       "status": "published",
       "order": 18,
       "publishedAt": "2026-10-06T09:31:37.336Z",
-      "updatedAt": "2026-10-06T13:36:27.513Z",
-      "_rev": 2,
+      "updatedAt": "2026-10-26T09:55:52.670Z",
+      "_rev": 3,
       "_edited": true,
       "catManual": true,
       "categoryMeta": {
@@ -1263,8 +1268,8 @@ window.__LB_OVERRIDE__ = {
       "status": "published",
       "order": 19,
       "publishedAt": "2026-10-06T13:36:00.715Z",
-      "updatedAt": "2026-10-06T13:36:15.721Z",
-      "_rev": 2,
+      "updatedAt": "2026-10-26T09:55:17.686Z",
+      "_rev": 3,
       "_edited": true,
       "catManual": false,
       "categoryMeta": {
@@ -2602,7 +2607,7 @@ window.__LB_OVERRIDE__ = {
       "ogimg": ""
     },
     "translations": {
-      "top.ranking.eyebrow": "MY TOP PICKS"
+      "top.ranking.eyebrow": "LOVABLE PICKS"
     },
     "socialFeatured": {
       "enabled": true,
