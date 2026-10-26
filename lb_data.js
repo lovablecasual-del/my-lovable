@@ -2,7 +2,7 @@ window.__LB_OVERRIDE__ = {
   "PRODUCTS": [
     {
       "id": "p1",
-      "name": "FRAY I.D アシメ ペプラムチュニック",
+      "name": "FRAY I.D アシメペプラムチュニック",
       "brand": "FRAY I.D",
       "cat": "fashion",
       "sub": "トップス",
@@ -60,7 +60,7 @@ window.__LB_OVERRIDE__ = {
     },
     {
       "id": "p6",
-      "name": "FRAY I.D サイドスリット レーストリムキャミ",
+      "name": "FRAY I.D サイドスリットレーストリムキャミソール",
       "brand": "FRAY I.D",
       "cat": "fashion",
       "sub": "トップス",
@@ -281,7 +281,7 @@ window.__LB_OVERRIDE__ = {
     },
     {
       "id": "p15",
-      "name": "hoyu バイカルテ エッセンスミルク",
+      "name": "BYKARTE エッセンスミルク 95ml",
       "brand": "バイカルテ",
       "cat": "beauty",
       "sub": "ヘアケア",
@@ -336,7 +336,7 @@ window.__LB_OVERRIDE__ = {
     },
     {
       "id": "p16",
-      "name": "Levi's 318 シェーピング ワイドレッグ デニム",
+      "name": "Levi's 318 シェーピング ワイドレッグデニム｜ミディアムインディゴ",
       "brand": "Levi's",
       "cat": "fashion",
       "sub": "ボトムス",
@@ -461,7 +461,7 @@ window.__LB_OVERRIDE__ = {
     },
     {
       "id": "p17",
-      "name": "hoyu バイカルテ リペアシャンプー＆トリートメント",
+      "name": "BYKARTE リペアシャンプー＆セラムトリートメントセット",
       "brand": "バイカルテ",
       "cat": "beauty",
       "sub": "ヘアケア",
@@ -685,7 +685,7 @@ window.__LB_OVERRIDE__ = {
     },
     {
       "id": "p21",
-      "name": "Anua ヒアルロン酸カテキン カーミングパッド 110枚",
+      "name": "anua トナーパッド｜選べる7種類",
       "brand": "Anua",
       "cat": "beauty",
       "sub": "スキンケア",
@@ -802,7 +802,7 @@ window.__LB_OVERRIDE__ = {
     },
     {
       "id": "p23",
-      "name": "GOODAL グリーンタンジェリン ビタC ダークスポットケア アンプル",
+      "name": "goodal ビタCダークスポットケアアンプル",
       "brand": "GOODAL",
       "cat": "beauty",
       "sub": "スキンケア",
@@ -1032,7 +1032,7 @@ window.__LB_OVERRIDE__ = {
     },
     {
       "id": "p27",
-      "name": "cado カドー 空気清浄機 LEAF 320 (AP-C320)",
+      "name": "cado 空気清浄機",
       "brand": "cado",
       "cat": "lifestyle",
       "sub": "ガジェット",
@@ -1090,7 +1090,7 @@ window.__LB_OVERRIDE__ = {
     },
     {
       "id": "pmuwh7x4v4az0",
-      "name": "レーストリムティアードロングドレス SNIDEL スナイデル ワンピース・ドレス ワンピース ブラック[Rakuten ",
+      "name": "SNIDEL レーストリムティアードロングドレス",
       "brand": "",
       "cat": "fashion",
       "sub": "ワンピース",
@@ -1154,7 +1154,7 @@ window.__LB_OVERRIDE__ = {
     },
     {
       "id": "pmuwhbpbshva0",
-      "name": "SNIDEL ボリュームフリルペプラムカーディガン スナイデル トップス カーディガン ネイビー グレー ブラック レッ",
+      "name": "SNIDEL ボリュームフリルペプラムカーディガン",
       "brand": "SNIDEL",
       "cat": "fashion",
       "sub": "トップス",
@@ -1220,7 +1220,7 @@ window.__LB_OVERRIDE__ = {
     },
     {
       "id": "pmuwq1znve3vz",
-      "name": "YANUK/(W)ワイドフレア\"LYDIA\" ヤヌーク パンツ ジーンズ・デニムパンツ ネイビー",
+      "name": "YANUK ワイドフレアデニム「LYDIA」｜ネイビー",
       "brand": "YANUK",
       "cat": "fashion",
       "sub": "ボトムス",
@@ -1355,7 +1355,7 @@ window.__LB_OVERRIDE__ = {
     },
     {
       "id": "p29",
-      "name": "cado 加湿器専用カートリッジ STEM 700i・630i・620対応",
+      "name": "cado 加湿器専用カートリッジ｜STEM 700i・630i・620対応",
       "brand": "cado",
       "cat": "lifestyle",
       "sub": "ガジェット",
@@ -1534,7 +1534,7 @@ window.__LB_OVERRIDE__ = {
     },
     {
       "id": "p32",
-      "name": "SNIDEL タックワイドパンツ",
+      "name": "SNIDEL タックワイドパンツ｜ウォッシャブル",
       "brand": "SNIDEL",
       "cat": "fashion",
       "sub": "ボトムス",
@@ -2019,7 +2019,7 @@ window.__LB_OVERRIDE__ = {
     },
     {
       "id": "p43",
-      "name": "光のとこにいてね",
+      "name": "光のとこにいてね｜文春文庫",
       "brand": "一穂ミチ",
       "cat": "book",
       "sub": "小説",
@@ -2056,7 +2056,7 @@ window.__LB_OVERRIDE__ = {
     },
     {
       "id": "p44",
-      "name": "凍りのくじら",
+      "name": "凍りのくじら｜講談社文庫",
       "brand": "辻村深月",
       "cat": "book",
       "sub": "小説",
@@ -2093,7 +2093,7 @@ window.__LB_OVERRIDE__ = {
     },
     {
       "id": "p45",
-      "name": "朝が来る",
+      "name": "朝が来る｜文春文庫",
       "brand": "辻村深月",
       "cat": "book",
       "sub": "小説",
@@ -2204,7 +2204,7 @@ window.__LB_OVERRIDE__ = {
     },
     {
       "id": "p48",
-      "name": "法廷遊戯",
+      "name": "法廷遊戯｜講談社文庫",
       "brand": "五十嵐律人",
       "cat": "book",
       "sub": "小説",
@@ -2241,7 +2241,7 @@ window.__LB_OVERRIDE__ = {
     },
     {
       "id": "p49",
-      "name": "殺戮にいたる病",
+      "name": "殺戮にいたる病｜新装版・講談社文庫",
       "brand": "我孫子武丸",
       "cat": "book",
       "sub": "小説",
