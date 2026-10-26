@@ -937,6 +937,235 @@ document.addEventListener('DOMContentLoaded', async function() {
 
 
 
-</style>\n</head>\n<body>\n\n<div id=\"root\"></div>\n\n<script src=\"4a323311-5b0f-446d-8735-e97164d310db\" integrity=\"sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L\" crossorigin=\"anonymous\"></script>\n<script src=\"51b362c5-554a-466a-839d-019ac7f7113f\" integrity=\"sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm\" crossorigin=\"anonymous\"></script>\n<script src=\"9ff45544-46af-450d-8a0c-1e2f4a3222c8\" integrity=\"sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y\" crossorigin=\"anonymous\"></script>\n\n<script src=\"976b3f5c-fdb3-445b-af03-232cd0b977ca\"></script>\n<script src=\"bf0ed0ec-7bbb-419f-8a57-1d8c9f4b01ed\"></script>\n<script src=\"46e007da-769e-4c52-9182-0c48969d3617\"></script>\n<script src=\"14f8697b-24c9-4998-8efc-26598f3e30bd\"></script>\n<script src=\"5d4dd122-7718-4f54-afc9-4526a8b7ff68\"></script>\n<script type=\"text/babel\" src=\"ce93274c-afdd-4f85-8d62-2c10ad748cae\"></script>\n<script type=\"text/babel\" src=\"b729589f-46df-4079-acf9-959c9bf7d9c7\"></script>\n<script type=\"text/babel\" src=\"1dd976c3-9b46-4cdd-9f73-c457a16b41ba\"></script>\n<script type=\"text/babel\" src=\"29138e9f-c3ed-4289-b6de-f1fa1af9fee6\"></script>\n<script type=\"text/babel\" src=\"9fcb2184-66b8-4e50-81ee-4c7d4b418709\"></script>\n<script type=\"text/babel\" src=\"cd537e59-2091-4210-8e62-36f1c00b7daa\"></script>\n<script type=\"text/javascript\" src=\"lb-tiktok-store-v1\"></script>\n<script type=\"text/javascript\" src=\"lb-analytics-tracker-v1\"></script>\n<script type=\"text/javascript\" src=\"lb-tiktok-storefront-v1\"></script>\n<script type=\"text/babel\" src=\"80e7e81b-1e59-4e39-925a-1bb439071deb\"></script>\n\n\n</body></html>"</script>
+</style>\n
+<style>
+/* ============================================================
+   LOVABLE — Editorial Refinement v3
+   SP polish: Typography · Rhythm · Character
+   「AIっぽさをなくす」引き算デザイン
+   ============================================================ */
+
+/* ─── Global token refinements ─── */
+:root {
+  --r-md: 6px;
+  --r-lg: 10px;
+}
+
+/* ─── FV (hero stack) SP ─── */
+@media (max-width: 767px) {
+  .hero--stack { padding-top: 32px !important; padding-bottom: 0 !important; }
+  .hero__stack-head { text-align: left !important; padding-inline: 20px !important; }
+  .hero--stack .eyebrow {
+    font-size: 9px !important;
+    letter-spacing: .2em !important;
+    margin-bottom: 10px !important;
+    display: block !important;
+  }
+  .hero__title {
+    font-size: min(13vw, 46px) !important;
+    line-height: 1.15 !important;
+    letter-spacing: -.02em !important;
+    margin-bottom: 22px !important;
+    word-break: keep-all !important;
+  }
+  .hero__lead {
+    padding-inline: 20px !important;
+    margin-top: 18px !important;
+    gap: 10px !important;
+    justify-content: flex-start !important;
+  }
+  .hero__lead .btn {
+    border-radius: 2px !important;
+    font-size: 11.5px !important;
+    letter-spacing: .12em !important;
+    padding: 14px 26px !important;
+    font-weight: 700 !important;
+    min-height: 46px !important;
+  }
+  .hero__cat { border-radius: 4px !important; }
+}
+
+/* ─── Section rhythm ─── */
+@media (max-width: 767px) {
+  .sect { padding-block: 36px !important; }
+  .sect--sink { padding-block: 36px !important; }
+  #ranking { padding-block: 44px !important; }
+  #new { padding-block: 28px !important; }
+  #features { padding-block: 44px !important; }
+  #social-featured { padding-block: 32px !important; }
+}
+
+/* ─── Section headers: break the monotony ─── */
+@media (max-width: 767px) {
+  .section-title {
+    font-size: 21px !important;
+    font-weight: 700 !important;
+    letter-spacing: -.01em !important;
+    color: var(--fg) !important;
+    line-height: 1.25 !important;
+  }
+  .section-head .eyebrow {
+    font-size: 9px !important;
+    letter-spacing: .2em !important;
+    color: var(--fg-muted) !important;
+    margin-bottom: 2px !important;
+  }
+  /* JUST IN: left border accent */
+  #new .section-head {
+    border-left: 2px solid var(--gold) !important;
+    padding-left: 12px !important;
+  }
+  /* AS SEEN ON SOCIAL */
+  #social-featured .section-head {
+    border-left: 2px solid var(--gold) !important;
+    padding-left: 12px !important;
+  }
+  /* Ranking: serif italic + top rule */
+  #ranking .section-head {
+    border-top: 1px solid var(--line) !important;
+    padding-top: 18px !important;
+    margin-bottom: 22px !important;
+  }
+  #ranking .section-title {
+    font-family: var(--serif) !important;
+    font-style: italic !important;
+    font-weight: 500 !important;
+    font-size: 24px !important;
+  }
+  /* JOURNAL: centered serif italic */
+  #features .section-head {
+    align-items: center !important;
+    text-align: center !important;
+  }
+  #features .section-title {
+    font-family: var(--serif) !important;
+    font-style: italic !important;
+    font-weight: 400 !important;
+    font-size: 24px !important;
+  }
+  /* Categories: bottom rule */
+  #categories .section-head {
+    border-bottom: 1px solid var(--line) !important;
+    padding-bottom: 14px !important;
+    margin-bottom: 22px !important;
+  }
+}
+
+/* ─── Product cards ─── */
+@media (max-width: 767px) {
+  .card__media { border-radius: 4px !important; }
+  .card__body { padding: 9px 0 6px !important; }
+  .card__brand {
+    font-size: 9px !important;
+    letter-spacing: .16em !important;
+    color: var(--fg-muted) !important;
+    margin-bottom: 3px !important;
+    font-weight: 600 !important;
+  }
+  .card__name {
+    font-size: 13px !important;
+    line-height: 1.5 !important;
+    margin-bottom: 5px !important;
+    color: var(--fg) !important;
+    font-weight: 500 !important;
+  }
+  .card__price {
+    font-size: 13.5px !important;
+    font-weight: 700 !important;
+    color: var(--fg) !important;
+    letter-spacing: .01em !important;
+  }
+  .card__heart { opacity: 1 !important; transform: none !important; }
+  .prodgrid--4, .prodgrid--3 { gap: 18px 12px !important; }
+}
+
+/* ─── SNS section: remove gradient ─── */
+.sns-section {
+  background: var(--ivory-2) !important;
+  margin-top: 0 !important;
+  border-top: 1px solid var(--line) !important;
+  border-bottom: 1px solid var(--line) !important;
+  padding: 44px 20px !important;
+}
+
+/* ─── JOURNAL featcard ─── */
+@media (max-width: 767px) {
+  .featcard { border-radius: 6px !important; }
+  .featcard__title {
+    font-size: 15px !important;
+    line-height: 1.45 !important;
+    font-weight: 500 !important;
+    letter-spacing: .01em !important;
+  }
+  .featcard__kicker {
+    font-size: 9px !important;
+    letter-spacing: .18em !important;
+    opacity: .8 !important;
+  }
+  .featcard__excerpt {
+    font-size: 12.5px !important;
+    line-height: 1.7 !important;
+  }
+}
+
+/* ─── Ranking SP ─── */
+@media (max-width: 767px) {
+  .rankhero__media { border-radius: 6px !important; }
+  .rankhero__no {
+    opacity: .28 !important;
+    text-shadow: none !important;
+  }
+  .rankhero__name { font-size: 16px !important; line-height: 1.35 !important; }
+  .rankrow { padding: 10px 2px !important; }
+  .rankrow__name { font-size: 12.5px !important; line-height: 1.4 !important; }
+}
+
+/* ─── QuoteBand ─── */
+@media (max-width: 767px) {
+  .quoteband { padding-block: 36px !important; }
+  .quoteband__text {
+    font-size: clamp(19px, 5.5vw, 26px) !important;
+    line-height: 1.55 !important;
+  }
+}
+
+/* ─── Category page ─── */
+@media (max-width: 767px) {
+  .cathero__inner { padding-top: 18px !important; padding-bottom: 14px !important; }
+  .cathero__title {
+    font-size: clamp(20px, 5.5vw, 26px) !important;
+    font-weight: 700 !important;
+    letter-spacing: -.01em !important;
+    line-height: 1.2 !important;
+  }
+  .cathero__eyebrow { font-size: 9px !important; letter-spacing: .18em !important; }
+  .filterbar__pills { gap: 6px !important; }
+  .pill { border-radius: 4px !important; font-size: 11px !important; padding: 6px 12px !important; }
+  .pill--active { border-radius: 4px !important; }
+}
+
+/* ─── PDP SP polish ─── */
+@media (max-width: 767px) {
+  .pdp__title {
+    font-size: clamp(20px, 5.8vw, 28px) !important;
+    line-height: 1.22 !important;
+    letter-spacing: -.01em !important;
+    font-weight: 700 !important;
+  }
+  .pdp__price {
+    font-size: 22px !important;
+    font-weight: 700 !important;
+    letter-spacing: .03em !important;
+  }
+  .pdp__shopbtn {
+    border-radius: 2px !important;
+    font-size: 13px !important;
+    letter-spacing: .1em !important;
+    font-weight: 700 !important;
+  }
+  .gallery__thumb { border-radius: 4px !important; }
+}
+</style>
+</head>\n<body>\n\n<div id=\"root\"></div>\n\n<script src=\"4a323311-5b0f-446d-8735-e97164d310db\" integrity=\"sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L\" crossorigin=\"anonymous\"></script>\n<script src=\"51b362c5-554a-466a-839d-019ac7f7113f\" integrity=\"sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm\" crossorigin=\"anonymous\"></script>\n<script src=\"9ff45544-46af-450d-8a0c-1e2f4a3222c8\" integrity=\"sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y\" crossorigin=\"anonymous\"></script>\n\n<script src=\"976b3f5c-fdb3-445b-af03-232cd0b977ca\"></script>\n<script src=\"bf0ed0ec-7bbb-419f-8a57-1d8c9f4b01ed\"></script>\n<script src=\"46e007da-769e-4c52-9182-0c48969d3617\"></script>\n<script src=\"14f8697b-24c9-4998-8efc-26598f3e30bd\"></script>\n<script src=\"5d4dd122-7718-4f54-afc9-4526a8b7ff68\"></script>\n<script type=\"text/babel\" src=\"ce93274c-afdd-4f85-8d62-2c10ad748cae\"></script>\n<script type=\"text/babel\" src=\"b729589f-46df-4079-acf9-959c9bf7d9c7\"></script>\n<script type=\"text/babel\" src=\"1dd976c3-9b46-4cdd-9f73-c457a16b41ba\"></script>\n<script type=\"text/babel\" src=\"29138e9f-c3ed-4289-b6de-f1fa1af9fee6\"></script>\n<script type=\"text/babel\" src=\"9fcb2184-66b8-4e50-81ee-4c7d4b418709\"></script>\n<script type=\"text/babel\" src=\"cd537e59-2091-4210-8e62-36f1c00b7daa\"></script>\n<script type=\"text/javascript\" src=\"lb-tiktok-store-v1\"></script>\n<script type=\"text/javascript\" src=\"lb-analytics-tracker-v1\"></script>\n<script type=\"text/javascript\" src=\"lb-tiktok-storefront-v1\"></script>\n<script type=\"text/babel\" src=\"80e7e81b-1e59-4e39-925a-1bb439071deb\"></script>\n\n\n</body></html>"</script>
 </body>
 </html>
