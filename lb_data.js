@@ -16,7 +16,6 @@ window.__LB_OVERRIDE__ = {
         "アシメントリーなペプラムで上半身を華やかに"
       ],
       "tag": "Rakuten Fashion",
-      "badge": "いっくんのお気に入り",
       "rank": 2,
       "grad": "linear-gradient(150deg,#e3ddd2 0%,#cabfa9 60%,#a99d83 100%)",
       "imgs": [
@@ -179,7 +178,6 @@ window.__LB_OVERRIDE__ = {
         "重ねてハイライトとしても使える"
       ],
       "tag": "Rakuten",
-      "badge": "いっくんのお気に入り",
       "rank": null,
       "grad": "linear-gradient(150deg,#f0e4df 0%,#e3cfc8 55%,#d2b3aa 100%)",
       "imgs": [
@@ -237,7 +235,6 @@ window.__LB_OVERRIDE__ = {
         "アウトバス・スタイリング両用"
       ],
       "tag": "Rakuten",
-      "badge": "いっくんのお気に入り",
       "rank": null,
       "grad": "linear-gradient(150deg,#ece2d0 0%,#dcccae 60%,#c8b386 100%)",
       "imgs": [
@@ -350,7 +347,6 @@ window.__LB_OVERRIDE__ = {
         "152cmは23インチ＋ベルト調整で好バランス（いっくん着用）"
       ],
       "tag": "ランキング1位",
-      "badge": "いっくんイチオシ",
       "rank": 4,
       "grad": "linear-gradient(150deg,#e3ddd2 0%,#cabfa9 60%,#a99d83 100%)",
       "imgs": [
@@ -530,7 +526,6 @@ window.__LB_OVERRIDE__ = {
         "細め・乾燥しやすい髪と好相性"
       ],
       "tag": "Rakuten",
-      "badge": "いっくんの一番",
       "rank": null,
       "grad": "linear-gradient(150deg,#ece2d0 0%,#dcccae 60%,#c8b386 100%)",
       "imgs": [
