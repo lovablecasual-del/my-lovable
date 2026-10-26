@@ -1,15 +1,15 @@
 #!/bin/bash
 cd "$(dirname "$0")"
 rm -f .git/HEAD.lock .git/index.lock
-git add index.html
-git commit -m "fix: PDP画像高さバグ修正（padding-topトリックでSafari対応）
+git add index.html assets/menu/
+git commit -m "feat: SPメニューアイコンをイラスト画像に変更
 
-修正内容:
-1. [CSS] .gallery__main .ph の aspect-ratio を padding-top:125% + height:0 に変更
-   → aspect-ratioがSafariで効かない問題をpadding-topトリックで回避
-   → 縦横比4:5 → 125% (=5/4×100%) で正しい高さを保証
-2. [Ph] loading=lazy 削除済み（前回コミット）
-3. [data] Levi's p16 無効URL削除済み（前回コミット）"
+変更内容:
+- assets/menu/ に6枚のカテゴリイラスト画像を追加
+  (beauty / fashion / lifestyle / travel / ranking / journal)
+- DrawerNavのアイコン表示をemoji→イラスト画像(44px)に変更
+  URLキーワードで自動マッピング（/category/beauty → beauty.png など）
+- .mnav__icon の幅を28px→44px に拡張、.mnav__icon-img CSS追加"
 echo ""
 echo "Pushing... (enter your GitHub token as password when prompted)"
 git push https://lovablecasual-del@github.com/lovablecasual-del/my-lovable.git
