@@ -361,9 +361,9 @@ try {
    「AIっぽさをなくす」引き算デザイン
    ============================================================ */
 
-/* ─── SP横スクロール防止 ─── */
+/* ─── SP横スクロール防止: ギャラリーコンテナのみ ─── */
 @media (max-width: 767px) {
-  body { overflow-x: hidden; }
+  .gallery { overflow: hidden; }
 }
 
 /* ─── Global token refinements ─── */
@@ -583,9 +583,9 @@ try {
 
   /* ── ギャラリー横スクロール overflow fix ── */
   .gallery__thumbs {
-    max-width: calc(100vw - 40px) !important;
     overflow-x: auto !important;
     -webkit-overflow-scrolling: touch !important;
+    width: 100% !important;
   }
 }
 </style>
