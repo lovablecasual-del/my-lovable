@@ -2602,7 +2602,7 @@ window.__LB_OVERRIDE__ = {
       "ogimg": ""
     },
     "translations": {
-      "top.ranking.eyebrow": "LOVABLE PICKS"
+      "top.ranking.eyebrow": "MY TOP PICKS"
     },
     "socialFeatured": {
       "enabled": true,
