@@ -575,6 +575,18 @@ try {
     font-weight: 700 !important;
   }
   .gallery__thumb { border-radius: 4px !important; }
+
+  /* ── ギャラリー横スクロール overflow fix ── */
+  .gallery { overflow: hidden !important; }
+  .gallery__thumbs {
+    min-width: 0 !important;
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: row !important;
+    overflow-x: auto !important;
+    -webkit-overflow-scrolling: touch !important;
+    flex-wrap: nowrap !important;
+  }
 }
 </style>
 </head>
