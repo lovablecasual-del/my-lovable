@@ -122,6 +122,29 @@
 })();
 </script>
 <script>
+// LOVABLE: remove いっくん badge texts from cached products
+(function(){
+  try {
+    var KEY = 'lovable.cms.v2';
+    var raw = localStorage.getItem(KEY);
+    if (!raw) return;
+    var s = JSON.parse(raw);
+    if (!s || !Array.isArray(s.products)) return;
+    var dirty = false;
+    s.products.forEach(function(p) {
+      if (p.badge && p.badge.indexOf('いっくん') !== -1) {
+        p.badge = '';
+        dirty = true;
+      }
+    });
+    if (dirty) {
+      localStorage.setItem(KEY, JSON.stringify(s));
+      console.log('[LOVABLE] Cleared badge texts from cached products');
+    }
+  } catch(e) {}
+})();
+</script>
+<script>
 window.__LB_OVERRIDE__ = null; // loaded from lb_data.js
 // Restore category nav images on this device
 try {
