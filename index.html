@@ -582,11 +582,17 @@ try {
   .gallery__thumb { border-radius: 4px !important; }
 
   /* ── ギャラリー横スクロール overflow fix ── */
+  /* touch-action: pan-y で gallery上の横スワイプをページスクロールに使わせない */
+  .gallery__main { touch-action: pan-y !important; }
   .gallery__thumbs {
     overflow-x: auto !important;
     -webkit-overflow-scrolling: touch !important;
     width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
   }
+  /* PDPコンテナ全体で横overflow をクリップ */
+  .pdp { max-width: 100% !important; overflow-x: hidden !important; }
 }
 </style>
 </head>
