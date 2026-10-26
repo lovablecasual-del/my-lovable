@@ -173,7 +173,7 @@
 })();
 </script>
 <script>
-// LOVABLE: update cached ranking labels
+// LOVABLE: restore admin control over ranking labels (remove migration overrides)
 (function(){
   try {
     var KEY = 'lovable.cms.v2';
@@ -182,19 +182,18 @@
     var s = JSON.parse(raw);
     if (!s || !s.content) return;
     var dirty = false;
-    var updates = {
-      'top.hero.ctaRanking': ['人気ランキングを見る', 'おすすめランキング'],
-      'top.ranking.eyebrow': ["Editor's Picks", 'MY TOP PICKS']
-    };
-    Object.keys(updates).forEach(function(k) {
-      if (s.content[k] === updates[k][0]) {
-        s.content[k] = updates[k][1];
+    // Remove keys that were force-set by a previous migration script
+    // so admin-registered values (or bundle defaults) take effect
+    var migrated = ['top.hero.ctaRanking', 'top.ranking.eyebrow'];
+    migrated.forEach(function(k) {
+      if (Object.prototype.hasOwnProperty.call(s.content, k)) {
+        delete s.content[k];
         dirty = true;
       }
     });
     if (dirty) {
       localStorage.setItem(KEY, JSON.stringify(s));
-      console.log('[LOVABLE] Updated ranking labels in cache');
+      console.log('[LOVABLE] Cleared ranking label overrides — admin/bundle defaults now active');
     }
   } catch(e) {}
 })();
