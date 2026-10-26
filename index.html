@@ -145,6 +145,34 @@
 })();
 </script>
 <script>
+// LOVABLE: remove バッグ/アクセサリー from Fashion subs in cached categories
+(function(){
+  try {
+    var KEY = 'lovable.cms.v2';
+    var raw = localStorage.getItem(KEY);
+    if (!raw) return;
+    var s = JSON.parse(raw);
+    if (!s || !Array.isArray(s.categories)) return;
+    var dirty = false;
+    s.categories.forEach(function(c) {
+      if (c.key === 'fashion' && Array.isArray(c.subs)) {
+        var newSubs = c.subs.filter(function(sub) {
+          return sub !== 'バッグ' && sub !== 'アクセサリー';
+        });
+        if (newSubs.length !== c.subs.length) {
+          c.subs = newSubs;
+          dirty = true;
+        }
+      }
+    });
+    if (dirty) {
+      localStorage.setItem(KEY, JSON.stringify(s));
+      console.log('[LOVABLE] Removed バッグ/アクセサリー from fashion subs in cache');
+    }
+  } catch(e) {}
+})();
+</script>
+<script>
 window.__LB_OVERRIDE__ = null; // loaded from lb_data.js
 // Restore category nav images on this device
 try {

@@ -2513,9 +2513,7 @@ window.__LB_OVERRIDE__ = {
       "subs": [
         "トップス",
         "ボトムス",
-        "ワンピース",
-        "バッグ",
-        "アクセサリー"
+        "ワンピース"
       ],
       "sortOrder": 1,
       "isVisible": true,
