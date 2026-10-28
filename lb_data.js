@@ -1920,12 +1920,12 @@ window.__LB_OVERRIDE__ = {
       "id": "p38",
       "name": "JOLEN クリームブリーチ マイルドタイプ 28g",
       "brand": "JOLEN",
-      "cat": "lifestyle",
+      "cat": "beauty",
       "sub": "日用品",
       "price": 3750,
       "rating": 4.4,
       "reviews": 19136,
-      "copy": "【注意事項】<br> ・ご使用に必ずパッチテストを行って下さい。 <br> ・発疹、かゆみ、赤くかぶれる等のトラブルがございましたら、本品のご使用を中止して下さい。 <br> ・絶対に目に入らないようにご注意ください。 <br> ※万が一、目に入った場合は、すぐに冷水で洗い流してください。 <br> ・肌に切り傷やすり傷がある場合は、傷が完治してからご使用ください。 <br> ・入浴直後等、毛穴が開いて肌が敏感になっている時は本品を使用しないで下さい。 <br> ・本品使用後24時間は肌を強い日差しに当てたり長時間日光に当たらないようにして下さい。 <br> ・スパチュラは常に清潔にしておいてください。",
+      "copy": "ジョレンクリームブリーチは、ヘアーポイントメッシュや染めたい部分のリタッチなども最適です。 クリーム状なので液だれなどの心配もありません。やわらかな透明感のある髪色に仕上ります。\n✅ ご使用方法 \n①スパチュラを使いクリームとパウダーを2:1の割合で体毛全体を覆えるほどの適量を混ぜ合わせます。\n②パウダーのザラザラ間がなくなりましたら体毛全体に伸ばします。\n③そのまま様子を見ながら10分から15分ほど放置します。 室内の気温にもよりますので明るくなりすぎないよう、小マメにチェックすることをおすすめいたします。\n④お好みの色になりましたらそのままぬるま湯で洗い流してください。",
       "points": [
         "肌に切り傷やすり傷がある場合は、傷が完治してからご使用ください。",
         "入浴直後等、毛穴が開いて肌が敏感になっている時は本品を使用しないで下さい。",
@@ -1936,32 +1936,36 @@ window.__LB_OVERRIDE__ = {
       "rank": null,
       "grad": "linear-gradient(150deg,#e8f0e8 0%,#c8dcc8 60%,#99bb99 100%)",
       "imgs": [
-        "https://m.media-amazon.com/images/I/71wHgQEN+nL._AC_SX450_.jpg",
-        "https://m.media-amazon.com/images/I/71wHgQEN+nL._AC_SX425_.jpg",
-        "https://m.media-amazon.com/images/I/71wHgQEN+nL._AC_SX466_.jpg",
-        "https://m.media-amazon.com/images/I/71wHgQEN+nL._AC_SX522_.jpg",
-        "https://m.media-amazon.com/images/I/71wHgQEN+nL._AC_SX569_.jpg",
-        "https://m.media-amazon.com/images/I/71wHgQEN+nL._AC_SX679_.jpg"
+        "https://m.media-amazon.com/images/I/71wHgQEN+nL._AC_SX450_.jpg"
       ],
       "shops": [
         "amazon"
       ],
       "links": {
-        "amazon": "https://www.amazon.co.jp/JOLEN-JAPAN-bleach-ジョレン-マイルドタイプ/dp/B00GNTXR1Q?pd_rd_w=LPwHi&content-id=amzn1.sym.308c03cc-4571-454b-b6e1-051d8b645bdf%3Aamzn1.symc.c946cdfb-3c15-48da-90e6-e9b2cb1b2953&pf_rd_p=308c03cc-4571-454b-b6e1-051d8b645bdf&pf_rd_r=29ANSZW9MN63YFEZ85T7&pd_rd_wg=qtxs2&pd_rd_r=41ee690a-779a-4f30-a604-eedb6ed08520&pd_rd_i=B00GNTXR1Q&linkCode=sl2&tag=ikkun08-22&linkId=5d377107df5dc7306a0a86e8a1554170&ref_=as_li_ss_tl&ascsubtag=srctok-2df9d5e6866c7eab&btn_type=ss&btn_ref=srctok-2df9d5e6866c7eab"
+        "amazon": "https://link.amazon/B0ixTtlK2"
       },
       "social": {},
       "spec": {},
-      "userReviews": [],
-      "tags": [],
+      "userReviews": [
+        {
+          "name": "ikkun",
+          "meta": "30代・骨格ウェーブ・イエベ",
+          "rating": 5,
+          "body": "眉毛の存在感が強めなので、私は2週間に1回くらい眉毛ブリーチをしてるよ❤︎\n\n以前使っていたものは刺激が強くて使えなくなってしまったのですが、口コミ評価が高かったこちらに変えてからは、私の場合は痛みを感じずに使えていてお気に入り♡\n\n手軽に眉毛の色を明るくできるので、面倒くさがりな私でも続けられてます◎\n\n眉毛の色が少し明るくなるだけで、顔全体がふんわり垢抜けた印象になるのでおすすめです♡"
+        }
+      ],
+      "tags": [
+        "眉毛"
+      ],
       "badges": [],
       "repeatPurchase": false,
       "status": "published",
       "order": 0,
       "publishedAt": "2026-10-13T00:00:00.000Z",
-      "updatedAt": "2026-10-28T10:43:54.501Z",
-      "_rev": 1,
+      "updatedAt": "2026-10-28T10:53:45.359Z",
+      "_rev": 2,
       "_edited": true,
-      "catManual": false,
+      "catManual": true,
       "categoryMeta": {
         "common": "Book",
         "source": "keyword-assist",
@@ -1977,112 +1981,190 @@ window.__LB_OVERRIDE__ = {
       "id": "p39",
       "name": "SAVAS シェイプ＆ビューティ ミルクティー風味 920g",
       "brand": "SAVAS",
-      "cat": "food",
-      "sub": "プロテイン",
+      "cat": "beauty",
+      "sub": "スキンケア",
       "price": 0,
       "rating": 0,
-      "reviews": 0,
-      "copy": "",
-      "points": [],
+      "reviews": 2,
+      "copy": "「ザバス フォーウーマン シェイプ&ビューティー ミルクティー風味」は、大豆プロテインと運動でキレイに引き締めたい女性にうれしい成分を配合した粉末プロテイン。引き締まったカラダづくりをサポートする「大豆プロテイン」と美容にうれしい「フィッシュコラーゲン」を配合しているので、健康的なキレイを目指すことができます。運動する女性のカラダづくりをサポートする6種のビタミンB群とビタミンA、C、D、Eに加えて、カルシウム、鉄、マグネシウムを配合しています。\n大豆の香ばしさが感じられる、すっきりとした甘さの飲みやすいミルクティー風味です。牛乳で溶かせば、まろやかなミルクティーのように召し上がれます。",
+      "points": [
+        "ミルクティー苦手なのですが、カルシウムと鉄分多めのミルクで割って飲んでます。",
+        "苦手な方でも飲みやすいです。",
+        "今のところ毎日朝昼1杯ずつ続けてます。",
+        "約1ヶ月さほど変化はないです。"
+      ],
       "tag": "",
       "badge": "",
       "rank": null,
       "grad": "linear-gradient(150deg,#f0ece8 0%,#dcd4c8 60%,#bba899 100%)",
-      "imgs": [],
+      "imgs": [
+        "https://m.media-amazon.com/images/I/712UVibr+NL._AC_SY450_.jpg",
+        "https://m.media-amazon.com/images/I/61Foyev2DIL.jpg"
+      ],
       "shops": [
         "amazon"
       ],
       "links": {
-        "amazon": "https://www.amazon.co.jp/dp/B0DGFW5LXM"
+        "amazon": "https://link.amazon/B0i9cCQJ4"
       },
       "social": {},
       "spec": {},
-      "userReviews": [],
-      "tags": [],
+      "userReviews": [
+        {
+          "name": "ikkun",
+          "meta": "30代・骨格ウェーブ・イエベ",
+          "rating": 5,
+          "body": "ソイプロテインって独特の味があって飲みにくいイメージだったけど、これは飲みやすくてお気に入り❤︎\n\n特にミルクティー味が美味しくて、プロテインとは思えないくらい飲みやすい♡\n\n粉もサッと溶けやすくて、ダマになりにくいところも嬉しいポイント◎\n\nお値段もお手頃なので、毎日無理なく続けやすいのも魅力！\n\nちなみに私はこのプロテインに青汁を混ぜて飲んでるよ♡\nなんだかすごく健康的な生活をしている気分になれるのもお気に入りポイント！笑"
+        }
+      ],
+      "tags": [
+        "プロテイン",
+        "体調管理",
+        "スキンケア"
+      ],
       "badges": [],
       "repeatPurchase": false,
       "status": "published",
       "order": 0,
       "publishedAt": "2026-10-13T00:00:00.000Z",
-      "updatedAt": "2026-10-13T00:00:00.000Z",
-      "_rev": 0,
-      "_edited": false,
-      "catManual": false,
+      "updatedAt": "2026-10-28T11:00:23.903Z",
+      "_rev": 1,
+      "_edited": true,
+      "catManual": true,
       "categoryMeta": {}
     },
     {
       "id": "p40",
       "name": "味の素 プロテインスープ コーンクリーム 600g",
       "brand": "味の素",
-      "cat": "food",
-      "sub": "スープ",
-      "price": 0,
+      "cat": "beauty",
+      "sub": "スキンケア",
+      "price": 3615,
       "rating": 0,
-      "reviews": 0,
-      "copy": "",
-      "points": [],
+      "reviews": 2,
+      "copy": "たんぱく質が1回で20g摂れる、甘さ控えめなコーンクリーム味のスープです。\n朝食や昼食、間食時、運動後にお湯を注ぐだけで手軽に作れて、理想のカラダづくりに役立ちます。\n甘いプロテイン、冷たいプロテインを我慢して飲んでいる方、ホットプロテインを探している方のお悩みを解決します。\n日ごろの筋トレの際、ホエイプロテインやソイプロテイン、プロテインバー、プロテインゼリー、プロテイン パック飲料、ジュニアプロテインを飲んでいる方にもお使いいただけます。\n毎日の食事や小腹が空いたときのおやつ・間食の置き換えとして、ダイエットのお供にも。",
+      "points": [
+        "普段のコーンスープより、とろみがありしっかり混ぜないと溶け残りそう。",
+        "でもその分腹持ちの良さそうな美味しいスープになりました。",
+        "届いたので早速半分量で飲んでみました。",
+        "クルトンとパセリを入れればお店のコーンスープ…。"
+      ],
       "tag": "",
       "badge": "",
       "rank": null,
       "grad": "linear-gradient(150deg,#f0ece8 0%,#dcd4c8 60%,#bba899 100%)",
-      "imgs": [],
+      "imgs": [
+        "https://m.media-amazon.com/images/I/71ra9qL1SxL.jpg",
+        "https://m.media-amazon.com/images/I/71fgAZMDDXL.jpg",
+        "https://m.media-amazon.com/images/I/71BG2yLt9mL.jpg",
+        "https://m.media-amazon.com/images/I/81cDxjz2CwL.jpg",
+        "https://m.media-amazon.com/images/I/711FGNPg9HL.jpg",
+        "https://m.media-amazon.com/images/I/71apFBWnQrL.jpg",
+        "https://m.media-amazon.com/images/I/71Nw5nIgxPL.jpg",
+        "https://m.media-amazon.com/images/S/aplus-media-library-service-media/da31d4ad-5fe3-4a97-b91d-3929080f7d86.__CR0,0,970,600_PT0_SX970_V1___.jpg"
+      ],
       "shops": [
         "amazon"
       ],
       "links": {
-        "amazon": "https://www.amazon.co.jp/dp/B0BQVBS6RP"
+        "amazon": "https://link.amazon/B02pNIJiH"
       },
       "social": {},
       "spec": {},
-      "userReviews": [],
-      "tags": [],
+      "userReviews": [
+        {
+          "name": "ikkun",
+          "meta": "30代・骨格ウェーブ・イエベ",
+          "rating": 5,
+          "body": "コーンスープ好きな人にぜひ試してほしいプロテイン❤︎\n\nプロテイン特有の粉っぽさが気にならなくて、普通のコーンスープみたいに飲めるのがお気に入り♡\n\n温かくして飲めるので、寒い季節や朝起きたばかりの体にもぴったり◎\n\n私は豆乳と混ぜて朝飲むのが日課になってるよ！\n\nこれが本当にめちゃくちゃ美味しい♡\n\n以前、皮膚科の先生からたんぱく質は肌の健康にも大切だと聞いて、それから毎日意識して摂るようにしています❤︎\n\n美味しく続けられるので、すっかり朝の定番アイテムです♡"
+        }
+      ],
+      "tags": [
+        "健康管理",
+        "プロテイン",
+        "スキンケア"
+      ],
       "badges": [],
       "repeatPurchase": false,
       "status": "published",
       "order": 0,
       "publishedAt": "2026-10-13T00:00:00.000Z",
-      "updatedAt": "2026-10-13T00:00:00.000Z",
-      "_rev": 0,
-      "_edited": false,
-      "catManual": false,
-      "categoryMeta": {}
+      "updatedAt": "2026-10-28T11:03:50.176Z",
+      "_rev": 1,
+      "_edited": true,
+      "catManual": true,
+      "categoryMeta": {
+        "common": "Other",
+        "source": "fallback",
+        "confidence": "low",
+        "originalCategory": "Health & Personal Care > Diet & Sports Nutrition > Vitamins, Minerals & Supplements > Protein > Whey",
+        "originalCategoryId": "",
+        "shopCategory": "Whey",
+        "mappedAt": "2026-10-28T11:00:51.150Z",
+        "auto": true
+      }
     },
     {
       "id": "p41",
       "name": "Lypo-C リポ・カプセル ビタミンC 28包",
       "brand": "Lypo-C",
-      "cat": "food",
-      "sub": "サプリメント",
+      "cat": "beauty",
+      "sub": "スキンケア",
       "price": 0,
       "rating": 0,
       "reviews": 0,
-      "copy": "",
+      "copy": "高配合ビタミンC: 1包あたり1000mgのビタミンCを配合し、日々の栄養補給をサポートいたします\n個包装タイプ: 28包入りの個包装形式で、持ち運びに便利で衛生的にご使用いただけます",
       "points": [],
       "tag": "",
       "badge": "",
       "rank": null,
       "grad": "linear-gradient(150deg,#f0ece8 0%,#dcd4c8 60%,#bba899 100%)",
-      "imgs": [],
+      "imgs": [
+        "https://m.media-amazon.com/images/I/61lTWCyI0EL.jpg",
+        "https://m.media-amazon.com/images/I/61SW6JT7n4L.jpg",
+        "https://m.media-amazon.com/images/I/51E28lSce4L.jpg",
+        "https://m.media-amazon.com/images/I/51a8-38N-eL.jpg",
+        "https://m.media-amazon.com/images/I/71bByT5ZDrL.jpg"
+      ],
       "shops": [
         "amazon"
       ],
       "links": {
-        "amazon": "https://www.amazon.co.jp/dp/B0DTHGD8RV"
+        "amazon": "https://link.amazon/B00CUNylm"
       },
       "social": {},
       "spec": {},
-      "userReviews": [],
-      "tags": [],
+      "userReviews": [
+        {
+          "name": "ikkun",
+          "meta": "30代・骨格ウェーブ・イエベ",
+          "rating": 5,
+          "body": "翌朝のお肌の調子がいい気がして、最近お気に入りのビタミンアイテム❤︎\n肌のくすみが気になるときにも、内側からのケアを意識して取り入れてるよ♡\n\nただ、味は本当にまずい！！笑\n\n私はオレンジジュースと一緒に一気に流し込むのがおすすめ◎\n田中みな実さんも愛用していると聞いたので、美容のために頑張って続けてます♡"
+        }
+      ],
+      "tags": [
+        "ビタミン",
+        "スキンケア"
+      ],
       "badges": [],
       "repeatPurchase": false,
       "status": "published",
       "order": 0,
       "publishedAt": "2026-10-13T00:00:00.000Z",
-      "updatedAt": "2026-10-13T00:00:00.000Z",
-      "_rev": 0,
-      "_edited": false,
+      "updatedAt": "2026-10-28T11:13:05.166Z",
+      "_rev": 1,
+      "_edited": true,
       "catManual": false,
-      "categoryMeta": {}
+      "categoryMeta": {
+        "common": "Health",
+        "source": "keyword-assist",
+        "confidence": "medium",
+        "originalCategory": "Health & Personal Care > Diet & Sports Nutrition > Vitamins, Minerals & Supplements > Vitamins > Vitamin C",
+        "originalCategoryId": "",
+        "shopCategory": "Vitamin C",
+        "mappedAt": "2026-10-28T11:09:16.648Z",
+        "auto": true
+      }
     },
     {
       "id": "p42",
@@ -2606,6 +2688,8 @@ window.__LB_OVERRIDE__ = {
       "isVisible": true,
       "locked": true,
       "isSystem": true,
+      "img": "",
+      "imgObjectPos": "center",
       "createdAt": "2026-09-03T06:19:46.046Z",
       "updatedAt": "2026-09-03T06:19:46.046Z"
     },
@@ -2626,6 +2710,8 @@ window.__LB_OVERRIDE__ = {
       "isVisible": true,
       "locked": true,
       "isSystem": true,
+      "img": "",
+      "imgObjectPos": "center",
       "createdAt": "2026-09-03T06:19:46.046Z",
       "updatedAt": "2026-09-03T06:19:46.046Z"
     },
@@ -2647,6 +2733,8 @@ window.__LB_OVERRIDE__ = {
       "isVisible": true,
       "locked": true,
       "isSystem": true,
+      "img": "",
+      "imgObjectPos": "center",
       "createdAt": "2026-09-03T06:19:46.046Z",
       "updatedAt": "2026-09-03T06:19:46.046Z"
     },
@@ -2667,6 +2755,8 @@ window.__LB_OVERRIDE__ = {
       "isVisible": true,
       "locked": true,
       "isSystem": true,
+      "img": "",
+      "imgObjectPos": "center",
       "createdAt": "2026-09-03T06:19:46.046Z",
       "updatedAt": "2026-09-10T15:34:12.361Z"
     }
