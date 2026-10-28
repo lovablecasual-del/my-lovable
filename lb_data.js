@@ -2170,260 +2170,439 @@ window.__LB_OVERRIDE__ = {
       "id": "p42",
       "name": "3M ネクスケア 靴ずれ保護テープ 4.5m",
       "brand": "3M",
-      "cat": "other",
-      "sub": "テープ",
-      "price": 0,
+      "cat": "lifestyle",
+      "sub": "日用品",
+      "price": 541,
       "rating": 0,
-      "reviews": 0,
-      "copy": "",
-      "points": [],
+      "reviews": 231,
+      "copy": "【製品情報】サイズ: 2.5cm×4.5m\n【新しい靴でも気にならない】靴擦れ防止テープを気になるところに貼るだけで、新しい靴を履いても、靴ずれを気にせずおでかけできます。\n【半透明で、どこに貼っても目立たない!】足のどこでも、目立たず長時間保護する靴擦れ防止テープ！見えやすいくるぶし、足の甲、かかとなど、様々な場所にご使用いただけます。\n【コンパクトサイズで持ち運びラクラク!】小さなサイズで持ち運びも便利！かばんのポケットにすっぽり入る靴擦れ防止テープで、お出かけ先や旅行先でもしっかり足元を守ります。\n【気軽にたっぷり使える!】手で簡単に切れて、気軽に使える60回分 ※1回約7cm使用として",
+      "points": [
+        "貼ったら痛くなくなるし、ベタベタもしないし。",
+        "その後も取れること無くピタッとついて、目立たないしこれまた良かったです。",
+        "出先で取れちゃった系ほつれちゃった系などの応急処置に使えますよー。",
+        "私の味方増えました。"
+      ],
       "tag": "",
       "badge": "",
       "rank": null,
       "grad": "linear-gradient(150deg,#eaeaea 0%,#d0d0d0 60%,#b0b0b0 100%)",
-      "imgs": [],
+      "imgs": [
+        "https://m.media-amazon.com/images/I/71lDIQRiTFL.jpg",
+        "https://m.media-amazon.com/images/I/71oT12t9EkL.jpg",
+        "https://m.media-amazon.com/images/I/81iiWZ0-PnL.jpg",
+        "https://m.media-amazon.com/images/I/71+oTrdfukL._AC_SY450_.jpg"
+      ],
       "shops": [
         "amazon"
       ],
       "links": {
-        "amazon": "https://www.amazon.co.jp/dp/B07CYJ1L8P"
+        "amazon": "https://link.amazon/B0avzRGVL"
       },
       "social": {},
       "spec": {},
-      "userReviews": [],
-      "tags": [],
+      "userReviews": [
+        {
+          "name": "ikkun",
+          "meta": "30代・骨格ウェーブ・イエベ・靴づれしがち",
+          "rating": 5,
+          "body": "新しい靴を履くと必ずと言っていいほど靴擦れしていた私の救世主アイテム❤︎\n\nこれ、本当にすごい！！笑\n\n靴擦れしやすい私でも、これを貼ってからは痛くならずに歩けることが増えて感動♡\n透明で目立ちにくいし剥がれやすいから、サンダル・ブーツ・ローファーにも使いやすいのが嬉しいポイント◎\n\n靴擦れしそうな場所にあらかじめ貼っておくだけなので、とっても簡単！\n今では靴擦れしやすい靴を履くときのお守り代わりにしてるよ♡\n\n靴づれなりやすい人ぜひ試してほしいアイテムです❤︎"
+        }
+      ],
+      "tags": [
+        "ケア"
+      ],
       "badges": [],
       "repeatPurchase": false,
       "status": "published",
       "order": 0,
       "publishedAt": "2026-10-13T00:00:00.000Z",
-      "updatedAt": "2026-10-13T00:00:00.000Z",
-      "_rev": 0,
-      "_edited": false,
+      "updatedAt": "2026-10-28T12:11:30.095Z",
+      "_rev": 1,
+      "_edited": true,
       "catManual": false,
-      "categoryMeta": {}
+      "categoryMeta": {
+        "common": "Other",
+        "source": "fallback",
+        "confidence": "low",
+        "originalCategory": "Health & Personal Care > Home Use Medical Supplies & Equipment > Bunion Pads",
+        "originalCategoryId": "",
+        "shopCategory": "Bunion Pads",
+        "mappedAt": "2026-10-28T12:06:53.504Z",
+        "auto": true
+      }
     },
     {
       "id": "p43",
       "name": "光のとこにいてね｜文春文庫",
       "brand": "一穂ミチ",
-      "cat": "book",
-      "sub": "小説",
-      "price": 0,
+      "cat": "lifestyle",
+      "sub": "日用品",
+      "price": 636,
       "rating": 0,
       "reviews": 0,
-      "copy": "",
-      "points": [],
+      "copy": "本屋大賞3位、島清恋愛文学賞受賞の話題作がついに文庫化!\n\n――切ないほど美しく、激しい愛の物語\n\nうらぶれた団地の片隅で出会った\n小学2年生の結珠と果遠。\n正反対の境遇に育ちながら、\n同じ孤独を抱えるふたりは強く惹かれ合うも、\n幸せな時間は唐突に終わりを迎える。\n8年後、名門女子校で思わぬ再会を\n果たしたふたりは――。\n\n人がひとを想う気持ちを最高純度で描く、\n本屋大賞3位、キノベス2位、直木賞候補、\n島清恋愛文学賞受賞と、\n大きな話題を呼んだ傑作長編が文庫化!",
+      "points": [
+        "そういう場面が出て来てちょっとゾワっとしてしまい興醒めした。",
+        "友情も行きすぎるとこうなるのか、と最後まで感情移入できないまま終わった。",
+        "途中経過が長々と感じた。",
+        "私の心が純粋でないせいかもしれないが。"
+      ],
       "tag": "",
       "badge": "",
       "rank": null,
       "grad": "linear-gradient(150deg,#f0eee8 0%,#dcd8c8 60%,#bbb499 100%)",
-      "imgs": [],
+      "imgs": [
+        "https://m.media-amazon.com/images/I/818bDjCuPaL.jpg",
+        "https://m.media-amazon.com/images/I/61zyFLwm9aL.jpg",
+        "https://m.media-amazon.com/images/I/71u6lUNagfL.jpg"
+      ],
       "shops": [
         "amazon"
       ],
       "links": {
-        "amazon": "https://www.amazon.co.jp/dp/4167924099"
+        "amazon": "https://link.amazon/B0iLNdblT"
       },
       "social": {},
       "spec": {},
-      "userReviews": [],
-      "tags": [],
+      "userReviews": [
+        {
+          "name": "ikkun",
+          "meta": "30代・骨格ウェーブ・読書好き",
+          "rating": 5,
+          "body": "人を想う気持ちや、言葉の表現が本当に美しくて、心がじんわり温かくなる小説❤︎\n\n物語にどんどん引き込まれて、気づいたら夢中で読み進めていました。\n\n結珠と果遠、ふたりの関係性がとても繊細に描かれていて、友情とも愛情とも言い切れない特別なつながりがすごく印象的。\n\n切なさもあるけれど、それ以上に誰かを大切に想う気持ちの尊さを感じられる作品でした。\n\n読み終わったあとも、ずっと心に余韻が残る一冊です♡"
+        }
+      ],
+      "tags": [
+        "本",
+        "小説"
+      ],
       "badges": [],
       "repeatPurchase": false,
       "status": "published",
       "order": 0,
       "publishedAt": "2026-10-13T00:00:00.000Z",
-      "updatedAt": "2026-10-13T00:00:00.000Z",
-      "_rev": 0,
-      "_edited": false,
-      "catManual": false,
+      "updatedAt": "2026-10-28T12:15:41.821Z",
+      "_rev": 1,
+      "_edited": true,
+      "catManual": true,
       "categoryMeta": {}
     },
     {
       "id": "p44",
       "name": "凍りのくじら｜講談社文庫",
       "brand": "辻村深月",
-      "cat": "book",
-      "sub": "小説",
-      "price": 0,
+      "cat": "lifestyle",
+      "sub": "日用品",
+      "price": 1078,
       "rating": 0,
       "reviews": 0,
-      "copy": "",
-      "points": [],
+      "copy": "藤子・F・不二雄を「先生」と呼び、その作品を愛する父が失踪して5年。高校生の理帆子は、夏の図書館で「写真を撮らせてほしい」と言う1人の青年に出会う。戸惑いつつも、他とは違う内面を見せていく理帆子。そして同じ頃に始まった不思議な警告。皆が愛する素敵な“道具”が私たちを照らすとき――。(講談社文庫)\n\n\n辻村ワールド、最高傑作登場\n高校2年、芦沢理帆子――。「家に帰れば、本が読めるから」誰と話しても、本気で楽しいと思えたことがなかった。あの光と出会うまでは。\n\n「この物語は辻村さんの小説の中でも特別な感じがする。」――瀬名秀明<「解説」より抜粋>\n\n藤子・F・不二雄を「先生」と呼び、その作品を愛する父が失踪して5年。高校生の理帆子は、夏の図書館で「写真を撮らせてほしい」と言う1人の青年に出会う。戸惑いつつも、他とは違う内面を見せていく理帆子。そして同じ頃に始まった不思議な警告。皆が愛する素敵な“道具”が私たちを照らすとき――。",
+      "points": [
+        "年に『冷たい校舎の時は止まる』で第31回メフィスト賞を受賞しデビュー。",
+        "新作の度に期待を大きく上回る作品を刊行し続け、幅広い読者からの熱い。",
+        "年2月29日生まれ。",
+        "千葉大学教育学部卒業。"
+      ],
       "tag": "",
       "badge": "",
       "rank": null,
       "grad": "linear-gradient(150deg,#f0eee8 0%,#dcd8c8 60%,#bbb499 100%)",
-      "imgs": [],
+      "imgs": [
+        "https://m.media-amazon.com/images/I/51l5Ck236PL.jpg"
+      ],
       "shops": [
         "amazon"
       ],
       "links": {
-        "amazon": "https://www.amazon.co.jp/dp/4062762005"
+        "amazon": "https://link.amazon/B06q1IFIW"
       },
       "social": {},
       "spec": {},
-      "userReviews": [],
-      "tags": [],
+      "userReviews": [
+        {
+          "name": "ikkun",
+          "meta": "30代・骨格ウェーブ・読書好き",
+          "rating": 5,
+          "body": "20年前に出会ってから、ずっとずっと大切にしている小説❤︎\n今まで読んできた中で、唯一何度も読み返しているくらい大好きな作品。\n\n辻村深月さんが描く世界は、切なさの中にも優しさがあって、言葉のひとつひとつが心に残るんです。\n\nドラえもんへの愛がたっぷり詰まった物語で、読み進めるほどにどんどん引き込まれてしまう♡\n\n20年前に読んだときと、大人になった今では感じ方や受け取り方が変わるのも、この小説の面白いところ。\n\n読むたびに新しい発見があって、そのときの自分によって心に響く言葉も違う。\nこれから先も、何度でも読み返したい。\n\n私にとって、ずっと大切にしていきたい特別な一冊です♡"
+        }
+      ],
+      "tags": [
+        "小説",
+        "本"
+      ],
       "badges": [],
       "repeatPurchase": false,
       "status": "published",
       "order": 0,
       "publishedAt": "2026-10-13T00:00:00.000Z",
-      "updatedAt": "2026-10-13T00:00:00.000Z",
-      "_rev": 0,
-      "_edited": false,
+      "updatedAt": "2026-10-28T12:21:11.185Z",
+      "_rev": 1,
+      "_edited": true,
       "catManual": false,
-      "categoryMeta": {}
+      "categoryMeta": {
+        "common": "Book",
+        "source": "keyword-assist",
+        "confidence": "medium",
+        "originalCategory": "Japanese Books > Literature & Criticism > Artistic & Literary Works > Japanese",
+        "originalCategoryId": "",
+        "shopCategory": "Japanese",
+        "mappedAt": "2026-10-28T12:16:06.358Z",
+        "auto": true
+      }
     },
     {
       "id": "p45",
       "name": "朝が来る｜文春文庫",
       "brand": "辻村深月",
-      "cat": "book",
-      "sub": "小説",
-      "price": 0,
+      "cat": "lifestyle",
+      "sub": "日用品",
+      "price": 814,
       "rating": 0,
       "reviews": 0,
-      "copy": "",
-      "points": [],
+      "copy": "長く辛い不妊治療の末、自分たちの子を産めずに特別養子縁組という手段を選んだ夫婦。\n中学生で妊娠し、断腸の思いで子供を手放すことになった幼い母。\nそれぞれの葛藤、人生を丹念に描いた、胸に迫る長編。\n第147回直木賞、第15回本屋大賞の受賞作家が到達した新境地。\n\n河瀨直美監督も推薦!\nこのラストシーンはとてつもなく強いリアリティがある。「解説」より",
+      "points": [
+        "年に『冷たい校舎の時は止まる』で第31回メフィスト賞を受賞しデビュー。",
+        "新作の度に期待を大きく上回る作品を刊行し続け、幅広い読者からの熱い。",
+        "年2月29日生まれ。",
+        "千葉大学教育学部卒業。"
+      ],
       "tag": "",
       "badge": "",
       "rank": null,
       "grad": "linear-gradient(150deg,#f0eee8 0%,#dcd8c8 60%,#bbb499 100%)",
-      "imgs": [],
+      "imgs": [
+        "https://m.media-amazon.com/images/I/41GUkCxfNaL.jpg"
+      ],
       "shops": [
         "amazon"
       ],
       "links": {
-        "amazon": "https://www.amazon.co.jp/dp/4167991330"
+        "amazon": "https://link.amazon/B0h7AKhbl"
       },
       "social": {},
       "spec": {},
-      "userReviews": [],
-      "tags": [],
+      "userReviews": [
+        {
+          "name": "ikkun",
+          "meta": "30代・骨格ウェーブ・感情移入しやすい",
+          "rating": 5,
+          "body": "辻村深月さんが描く世界は、やっぱり優しさに溢れていて大好き❤︎\n\nこの小説はカフェで読んでいたのですが、人目もはばからず号泣してしまった思い出の一冊。笑\n\n登場人物それぞれの想いや人生が丁寧に描かれていて、気づいたら自分のことのように感情移入していました。\n\nただ感動するだけではなく、家族のあり方や人を想う気持ちについて、深く考えさせられる物語。\n\n読み終わったあとも、しばらく余韻が抜けなかったほど心に残っています。\n\nちなみに、私みたいに感情移入しやすい人は、お家で読むことを全力でおすすめします！"
+        }
+      ],
+      "tags": [
+        "本",
+        "小説"
+      ],
       "badges": [],
       "repeatPurchase": false,
       "status": "published",
       "order": 0,
       "publishedAt": "2026-10-13T00:00:00.000Z",
-      "updatedAt": "2026-10-13T00:00:00.000Z",
-      "_rev": 0,
-      "_edited": false,
+      "updatedAt": "2026-10-28T12:25:13.207Z",
+      "_rev": 1,
+      "_edited": true,
       "catManual": false,
-      "categoryMeta": {}
+      "categoryMeta": {
+        "common": "Book",
+        "source": "keyword-assist",
+        "confidence": "medium",
+        "originalCategory": "Japanese Books > Literature & Criticism > Artistic & Literary Works > Japanese",
+        "originalCategoryId": "",
+        "shopCategory": "Japanese",
+        "mappedAt": "2026-10-28T12:21:33.302Z",
+        "auto": true
+      }
     },
     {
       "id": "p46",
       "name": "52ヘルツのクジラたち",
       "brand": "町田そのこ",
-      "cat": "book",
-      "sub": "小説",
-      "price": 0,
+      "cat": "lifestyle",
+      "sub": "日用品",
+      "price": 880,
       "rating": 0,
       "reviews": 0,
-      "copy": "",
-      "points": [],
+      "copy": "2021年本屋大賞第１位。待望の文庫化。\n\n52ヘルツのクジラとは、他のクジラが聞き取れない高い周波数で鳴く世界で一匹だけのクジラ。何も届かない、何も届けられない。そのためこの世で一番孤独だと言われている。\n自分の人生を家族に搾取されてきた女性・貴瑚と、母に虐待され「ムシ」と呼ばれる少年。孤独ゆえ愛を欲し、裏切られてきた彼らが出会い、新たな魂の物語が生まれる――。",
+      "points": [
+        "影のある主人公の描写から始まり、一気に引き込まれる。",
+        "因果応報なのか宿命なのか、物語はドンドン動き出し、感動まで連れて行かれる。",
+        "面白かったです。",
+        "‏ : ‎ 中央公論新社"
+      ],
       "tag": "",
       "badge": "",
       "rank": null,
       "grad": "linear-gradient(150deg,#f0eee8 0%,#dcd8c8 60%,#bbb499 100%)",
-      "imgs": [],
+      "imgs": [
+        "https://m.media-amazon.com/images/S/aplus-media-library-service-media/02b13052-bd00-4dc2-a155-79f8867207f9.__CR0,0,970,600_PT0_SX970_V1___.jpeg",
+        "https://m.media-amazon.com/images/S/aplus-media-library-service-media/2bba6676-81d6-4141-895c-c5d672bed6bf.__CR0,0,970,300_PT0_SX970_V1___.jpeg",
+        "https://m.media-amazon.com/images/S/aplus-media-library-service-media/086790c4-415f-4703-82e6-ad24eab374a6.__CR0,0,970,600_PT0_SX970_V1___.jpeg",
+        "https://m.media-amazon.com/images/I/51sL0b2da7L.jpg"
+      ],
       "shops": [
         "amazon"
       ],
       "links": {
-        "amazon": "https://www.amazon.co.jp/dp/B0C4XK99M1"
+        "amazon": "https://link.amazon/B0hFTIXrQ"
       },
       "social": {},
       "spec": {},
-      "userReviews": [],
-      "tags": [],
+      "userReviews": [
+        {
+          "name": "ikkun",
+          "meta": "30代・骨格ウェーブ・感情移入しやすい",
+          "rating": 5,
+          "body": "正直、最初は読むのがしんどくなってしまった小説。\n\n胸が苦しくなるような場面も多くて、何度も読む手が止まりそうになったけれど、気づけば物語の世界にどんどん引き込まれていました。\n\n登場人物たちの孤独や心の叫びがリアルに描かれていて、読み進めるほどにいろんな感情が溢れてくる作品。\n\nそして読み終わったあとに思ったのは、もしかしたら私たちも、みんなどこかで52ヘルツの声を出しているのかもしれないということ。\n\n誰にも届かないと思っている声にも、耳を傾けられる人でありたい。\n\n苦しくて切ないけれど、人の優しさや温かさについて深く考えさせられる、心に残る一冊でした❤︎"
+        }
+      ],
+      "tags": [
+        "本",
+        "小説"
+      ],
       "badges": [],
       "repeatPurchase": false,
       "status": "published",
       "order": 0,
       "publishedAt": "2026-10-13T00:00:00.000Z",
-      "updatedAt": "2026-10-13T00:00:00.000Z",
-      "_rev": 0,
-      "_edited": false,
+      "updatedAt": "2026-10-28T12:29:44.194Z",
+      "_rev": 1,
+      "_edited": true,
       "catManual": false,
-      "categoryMeta": {}
+      "categoryMeta": {
+        "common": "Book",
+        "source": "keyword-assist",
+        "confidence": "medium",
+        "originalCategory": "Japanese Books > Literature & Criticism > Artistic & Literary Works",
+        "originalCategoryId": "",
+        "shopCategory": "Artistic & Literary Works",
+        "mappedAt": "2026-10-28T12:25:35.403Z",
+        "auto": true
+      }
     },
     {
       "id": "p47",
       "name": "VOGUE ON ココ・シャネル",
-      "brand": "ブロンウィン・コスグレーヴ",
-      "cat": "book",
-      "sub": "ファッション本",
-      "price": 0,
+      "brand": "VOGUE",
+      "cat": "lifestyle",
+      "sub": "日用品",
+      "price": 2640,
       "rating": 0,
       "reviews": 0,
-      "copy": "",
-      "points": [],
+      "copy": "「みすぼらしい装いをすれば服装を記憶されてしまう。非の打ち所のない装いをすれば相手はその女性を覚えている」――ココ・シャネル――\n\n「20世紀で最も影響力の大きい女性デザイナー」と賞賛されるココ・シャネルは、現代女性のためにリラックス感あふれるエレガンスを創り出した。仰々しいコルセットとくどいディテールをはねつけ、オートクチュールにカジュアルな息吹を吹きこんでファッション界に革命を起こした。\n\n本書は、『ヴォーグ』描き下ろしのイラストレーションに加え、著名なフォトグラファーによる写真を添えて、リトル・ブラック・ドレス、シャネルスーツ、センセーショナルなコスチュームジュエリー、キルト地のハンドバッグのストーリーをたどり、作品の下地となった華やかで小気味よい生涯を描き出す。",
+      "points": [
+        "シャネル哲学: ココ・シャネルという生き方 再生版山口 路子",
+        "シャネル (VOGUE ONシリーズ) : ブロンウィン。",
+        "コスグレーヴ, 鈴木 宏子。",
+        "クリスチャン・ディオール (VOGUE ONシリーズ)シャルロット・シンクレア"
+      ],
       "tag": "",
       "badge": "",
       "rank": null,
       "grad": "linear-gradient(150deg,#f0eee8 0%,#dcd8c8 60%,#bbb499 100%)",
-      "imgs": [],
+      "imgs": [
+        "https://m.media-amazon.com/images/I/51K4ZqEQCqL.jpg",
+        "https://m.media-amazon.com/images/I/41nBJwaa0oL.jpg"
+      ],
       "shops": [
         "amazon"
       ],
       "links": {
-        "amazon": "https://www.amazon.co.jp/dp/488282860X"
+        "amazon": "https://link.amazon/B09QDzfZL"
       },
       "social": {},
       "spec": {},
-      "userReviews": [],
-      "tags": [],
+      "userReviews": [
+        {
+          "name": "ikkun",
+          "meta": "30代・骨格ウェーブ",
+          "rating": 5,
+          "body": "もともとCHANELが大好きだったけど、この本を読んでもっともっと好きになりました❤︎\n\n華やかなブランドのイメージだけではなく、激動の時代を強く生き抜いたココ・シャネルの生き方や哲学に触れられる一冊。\n\n特に、女性としての自立や仕事に対する考え方がとてもかっこよくて、たくさん刺激をもらいました。\n\nCHANELが長く愛され続ける理由が、少しわかったような気がします♡\n\nファッションが好きな人はもちろん、自分らしく生きたい女性にもぜひ読んでほしい本。\n\nそして最後にひとつだけ注意！\nこれを読んだあとは、きっとCHANELが欲しくなります❤︎"
+        }
+      ],
+      "tags": [
+        "本",
+        "小説",
+        "エッセイ"
+      ],
       "badges": [],
       "repeatPurchase": false,
       "status": "published",
       "order": 0,
       "publishedAt": "2026-10-13T00:00:00.000Z",
-      "updatedAt": "2026-10-13T00:00:00.000Z",
-      "_rev": 0,
-      "_edited": false,
+      "updatedAt": "2026-10-28T12:36:53.191Z",
+      "_rev": 1,
+      "_edited": true,
       "catManual": false,
-      "categoryMeta": {}
+      "categoryMeta": {
+        "common": "Other",
+        "source": "fallback",
+        "confidence": "low",
+        "originalCategory": "Japanese Books > Arts, Architecture & Design > Design",
+        "originalCategoryId": "",
+        "shopCategory": "Design",
+        "mappedAt": "2026-10-28T12:30:04.225Z",
+        "auto": true
+      }
     },
     {
       "id": "p48",
       "name": "法廷遊戯｜講談社文庫",
       "brand": "五十嵐律人",
-      "cat": "book",
-      "sub": "小説",
-      "price": 0,
+      "cat": "lifestyle",
+      "sub": "日用品",
+      "price": 880,
       "rating": 0,
       "reviews": 0,
-      "copy": "",
-      "points": [],
+      "copy": "15万部突破!!\nミステリーランキング席巻の鮮烈デビュー作、早くも映画化!\n\n☆★☆★☆★☆★☆☆★☆★☆★\n映画「法廷遊戯」\n\n[主演]永瀬 廉(King & Prince)\n[出演]杉咲 花 北村匠海\n\n2023年11月10日 全国公開\n☆★☆★☆★☆★☆☆★☆★☆★\n\n【内容紹介】\n法律家を目指す学生・久我清義と織本美鈴。\nある日を境に、二人の「過去」を知る何者かによる嫌がらせが相次ぐ。\nこれは復讐なのか。\n秀才の同級生・結城馨の助言で事件は解決すると思いきや、予想外の「死」が訪れる――。\nミステリー界の話題をさらった、第62回メフィスト賞受賞作。",
+      "points": [
+        "‏ : ‎ 講談社"
+      ],
       "tag": "",
       "badge": "",
       "rank": null,
       "grad": "linear-gradient(150deg,#f0eee8 0%,#dcd8c8 60%,#bbb499 100%)",
-      "imgs": [],
+      "imgs": [
+        "https://m.media-amazon.com/images/I/51MGBciC3WL.jpg"
+      ],
       "shops": [
         "amazon"
       ],
       "links": {
-        "amazon": "https://www.amazon.co.jp/dp/B0C1BQWT73"
+        "amazon": "https://link.amazon/B04ylzqJ3"
       },
       "social": {},
       "spec": {},
-      "userReviews": [],
-      "tags": [],
+      "userReviews": [
+        {
+          "name": "ikkun",
+          "meta": "30代・骨格ウェーブ・映画はまだ見てない",
+          "rating": 5,
+          "body": "面白そうだな〜と思って、何気なく手に取った一冊❤︎\n\n法律や裁判がテーマの小説だけど、ミステリー要素もあって、読み進めるほどに物語に引き込まれていきました。\n\n著者が現役の弁護士ということもあって、法廷の描写にはリアリティがあって面白い！\n\n正義って何だろう？と考えさせられる部分もあって、ただのミステリーでは終わらない作品。\n\nそして何より、最後の展開がまさかすぎてびっくり！！\n\n読み終わってから映画化されていることを知ったので、映画も観てみたくなりました♡\n\n結末を知らずに読んでほしい一冊です❤︎"
+        }
+      ],
+      "tags": [
+        "本",
+        "小説"
+      ],
       "badges": [],
       "repeatPurchase": false,
       "status": "published",
       "order": 0,
       "publishedAt": "2026-10-13T00:00:00.000Z",
-      "updatedAt": "2026-10-13T00:00:00.000Z",
-      "_rev": 0,
-      "_edited": false,
+      "updatedAt": "2026-10-28T12:42:03.575Z",
+      "_rev": 1,
+      "_edited": true,
       "catManual": false,
-      "categoryMeta": {}
+      "categoryMeta": {
+        "common": "Book",
+        "source": "keyword-assist",
+        "confidence": "low",
+        "originalCategory": "Japanese Books > Literature & Criticism",
+        "originalCategoryId": "",
+        "shopCategory": "Literature & Criticism",
+        "mappedAt": "2026-10-28T12:37:30.619Z",
+        "auto": true
+      }
     },
     {
       "id": "p49",
