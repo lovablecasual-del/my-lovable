@@ -2608,38 +2608,65 @@ window.__LB_OVERRIDE__ = {
       "id": "p49",
       "name": "殺戮にいたる病｜新装版・講談社文庫",
       "brand": "我孫子武丸",
-      "cat": "book",
-      "sub": "小説",
-      "price": 0,
+      "cat": "lifestyle",
+      "sub": "日用品",
+      "price": 538,
       "rating": 0,
       "reviews": 0,
-      "copy": "",
-      "points": [],
+      "copy": "衝撃の結末に備えよ……華麗にして大胆な叙述トリックが生み出した「二度読みミステリ」の最高峰!\n\n犯人は愛を語り、作家は真相を騙る……。\n犯人は、永遠の愛を得たいと思った――東京の繁華街で次々と猟奇的殺人を重ねるサイコ・キラー。その名は、蒲生稔! くり返される凌辱の果ての惨殺。恐るべき殺人者の行動と魂の軌跡をたどり、とらえようのない時代の悪夢と闇を鮮烈にえぐり出す。そして、読者の心臓を鷲掴みにする、衝撃の結末……叙述トリックミステリの最高到達点!",
+      "points": [
+        "文章も読みやすく、面白かった。",
+        "グロテスクともあったので構えていたが、そちらも問題ない程度だった。",
+        "ただ、面白かったことには違いなく、ページ数も短すぎず長すぎずで一気に読むことが出来た。",
+        "‏ : ‎ 講談社"
+      ],
       "tag": "",
       "badge": "",
       "rank": null,
       "grad": "linear-gradient(150deg,#f0eee8 0%,#dcd8c8 60%,#bbb499 100%)",
-      "imgs": [],
+      "imgs": [
+        "https://m.media-amazon.com/images/I/71d8crXtSRL.jpg",
+        "https://m.media-amazon.com/images/I/41n9C6Hxi3L.jpg"
+      ],
       "shops": [
         "amazon"
       ],
       "links": {
-        "amazon": "https://www.amazon.co.jp/dp/B076Z8GN9X"
+        "amazon": "https://link.amazon/B0grb99Tn"
       },
       "social": {},
       "spec": {},
-      "userReviews": [],
-      "tags": [],
+      "userReviews": [
+        {
+          "name": "ikkun",
+          "meta": "30代・骨格ウェーブ・サスペンス好き",
+          "rating": 5,
+          "body": "知り合いにおすすめされて読んだ一冊\n\n正直、途中の描写がグロテスクすぎて「読まなきゃよかったかも…」って何度も後悔しました。\n\nでも、それ以上にストーリーが面白すぎて、結局ページをめくる手が止まらず一気読み！\n\n読み進めるほどに引き込まれる展開と、最後まで気が抜けない緊張感がすごい。\n\nそして、読み終わったあとの衝撃が忘れられない…！\nサスペンスやミステリーが好きな人にはぜひ読んでほしい作品♡\n\nただし、かなり過激で生々しい描写があるので、グロテスクな表現が苦手な人は本当に注意です！"
+        }
+      ],
+      "tags": [
+        "本",
+        "小説"
+      ],
       "badges": [],
       "repeatPurchase": false,
       "status": "published",
       "order": 0,
       "publishedAt": "2026-10-13T00:00:00.000Z",
-      "updatedAt": "2026-10-13T00:00:00.000Z",
-      "_rev": 0,
-      "_edited": false,
+      "updatedAt": "2026-10-28T12:46:16.973Z",
+      "_rev": 1,
+      "_edited": true,
       "catManual": false,
-      "categoryMeta": {}
+      "categoryMeta": {
+        "common": "Book",
+        "source": "keyword-assist",
+        "confidence": "low",
+        "originalCategory": "Japanese Books > Literature & Criticism > Artistic & Literary Works",
+        "originalCategoryId": "",
+        "shopCategory": "Artistic & Literary Works",
+        "mappedAt": "2026-10-28T12:42:34.714Z",
+        "auto": true
+      }
     },
     {
       "id": "p50",
