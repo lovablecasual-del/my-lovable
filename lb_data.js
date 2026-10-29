@@ -2885,51 +2885,94 @@ window.__LB_OVERRIDE__ = {
       "id": "p54",
       "name": "DIOR プレステージ ル ゴマージュ N",
       "brand": "DIOR",
-      "cat": "skincare",
-      "sub": "スクラブ",
-      "price": 0,
+      "cat": "beauty",
+      "sub": "コスメ",
+      "price": 16500,
       "rating": 0,
-      "reviews": 0,
-      "copy": "",
-      "points": [],
+      "reviews": 1,
+      "copy": "類まれな生命力と豊富な微量養素を誇る、グランヴィル ローズの恵み¹を配合。 ダブル ローズ シュガー²が古い角質をやさしく取り除きながらキメ細やかな肌へ磨き上げる「ル ゴマージュ Ｎ」。 古い角質や毛穴汚れをやさしくオフし、バラの花びらのようになめらかな肌へ。繊細な敏感肌にも。 ¹バラエキス（整肌成分） ²スクロース、トレハロース（保湿・整肌成分",
+      "points": [
+        "* [ラ コレクシオン プリヴェの香りを選んで](https://www.dior.com/ja_",
+        "コントラストを調整 - [x]",
+        "[ディオールの活動](https://www.dior.com/ja_",
+        "* [お問い合せ](https://www.dior.com/ja_"
+      ],
       "tag": "",
       "badge": "",
       "rank": null,
       "grad": "linear-gradient(150deg,#e8f0e8 0%,#c8dcc8 60%,#99bb99 100%)",
-      "imgs": [],
+      "imgs": [
+        "https://www.dior.com/dw/image/v2/BGXS_PRD/on/demandware.static/-/Sites-master_dior/default/dw09504026/Y0000252/Y0000252_E000000945_E01_RHC.jpg?sw=800",
+        "https://www.dior.com/dw/image/v2/BGXS_PRD/on/demandware.static/-/Sites-master_dior/default/dw58e00d9d/Y0000252/Y0000252_E000000945_E02_RHC.jpg?sw=800",
+        "https://www.dior.com/dw/image/v2/BGXS_PRD/on/demandware.static/-/Sites-master_dior/default/dw4fc279b9/Y0000252/Y0000252_E000000945_E04_RHC.jpg?sw=800",
+        "https://www.dior.com/dw/image/v2/BGXS_PRD/on/demandware.static/-/Sites-master_dior/default/dw4fc279b9/Y0000252/Y0000252_E000000945_E04_RHC.jpg"
+      ],
       "shops": [],
-      "links": {},
+      "links": {
+        "other": "https://www.dior.com/ja_jp/beauty/products/プレステージ-ル-ゴマージュ-n-Y0000252.html"
+      },
       "social": {},
       "spec": {},
-      "userReviews": [],
-      "tags": [],
+      "userReviews": [
+        {
+          "name": "ikkun",
+          "meta": "30代・骨格ウェーブ・乾燥肌",
+          "rating": 5,
+          "body": "週に1回のスペシャルケアとして愛用しているDIORのスクラブ洗顔❤︎\n\nまず香りが本当に良くて、使うたびに贅沢な気分になれるのがお気に入り♡\n\n洗い上がりはお肌がツルツル、すべすべ！なのに、もちもち感もあって感動◎\n\n週に1回くらい、自分へのご褒美として使っています。\n\nパッケージも高級感があって、プレゼントにもぴったり♡\n\n自分用にはもちろん、大切な人へのギフトにもおすすめしたいアイテムです❤︎"
+        }
+      ],
+      "tags": [
+        "DIOR",
+        "コスメ",
+        "洗顔"
+      ],
       "badges": [],
       "repeatPurchase": false,
       "status": "published",
       "order": 0,
       "publishedAt": "2026-10-13T00:00:00.000Z",
-      "updatedAt": "2026-10-13T00:00:00.000Z",
-      "_rev": 0,
-      "_edited": false,
-      "catManual": false,
-      "categoryMeta": {}
+      "updatedAt": "2026-10-29T08:12:37.599Z",
+      "_rev": 1,
+      "_edited": true,
+      "catManual": true,
+      "categoryMeta": {
+        "common": "Other",
+        "source": "fallback",
+        "confidence": "low",
+        "originalCategory": "",
+        "originalCategoryId": "",
+        "shopCategory": "",
+        "mappedAt": "2026-10-29T08:09:19.616Z",
+        "auto": true
+      }
     },
     {
       "id": "p55",
       "name": "SNIDEL ドレープギャザーニットプルオーバー",
       "brand": "SNIDEL",
       "cat": "fashion",
-      "sub": "ニット",
-      "price": 0,
+      "sub": "トップス",
+      "price": 9900,
       "rating": 0,
       "reviews": 0,
-      "copy": "",
-      "points": [],
+      "copy": "【ドレープが美しく映えるルーズニットプルオーバー】\n\n【Design/Styling】\n・襟ぐりのドレープデザインが女性らしい抜け感を演出するニットプルオーバー。\n・脇に施したギャザーディテールが立体感を生み、こなれたシルエットに仕上げました。\n・ゆるやかな総針編みで作り上げたルーズなフォルムが魅力です。\n・デニムからマーメイドスカートまで幅広く合わせられ、デイリーに活躍します。\n\n【Fabric】\n・カシミヤとバソランウールをブレンドした上質な糸を使用。\n・アンチピリング加工を施したアクリル混素材で、美しい表面感をキープします。\n・カラーはホワイト、チャコールグレー、ブラウン、ピンクの4色展開です。\n\n透け感:ややあり\n裏地:なし\n伸縮性:あり\n光沢感:なし\n生地の厚さ:やや薄手",
+      "points": [
+        "のドレープギャザーニットプルオーバーです。",
+        "新規登録＆回答で100ポイント",
+        "メーカー希望小売価格について",
+        "特定商取引法に基づく表記"
+      ],
       "tag": "",
       "badge": "",
       "rank": null,
       "grad": "linear-gradient(150deg,#e8e4dc 0%,#c5bfb0 60%,#a3998a 100%)",
-      "imgs": [],
+      "imgs": [
+        "https://tshop.r10s.jp/stylife/cabinet/item/832/st6832-04_1.jpg",
+        "https://tshop.r10s.jp/stylife/cabinet/item/832/st6832-04_3.jpg?fitin=600%3A720&composite-to=center%2Ccenter%7C600%3A720",
+        "https://tshop.r10s.jp/stylife/cabinet/item/832/st6832-04_4.jpg?fitin=600%3A720&composite-to=center%2Ccenter%7C600%3A720",
+        "https://tshop.r10s.jp/stylife/cabinet/item/832/st6832-04_5.jpg?fitin=600%3A720&composite-to=center%2Ccenter%7C600%3A720",
+        "https://tshop.r10s.jp/stylife/cabinet/item/832/st6832-04_6.jpg?fitin=600%3A720&composite-to=center%2Ccenter%7C600%3A720"
+      ],
       "shops": [
         "rakuten"
       ],
@@ -2938,18 +2981,39 @@ window.__LB_OVERRIDE__ = {
       },
       "social": {},
       "spec": {},
-      "userReviews": [],
-      "tags": [],
+      "userReviews": [
+        {
+          "name": "ikkun",
+          "meta": "30代・骨格ウェーブ・イエベ",
+          "rating": 5,
+          "body": "秋冬に1枚持っておくと本当に便利なニットトップス❤︎\n\n私は着回ししやすいホワイトを選びました♡\n\nシンプルなデザインなので、1枚で着るのはもちろん、ジャケットやカーディガンのインナーとしても大活躍◎\n\nデニムにもスカートにも合わせやすくて、いろんなコーデに使えるのが嬉しいポイント！\n\nこういうベーシックなアイテムって、結局いちばん出番が多くなる気がする♡\n\n秋冬のワードローブにおすすめしたい一枚です❤︎"
+        }
+      ],
+      "tags": [
+        "SNIDEL",
+        "トップス",
+        "tops",
+        "ニット"
+      ],
       "badges": [],
       "repeatPurchase": false,
       "status": "published",
       "order": 0,
       "publishedAt": "2026-10-13T00:00:00.000Z",
-      "updatedAt": "2026-10-13T00:00:00.000Z",
-      "_rev": 0,
-      "_edited": false,
+      "updatedAt": "2026-10-29T08:18:51.506Z",
+      "_rev": 1,
+      "_edited": true,
       "catManual": false,
-      "categoryMeta": {}
+      "categoryMeta": {
+        "common": "Fashion",
+        "source": "rakuten-breadcrumb",
+        "confidence": "high",
+        "originalCategory": "Rakuten Fashion > SNIDEL (スナイデル) > トップス > ニット",
+        "originalCategoryId": "566028",
+        "shopCategory": "ニット",
+        "mappedAt": "2026-10-29T08:13:12.501Z",
+        "auto": true
+      }
     }
   ],
   "CATEGORIES": [
