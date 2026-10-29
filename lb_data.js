@@ -515,61 +515,6 @@ window.__LB_OVERRIDE__ = {
       "categoryMeta": {}
     },
     {
-      "id": "p18",
-      "name": "COTA アイケア シャンプー7 ＆ トリートメント7 セット",
-      "brand": "COTA",
-      "cat": "beauty",
-      "sub": "ヘアケア",
-      "price": 15670,
-      "rating": 4.8,
-      "reviews": 320,
-      "copy": "サロン専売の人気シャントリ。使うほど髪の調子が整う実感。7番は重すぎずちょうどいい仕上がりで、細め・乾燥しやすい髪と好相性。",
-      "points": [
-        "サロン専売、使うほど髪の調子が整う",
-        "7番は軽やかでちょうどいい仕上がり",
-        "細め・乾燥しやすい髪と好相性"
-      ],
-      "tag": "Rakuten",
-      "badge": "",
-      "rank": null,
-      "grad": "linear-gradient(150deg,#ece2d0 0%,#dcccae 60%,#c8b386 100%)",
-      "imgs": [
-        "https://shop.r10s.jp/beautifulnet-nagoya/cabinet/06297622/imgrc0091099866.jpg?_ex=600x600"
-      ],
-      "shops": [
-        "rakuten",
-        "tiktok",
-        "amazon",
-        "qoo10"
-      ],
-      "links": {
-        "rakuten": "https://a.r10.to/hPzEct"
-      },
-      "social": {},
-      "spec": {},
-      "userReviews": [
-        {
-          "name": "ikkun",
-          "meta": "30代・細毛/乾燥毛",
-          "rating": 5,
-          "body": "一番大好きなシャントリ♡ 美容院専門のシャントリだけあって髪の毛の調子が良くなる！！9番の方が少ししっとり重い感じに仕上がるんだけど7番はちょうどいい感じ。細め・乾燥しやすい髪の毛との相性がいい◎"
-        }
-      ],
-      "tags": [
-        "Rakuten"
-      ],
-      "badges": [],
-      "repeatPurchase": false,
-      "status": "published",
-      "order": 17,
-      "publishedAt": "2026-08-17T06:19:46.046Z",
-      "updatedAt": "2026-08-17T06:19:46.046Z",
-      "_rev": 0,
-      "_edited": false,
-      "catManual": false,
-      "categoryMeta": {}
-    },
-    {
       "id": "p19",
       "name": "Dyson Supersonic r ヘアドライヤー HD17VLP",
       "brand": "Dyson",
