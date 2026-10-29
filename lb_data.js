@@ -9,7 +9,7 @@ window.__LB_OVERRIDE__ = {
       "price": 16940,
       "rating": 4.8,
       "reviews": 214,
-      "copy": "小花柄のデニム素材で仕立てた一枚。デニム合わせが大好きな、いっくんの定番。ウエストを絞れるデザインで、骨格ウェーブさんにこそ似合うシルエット。",
+      "copy": "【Design/Styling】\n洗練されたオーラを放つチュニックブラウスは、アシンメトリーのペプラムデザインが上品かつモード。\n取り外し可能なメタルバックル付きの華奢ベルトでウエストマークをすると、さらに都会的な印象へと誘います。\nサラッと着るだけできれいに見えるように、デコルテラインを美しく演出するボートネックや身頃に入れたパネルラインですっきりと。\nハイウエスト切り替えも、スタイルアップを叶えます。\nラインナップは、色と素材を変えた3種類。WHTは、繊細な花柄生地とメッシュ生地をボンディングさせた素材を使用。\nINDは花柄×デニムライクな風合いで春夏らしいカジュアル感に。BLKはきちんと感のあるウール混でお仕事シーンにもマッチするデザインに仕上げました。",
       "points": [
         "ウエストを絞れるデザインで骨格ウェーブさんにおすすめ",
         "小花柄のデニム素材で、デニム合わせが楽しめる",
@@ -17,12 +17,12 @@ window.__LB_OVERRIDE__ = {
       ],
       "tag": "Rakuten Fashion",
       "badge": "",
-      "rank": 2,
+      "rank": null,
       "grad": "linear-gradient(150deg,#e3ddd2 0%,#cabfa9 60%,#a99d83 100%)",
       "imgs": [
+        "https://shop.r10s.jp/stylife/cabinet/item/575/rd1575-01_1.jpg?_ex=600x800",
         "https://shop.r10s.jp/stylife/cabinet/item/575/rd1575-05_1.jpg?_ex=600x800",
         "https://shop.r10s.jp/stylife/cabinet/item/575/rd1575-03_1.jpg?_ex=600x800",
-        "https://shop.r10s.jp/stylife/cabinet/item/575/rd1575-01_1.jpg?_ex=600x800",
         "https://shop.r10s.jp/stylife/cabinet/item/575/rd1575-05_2.jpg?_ex=600x800"
       ],
       "shops": [
@@ -41,7 +41,7 @@ window.__LB_OVERRIDE__ = {
           "name": "ikkun",
           "meta": "30代・骨格ウェーブ",
           "rating": 5,
-          "body": "アシンメトリーのペプラムシルエットがあまり見ないデザインでおしゃれで可愛い。ハイウエストでの切り替えになっていて、取り外し可能なベルトでウエストマークするとよりスタイルアップして見えます。個人的に普段肩幅の広さが気になるのですが、肩のラインが出すぎず出なさすぎず綺麗に見えるラインで大満足。本当に買ってよかった1着です◎ だいぶ暖かくなってきたので沢山着てお出かけしたいです！"
+          "body": "小花×デニム購入\nアシンメトリーのペプラムシルエットが珍しくて、一目惚れしたトップス❤︎\n\nハイウエストの切り替えデザインで、付属のベルトでウエストマークすると、さらにスタイルアップして見えるのがお気に入り♡\n\nデザインもシルエットも本当に可愛くて、買って大正解だった一着♡\n暖かくなってきたので、これを着てたくさんお出かけしたいな❤︎"
         }
       ],
       "tags": [
@@ -52,9 +52,9 @@ window.__LB_OVERRIDE__ = {
       "status": "published",
       "order": 0,
       "publishedAt": "2026-09-03T06:19:46.046Z",
-      "updatedAt": "2026-09-03T06:19:46.046Z",
-      "_rev": 0,
-      "_edited": false,
+      "updatedAt": "2026-10-29T15:37:53.810Z",
+      "_rev": 1,
+      "_edited": true,
       "catManual": false,
       "categoryMeta": {}
     },
@@ -172,20 +172,20 @@ window.__LB_OVERRIDE__ = {
       "price": 3300,
       "rating": 4.8,
       "reviews": 320,
-      "copy": "血色感と立体感を一度に叶える、ツヤ仕込みのパウダーチーク。繊細なパールがふんわり光をまとわせ、内側から発光するような肌に。",
+      "copy": "柔らかなペールトーンのヴェールで肌の内側からにじみ出るようなピュアな血色と立体感を演出。\n繊細なニュアンスが楽しめる大人のペールトーンがふんわりと柔らかく発色し、思いのままにレイヤーを楽しめます。\n多彩なカラーと繊細なパールが絶妙なカラーバリエーションをラインアップ。その日の気分に合わせて重ねる回数や組み合わせを変えることで、毎日新しい表情に。\n\n肌に軽やかにフィットするシフォンのように柔らかで繊細なテクスチャー。\n植物由来のオイルを溶かし込んだしっとり柔らかな感触のパウダーが肌になめらかに溶け込み、ぴたっとフィット。\n肌にのせたてのピュアな発色が長時間続きます。\n\nベストコスメアワード受賞商品\n#ベスコス\n\n●Color\n・01 Bare Shine シームレスにツヤを演出するシャイニーホワイト\n・02 Sweet Mocha\nナチュラルなコントゥアリングで骨格を際立たせ立体感を演出するピンクブラウン\n・03 Rosy Silk\n透けるような発色で柔らかな雰囲気をもたらすプラムローズ\n・04 Coral Blush\n内側から湧き上がるような血色感で幸福感を感じさせるコーラルピンク\n・05 Baby Cheek\n無垢な笑顔を思わせるナチュラルピンク\n・06 Innocent Blush\n繊細な透明感を与えるアイシーラベンダー",
       "points": [
         "ツヤとラメ感で立体的な血色印象に",
         "全6色、イエベ・ブルベどちらも映える展開",
         "重ねてハイライトとしても使える"
       ],
-      "tag": "Rakuten",
+      "tag": "",
       "badge": "",
       "rank": null,
       "grad": "linear-gradient(150deg,#f0e4df 0%,#e3cfc8 55%,#d2b3aa 100%)",
       "imgs": [
         "https://shop.r10s.jp/snidelbeauty/cabinet/item/4570106725306_0829.jpg?_ex=600x600",
-        "https://shop.r10s.jp/snidelbeauty/cabinet/item/4570106725306_12.jpg?_ex=600x600",
         "https://shop.r10s.jp/snidelbeauty/cabinet/item/4570106725306_13.jpg?_ex=600x600",
+        "https://shop.r10s.jp/snidelbeauty/cabinet/item/4570106725306_12.jpg?_ex=600x600",
         "https://shop.r10s.jp/snidelbeauty/cabinet/item/4570106725306_14.jpg?_ex=600x600"
       ],
       "shops": [
@@ -202,135 +202,24 @@ window.__LB_OVERRIDE__ = {
       "userReviews": [
         {
           "name": "ikkun",
-          "meta": "30代・イエベ春",
+          "meta": "30代・骨格ウェーブ・イエベ春",
           "rating": 5,
-          "body": "イエベ春の私はコーラルピンクにしました。ほんとに色が可愛くてしょうがない。ラメ感も最高でした♡"
+          "body": "イエベ春の私は04 Coral Blushを選びました❤︎\n\nこれ、本当に可愛すぎるチーク！！\n\n発色がとっても綺麗で、頬にのせるだけで顔全体がぱっと華やかな印象になるのがお気に入り♡\n\nそして何より、繊細なラメ感が最高に可愛い！\n\nツヤっとした仕上がりで、メイクするたびに気分が上がるアイテムです◎\n\nしかも使っても使ってもなかなか減らないので、コスパがいいところも嬉しいポイント♡\n\nイエベ春さんにぜひチェックしてほしい、お気に入りチークです❤︎"
         }
       ],
       "tags": [
-        "Rakuten"
+        "コスメ",
+        "SNIDEL",
+        "イエベ"
       ],
       "badges": [],
       "repeatPurchase": false,
       "status": "published",
       "order": 12,
       "publishedAt": "2026-08-22T06:19:46.046Z",
-      "updatedAt": "2026-08-22T06:19:46.046Z",
-      "_rev": 0,
-      "_edited": false,
-      "catManual": false,
-      "categoryMeta": {}
-    },
-    {
-      "id": "p14",
-      "name": "LOA THE OIL CARE ヘアオイル",
-      "brand": "LOA",
-      "cat": "beauty",
-      "sub": "ヘアケア",
-      "price": 3850,
-      "rating": 4.7,
-      "reviews": 280,
-      "copy": "洗い流さないトリートメントとしても香りを楽しむパフュームオイルとしても。しっとりまとまるのに重すぎない、毎日使いたくなるアウトバスオイル。",
-      "points": [
-        "しっとり乾燥しづらい仕上がり",
-        "ずっと纏っていたい上品な香り",
-        "アウトバス・スタイリング両用"
-      ],
-      "tag": "Rakuten",
-      "badge": "",
-      "rank": null,
-      "grad": "linear-gradient(150deg,#ece2d0 0%,#dcccae 60%,#c8b386 100%)",
-      "imgs": [
-        "https://shop.r10s.jp/loa-official/cabinet/12369844/12369852/imgrc0099274533.jpg?_ex=600x600",
-        "https://shop.r10s.jp/loa-official/cabinet/12369844/12369852/imgrc0095845706.jpg?_ex=600x600",
-        "https://shop.r10s.jp/loa-official/cabinet/12369844/12369852/imgrc0095845712.jpg?_ex=600x600",
-        "https://shop.r10s.jp/loa-official/cabinet/12369844/12369852/imgrc0095845713.jpg?_ex=600x600"
-      ],
-      "shops": [
-        "rakuten",
-        "tiktok",
-        "amazon",
-        "qoo10"
-      ],
-      "links": {
-        "rakuten": "https://room.rakuten.co.jp/room_ikkun/1700382305299111"
-      },
-      "social": {},
-      "spec": {},
-      "userReviews": [
-        {
-          "name": "ikkun",
-          "meta": "30代・愛用中",
-          "rating": 5,
-          "body": "買いました！私のおすすめ！髪の毛がしっとり乾燥しづらくなりました。匂いもとってもいい匂いでお気に入り"
-        }
-      ],
-      "tags": [
-        "Rakuten"
-      ],
-      "badges": [],
-      "repeatPurchase": false,
-      "status": "published",
-      "order": 13,
-      "publishedAt": "2026-08-21T06:19:46.046Z",
-      "updatedAt": "2026-08-21T06:19:46.046Z",
-      "_rev": 0,
-      "_edited": false,
-      "catManual": false,
-      "categoryMeta": {}
-    },
-    {
-      "id": "p15",
-      "name": "BYKARTE エッセンスミルク 95ml",
-      "brand": "バイカルテ",
-      "cat": "beauty",
-      "sub": "ヘアケア",
-      "price": 3077,
-      "rating": 4.6,
-      "reviews": 150,
-      "copy": "オイルより軽やかに、でもしっとり。タオルドライ後になじませるだけで、翌朝のまとまりが変わる洗い流さないヘアミルク。",
-      "points": [
-        "オイルより軽くしっとりまとまる",
-        "シャンプー・トリートメントとライン使いも◎",
-        "毎日続けたくなる心地よい使用感"
-      ],
-      "tag": "Rakuten",
-      "badge": "",
-      "rank": null,
-      "grad": "linear-gradient(150deg,#f1ece4 0%,#e2d8c8 60%,#cdbfa6 100%)",
-      "imgs": [
-        "https://shop.r10s.jp/kingroom33/cabinet/09698766/10958939/imgrc0101676490.jpg?_ex=600x600"
-      ],
-      "shops": [
-        "rakuten",
-        "tiktok",
-        "amazon",
-        "qoo10"
-      ],
-      "links": {
-        "rakuten": "https://a.r10.to/hgwjPt"
-      },
-      "social": {},
-      "spec": {},
-      "userReviews": [
-        {
-          "name": "ikkun",
-          "meta": "30代・リピート中",
-          "rating": 5,
-          "body": "お気に入りバイカルテ。シャンプー・トリートメントとラインづかいするのが大好き◎オイルより私はミルクの方が髪の毛がしっとりするのでお気に入り"
-        }
-      ],
-      "tags": [
-        "Rakuten"
-      ],
-      "badges": [],
-      "repeatPurchase": false,
-      "status": "published",
-      "order": 14,
-      "publishedAt": "2026-08-20T06:19:46.046Z",
-      "updatedAt": "2026-08-20T06:19:46.046Z",
-      "_rev": 0,
-      "_edited": false,
+      "updatedAt": "2026-10-29T16:05:41.023Z",
+      "_rev": 1,
+      "_edited": true,
       "catManual": false,
       "categoryMeta": {}
     },
@@ -343,21 +232,22 @@ window.__LB_OVERRIDE__ = {
       "price": 9350,
       "rating": 5,
       "reviews": 460,
-      "copy": "脚長効果抜群の、形が本当に綺麗なワイドデニム。ウエスト周りのもたつきを抑えるフロントパネル設計で、ワイドレッグでもすっきり穿ける。合わせやすいミディアムインディゴ。",
+      "copy": "evi'sのウィメンズ定番の300シリーズ。318シェーピングワイドレッグジーンズは、ウエスト周りの引き締める効果のあるフロントパネル設計になっており、ワイドレグとのメリハリがしっかり出やすく美脚効果のあるシルエットが魅力です。合わせやすのあるミディアムインディゴカラーで年間活躍間違いなしの一本です。",
       "points": [
         "脚長効果抜群、横から見たシルエットが綺麗",
         "ウエストのたつきを抑えるフロントパネル設計",
         "152cmは23インチ＋ベルト調整で好バランス（いっくん着用）"
       ],
-      "tag": "ランキング1位",
+      "tag": "",
       "badge": "",
       "rank": 4,
       "grad": "linear-gradient(150deg,#e3ddd2 0%,#cabfa9 60%,#a99d83 100%)",
       "imgs": [
         "https://shop.r10s.jp/levis/cabinet/item/252/pv4252-01_1.jpg?_ex=600x800",
-        "https://shop.r10s.jp/levis/cabinet/item/252/pv4252-02_1.jpg?_ex=600x800",
-        "https://shop.r10s.jp/levis/cabinet/item/252/pv4252-03_1.jpg?_ex=600x800",
-        "https://shop.r10s.jp/levis/cabinet/item/252/pv4252-04_1.jpg?_ex=600x800"
+        "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202610/1793288492026-rgafi.jpg",
+        "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202610/1793288495277-9oibs.jpg",
+        "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202610/1793288497490-0xjjc.jpg",
+        "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202610/1793288500694-vomer.jpg"
       ],
       "shops": [
         "rakuten",
@@ -442,75 +332,24 @@ window.__LB_OVERRIDE__ = {
       "userReviews": [
         {
           "name": "ikkun",
-          "meta": "30代・152cm・骨格ウェーブ",
+          "meta": "30代・骨格ウェーブ・デニム大好き",
           "rating": 5,
-          "body": "これほんと脚長効果抜群のデニム♡♡ 形が本当に綺麗でおすすめすぎる！！152cmの私は23インチにして少しウエストが余るくらいなのでベルトで調整してます♪ インスタとTikTokでもたくさん質問いただいたデニム♡"
+          "body": "これ、本当に脚が長く見えるお気に入りデニム♡♡\n\nとにかくシルエットが綺麗で、履くだけでスタイルアップして見えるのが最高！\n\n152cmの私は23インチを選びました❤︎\n\nウエストは少し余裕があるので、ベルトで調整して履いてるよ♪\n\nInstagramやTikTokでも「どこのデニムですか？」ってたくさん質問をいただいたアイテム♡\n\nシンプルなトップスと合わせるだけでもコーデが決まるし、何より形が本当に綺麗！\n\nやっぱりリーバイスのデニムが大好き♡"
         }
       ],
-      "tags": [],
+      "tags": [
+        "デニム",
+        "ボトムス",
+        "骨格ウェーブ"
+      ],
       "badges": [],
       "repeatPurchase": false,
       "status": "published",
       "order": 5,
       "publishedAt": "2026-08-19T06:19:46.046Z",
-      "updatedAt": "2026-10-26T09:55:35.752Z",
-      "_rev": 2,
+      "updatedAt": "2026-10-29T15:43:24.898Z",
+      "_rev": 3,
       "_edited": true,
-      "catManual": false,
-      "categoryMeta": {}
-    },
-    {
-      "id": "p17",
-      "name": "BYKARTE リペアシャンプー＆セラムトリートメントセット",
-      "brand": "バイカルテ",
-      "cat": "beauty",
-      "sub": "ヘアケア",
-      "price": 8360,
-      "rating": 4.7,
-      "reviews": 210,
-      "copy": "美容院でも使われる優秀ライン。ジョーマローンのイングリッシュペアにそっくりな上品な香りで、洗うたび髪がサラサラに。シャンプー＆トリートメントの選べるセット。",
-      "points": [
-        "美容院でも使われる本格ライン",
-        "ジョーマローン系の上品な香り",
-        "洗い上がりサラサラ、ライン使いで効果実感"
-      ],
-      "tag": "Rakuten",
-      "badge": "",
-      "rank": null,
-      "grad": "linear-gradient(150deg,#f1ece4 0%,#e2d8c8 60%,#cdbfa6 100%)",
-      "imgs": [
-        "https://shop.r10s.jp/beautifulnet-nagoya/cabinet/11059547/imgrc0093442933.jpg?_ex=600x600"
-      ],
-      "shops": [
-        "rakuten",
-        "tiktok",
-        "amazon",
-        "qoo10"
-      ],
-      "links": {
-        "rakuten": "https://a.r10.to/hPL7Wv"
-      },
-      "social": {},
-      "spec": {},
-      "userReviews": [
-        {
-          "name": "ikkun",
-          "meta": "30代・愛用中",
-          "rating": 5,
-          "body": "ずっと愛用しているシャンプーリンス！美容院でも使われてる優秀アイテム。においはジョーマローンのイングリッシュペアにそっくりでとってもいいにおい。髪の毛サラサラになるので大好きなアイテム"
-        }
-      ],
-      "tags": [
-        "Rakuten"
-      ],
-      "badges": [],
-      "repeatPurchase": false,
-      "status": "published",
-      "order": 16,
-      "publishedAt": "2026-08-18T06:19:46.046Z",
-      "updatedAt": "2026-08-18T06:19:46.046Z",
-      "_rev": 0,
-      "_edited": false,
       "catManual": false,
       "categoryMeta": {}
     },
@@ -573,62 +412,6 @@ window.__LB_OVERRIDE__ = {
       "categoryMeta": {}
     },
     {
-      "id": "p20",
-      "name": "ALBION フラルネ アクアフォンデュ クレンジングクリーム",
-      "brand": "ALBION FLARUNE",
-      "cat": "beauty",
-      "sub": "スキンケア",
-      "price": 3600,
-      "rating": 4.8,
-      "reviews": 240,
-      "copy": "乾燥肌・肌荒れしやすい人にこそ試してほしいクレンジングクリーム。オイルよりしっかりメイクオフできるのに、洗い上がりは肌が落ち着く感覚。",
-      "points": [
-        "乾燥肌・肌荒れしやすい人におすすめ",
-        "オイルより落ちるのに肌に優しい",
-        "繰り返し使いたくなるリピート定番"
-      ],
-      "tag": "Rakuten",
-      "badge": "リピート4本目",
-      "rank": null,
-      "grad": "linear-gradient(150deg,#f1ece4 0%,#e2d8c8 60%,#cdbfa6 100%)",
-      "imgs": [
-        "https://shop.r10s.jp/cosmeparfaite/cabinet/image/4969527500836c1.jpg?_ex=600x600",
-        "https://shop.r10s.jp/cosmeparfaite/cabinet/image/4969527500836c2.jpg?_ex=600x600"
-      ],
-      "shops": [
-        "rakuten",
-        "tiktok",
-        "amazon",
-        "qoo10"
-      ],
-      "links": {
-        "rakuten": "https://room.rakuten.co.jp/room_ikkun/1700382312348473"
-      },
-      "social": {},
-      "spec": {},
-      "userReviews": [
-        {
-          "name": "ikkun",
-          "meta": "30代・乾燥/肌荒れしやすい",
-          "rating": 5,
-          "body": "肌荒れしやすい人におすすめすぎる。乾燥肌・肌荒れしやすくていいクレンジングクリームを探してたときに出会えたアイテム。オイルでメイク落としていた時よりもしっかりメイク落とししてくれて肌荒れが落ち着いた。リピート4本目！"
-        }
-      ],
-      "tags": [
-        "Rakuten"
-      ],
-      "badges": [],
-      "repeatPurchase": false,
-      "status": "published",
-      "order": 19,
-      "publishedAt": "2026-08-15T06:19:46.046Z",
-      "updatedAt": "2026-08-15T06:19:46.046Z",
-      "_rev": 0,
-      "_edited": false,
-      "catManual": false,
-      "categoryMeta": {}
-    },
-    {
       "id": "p21",
       "name": "anua トナーパッド｜選べる7種類",
       "brand": "Anua",
@@ -637,13 +420,13 @@ window.__LB_OVERRIDE__ = {
       "price": 3300,
       "rating": 4.7,
       "reviews": 410,
-      "copy": "保湿たっぷりの韓国トナーパッド。パック代わりに使えて、肌の温度を下げて整えてくれる。乾燥肌さんにこそおすすめの1本。",
+      "copy": "8ヒアルロン酸カテキン カーミングパッド 110枚入\n\nメイク前の肌づくりに、うるおい・ひんやり・引きしめケアをプラス！潤いを与えながら肌のキメを整えてベースメイクがなじみやすい状態へサポートします。\n緑茶由来の成分*¹を配合し、パッド１枚で手軽にデイリーケアができます。*１チャカテキン(整肌成分)\nハイドロゲルの天然素材を使用しエッセンスによってしっかり肌に密着します。\nたっぷりのうるおいで肌を包み込みひんやりとクーリング感を与えます。\n皮脂や毛穴周りを整え、なめらかな肌へとサポートします。\n\n使用方法：\n1．洗顔後、気になる部分に10～20分ほどのせてパックのように使います。\n2．仕上げに、顔全体の肌のキメに沿ってやさしく拭き取ります。",
       "points": [
         "保湿たっぷり、パック代わりにも",
         "肌の温度を下げて整えるクーリングケア",
         "乾燥肌さんに特におすすめ"
       ],
-      "tag": "韓国",
+      "tag": "",
       "badge": "",
       "rank": null,
       "grad": "linear-gradient(150deg,#e9d9cf 0%,#d8bfb2 55%,#c7a594 100%)",
@@ -660,7 +443,6 @@ window.__LB_OVERRIDE__ = {
         "amazon"
       ],
       "links": {
-        "rakuten": "https://room.rakuten.co.jp/room_ikkun/1700382363206253",
         "qoo10": "https://www.qoo10.jp/g/832558479"
       },
       "social": {},
@@ -668,80 +450,23 @@ window.__LB_OVERRIDE__ = {
       "userReviews": [
         {
           "name": "ikkun",
-          "meta": "30代・乾燥肌",
+          "meta": "30代・骨格ウェーブ",
           "rating": 5,
-          "body": "保湿がたっぷりできるトナーパッド。ちなみにこれを買ってからパック代わりにしている。肌の温度を下げてくれるからお肌が整う感じがしてお気に入り♡ 乾燥肌さんにもすっごいおすすめすぎる"
+          "body": "これ、韓国に行ったときも何個もストック買いするくらい大好きなトナーパッド❤︎\n\n110枚も入っている大容量で、コスパがいいところもお気に入り♡\n\n保湿感がたっぷりあって、私はこれを買ってから毎日フェイスパック代わりにも使ってるよ！\n\n肌にのせるとひんやり気持ちよくて、使ったあとはお肌がしっとり整う感じがするのも嬉しいポイント◎\n\n乾燥肌の私にはすごく使いやすくて、メイク前の保湿ケアにも大活躍♡\n\n毎日惜しみなく使えるし、これからもリピートしたいお気に入りのスキンケアです❤︎"
         }
       ],
       "tags": [
-        "韓国"
+        "スキンケア",
+        "anua"
       ],
       "badges": [],
       "repeatPurchase": false,
       "status": "published",
       "order": 20,
       "publishedAt": "2026-08-14T06:19:46.046Z",
-      "updatedAt": "2026-08-14T06:19:46.046Z",
-      "_rev": 0,
-      "_edited": false,
-      "catManual": false,
-      "categoryMeta": {}
-    },
-    {
-      "id": "p22",
-      "name": "Anua アゼライン酸3 CICA スキンクリアトナー 250ml",
-      "brand": "Anua",
-      "cat": "beauty",
-      "sub": "スキンケア",
-      "price": 2800,
-      "rating": 4.7,
-      "reviews": 360,
-      "copy": "肌がちゅるちゅるになると話題の拭き取り化粧水。生理前や肌荒れしやすい時期にコットンでたっぷり。さっぱりした仕上がりで、ゆらぎ肌に寄り添う1本。",
-      "points": [
-        "アゼライン酸×CICAでトラブルケア",
-        "コットンパックでさっぱり仕上げ",
-        "ゆらぎやすい時期のお守りに"
-      ],
-      "tag": "韓国",
-      "badge": "",
-      "rank": null,
-      "grad": "linear-gradient(150deg,#e2e2dc 0%,#cdccc0 60%,#b0afa0 100%)",
-      "imgs": [
-        "https://shop.r10s.jp/anuajapan/cabinet/12112783/imgrc0127434523.jpg?_ex=600x600",
-        "https://shop.r10s.jp/anuajapan/cabinet/12112783/azelaic_toner_21.jpg?_ex=600x600",
-        "https://shop.r10s.jp/anuajapan/cabinet/12112783/azelaic_toner_22.jpg?_ex=600x600",
-        "https://shop.r10s.jp/anuajapan/cabinet/12112783/azelaic_toner_23.jpg?_ex=600x600"
-      ],
-      "shops": [
-        "qoo10",
-        "tiktok",
-        "rakuten",
-        "amazon"
-      ],
-      "links": {
-        "rakuten": "https://room.rakuten.co.jp/room_ikkun/1700382362812452"
-      },
-      "social": {},
-      "spec": {},
-      "userReviews": [
-        {
-          "name": "ikkun",
-          "meta": "30代・ゆらぎ肌",
-          "rating": 5,
-          "body": "お肌がちゅるちゅるお姉様に教えてもらったお気に入りアイテムの一つ。生理前とか肌荒れしやすい時期にコットンにつけてたっぷり塗りこんでます！さっぱりした仕上がりになるので大好きな一つ"
-        }
-      ],
-      "tags": [
-        "韓国"
-      ],
-      "badges": [],
-      "repeatPurchase": false,
-      "status": "published",
-      "order": 21,
-      "publishedAt": "2026-08-13T06:19:46.046Z",
-      "updatedAt": "2026-08-13T06:19:46.046Z",
-      "_rev": 0,
-      "_edited": false,
+      "updatedAt": "2026-10-29T16:17:15.634Z",
+      "_rev": 1,
+      "_edited": true,
       "catManual": false,
       "categoryMeta": {}
     },
@@ -754,19 +479,18 @@ window.__LB_OVERRIDE__ = {
       "price": 2790,
       "rating": 4.8,
       "reviews": 520,
-      "copy": "リピート10本超えの定番ビタミンC美容液。夜にC27%を使うと翌朝もっちり。トーンアップ・くすみ・ゆらぎが気になる肌に寄り添う、いっくんの大好きな一本。",
+      "copy": "goodal（グーダル）ビタC27 ダークスポットケアアンプル\n\n韓国スキンケアブランド「goodal」の高濃度ビタミンC美容液。\n\nビタミンCを配合し、乾燥によるくすみやキメの乱れが気になる肌をケアするアイテムです。\n\n肌にうるおいを与えながら、なめらかで明るい印象の肌へ導くことを目指した処方。\n\n毎日のスキンケアにプラスして、透明感のある印象の肌を目指したい方におすすめ",
       "points": [
         "夜使いで翌朝もっちり実感",
         "トーンアップ・シミ印象ケア",
         "C15 / C27 の2タイプから選べる"
       ],
-      "tag": "韓国",
-      "badge": "リピート10本目",
+      "tag": "",
+      "badge": "",
       "rank": null,
       "grad": "linear-gradient(150deg,#ece2d0 0%,#dcccae 60%,#c8b386 100%)",
       "imgs": [
-        "https://shop.r10s.jp/cliojapan/cabinet/event/2506-ss/10000812_ad.jpg?_ex=600x600",
-        "https://shop.r10s.jp/cliojapan/cabinet/2222.jpg?_ex=600x600"
+        "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202610/1793291391633-5xdcx.jpg"
       ],
       "shops": [
         "qoo10",
@@ -775,30 +499,30 @@ window.__LB_OVERRIDE__ = {
         "amazon"
       ],
       "links": {
-        "rakuten": "https://room.rakuten.co.jp/room_ikkun/1700382363622176",
-        "qoo10": "https://www.qoo10.jp/g/1191375561"
+        "qoo10": "https://www.qoo10.jp/su/1474266136/Q164708437"
       },
       "social": {},
       "spec": {},
       "userReviews": [
         {
           "name": "ikkun",
-          "meta": "30代・愛用中",
+          "meta": "30代・インナードライ",
           "rating": 5,
-          "body": "もうリピ10本目くらい。夜に27%を使っているんだけど朝起きても肌がもっちりしててびっくりする。少し匂いが気になる人もいるかもしれないけど、私はお肌が荒れづらくなってトーンアップ・シミも薄くなってる気がして大好きなアイテムすぎる！！！"
+          "body": "もう何度リピートしたかわからないくらい大好きなビタC27美容液❤︎\n\nお肌の調子がイマイチなときに使うと、翌朝の肌の調子がすっごくいい気がして、手放せないアイテム♡\n\nただ、ひとつだけ言わせてほしい。\n\nこれ、本当に臭い！！笑\n\nでも、その香りが気になっても使い続けたいくらいお気に入り♡\n\n私はいつもANUAのトナーパッドを使ったあとに、この美容液を塗ってるよ！\n\n保湿しすぎると逆に肌荒れしやすいタイプなので、私の場合はこの美容液でスキンケアを終わらせることも◎\n\nそれでも翌朝はしっとりもちもちした感じがして、朝起きてお肌を触るのが楽しみに♡\n\n香りは好みが分かれると思うけど、これからもリピートしたい大好きな美容液です❤︎"
         }
       ],
       "tags": [
-        "韓国"
+        "スキンケア",
+        "肌荒れ"
       ],
       "badges": [],
       "repeatPurchase": false,
       "status": "published",
       "order": 22,
       "publishedAt": "2026-08-12T06:19:46.046Z",
-      "updatedAt": "2026-08-12T06:19:46.046Z",
-      "_rev": 0,
-      "_edited": false,
+      "updatedAt": "2026-10-29T16:31:32.382Z",
+      "_rev": 1,
+      "_edited": true,
       "catManual": false,
       "categoryMeta": {}
     },
@@ -1035,14 +759,14 @@ window.__LB_OVERRIDE__ = {
     },
     {
       "id": "pmuwh7x4v4az0",
-      "name": "レーストリムティアードロングドレス SNIDEL スナイデル ワンピース・ドレス ワンピース ブラック[Rakuten ",
-      "brand": "",
+      "name": "SNIDEL スナイデル ワンピース・ドレス ワンピース ブラック",
+      "brand": "SNIDEL",
       "cat": "fashion",
       "sub": "ワンピース",
       "price": 29920,
       "rating": 4.6,
       "reviews": 0,
-      "copy": "この秋いっぱい着回してます！ \nブーツとライダース合わせるのがお気に入りです♪",
+      "copy": "【アシンメトリーティアードが揺れるレディワンピース】\n\n【Design/Styling】\n・アシンメトリーに重ねたティアードデザインが動きのある華やかな印象を演出します。\n・ヘムラインには繊細なレースをあしらい、フェミニンなアクセントをプラスしました。\n・テグス入りのメローステッチで軽やかな揺れ感を表現しています。\n・デイリーからセミオケージョンまで幅広いシーンで活躍する一着です。\n\n【Fabric】\n・上品な艶感と落ち感が魅力のサテンジョーゼット素材を使用しました。\n・カラーはブラック、ブラウン、ライトブルーの3色展開です。\n\n透け感:ややあり\n裏地:あり\n伸縮性:なし\n光沢感:ややあり\n生地の厚さ:やや薄手\n\n【おすすめ骨格タイプ】\n■骨格ウェーブ\n■骨格ナチュラル\n",
       "points": [
         "フリルのワンピなのに可愛くなりすぎないデザインがすごくお気に入り♡"
       ],
@@ -1052,10 +776,7 @@ window.__LB_OVERRIDE__ = {
       "grad": "linear-gradient(150deg,#e9d9cf 0%,#d8bfb2 55%,#c7a594 100%)",
       "imgs": [
         "https://tshop.r10s.jp/usagi-online/cabinet/item/516/sj2516-05_1.jpg",
-        "https://shop.r10s.jp/usagi-online/cabinet/item/516/sj2516-05_1.jpg?thum=166&resize=600:*",
         "https://shop.r10s.jp/usagi-online/cabinet/item/516/sj2516-05_2.jpg?thum=166&resize=600:*",
-        "https://shop.r10s.jp/usagi-online/cabinet/item/516/sj2516-05_3.jpg?thum=166&resize=600:*",
-        "https://shop.r10s.jp/usagi-online/cabinet/item/516/sj2516-05_4.jpg?thum=166&resize=600:*",
         "https://shop.r10s.jp/usagi-online/cabinet/item/516/sj2516-05_5.jpg?thum=166&resize=600:*",
         "https://shop.r10s.jp/usagi-online/cabinet/item/516/sj2516-05_6.jpg?thum=166&resize=600:*",
         "https://shop.r10s.jp/usagi-online/cabinet/item/516/sj2516-05_7.jpg?thum=166&resize=600:*"
@@ -1075,15 +796,24 @@ window.__LB_OVERRIDE__ = {
         "youtube": ""
       },
       "spec": {},
-      "userReviews": [],
-      "tags": [],
+      "userReviews": [
+        {
+          "name": "ikkun",
+          "meta": "30代・骨格ウェーブ",
+          "rating": 5,
+          "body": "デザインが可愛すぎて、一目惚れしたワンピース❤︎\n\n甘くなりすぎないように、私はブラックを選びました♡\n\nこの秋はお気に入りすぎて、たくさん着回してるよ！\n\n特にブーツとショート丈のデニムジャケットを合わせた、ちょっぴり甘辛なカジュアルコーデがお気に入り◎\n\n可愛らしさもありつつ、合わせるアイテム次第で大人っぽく着られるところも好き♡\n\nこれからも長く愛用したい、お気に入りの一着です❤︎"
+        }
+      ],
+      "tags": [
+        "ワンピース"
+      ],
       "badges": [],
       "repeatPurchase": false,
       "status": "published",
       "order": 17,
       "publishedAt": "2026-10-06T09:28:40.831Z",
-      "updatedAt": "2026-10-06T09:28:40.831Z",
-      "_rev": 1,
+      "updatedAt": "2026-10-29T15:52:35.987Z",
+      "_rev": 2,
       "_edited": true,
       "catManual": false,
       "categoryMeta": {
@@ -1099,27 +829,26 @@ window.__LB_OVERRIDE__ = {
     },
     {
       "id": "pmuwhbpbshva0",
-      "name": "SNIDEL ボリュームフリルペプラムカーディガン スナイデル トップス カーディガン ネイビー グレー ブラック レッ",
+      "name": "SNIDEL ボリュームフリルペプラムカーディガン  ネイビー ",
       "brand": "SNIDEL",
       "cat": "fashion",
       "sub": "トップス",
       "price": 17600,
       "rating": 5,
       "reviews": 0,
-      "copy": "グレー×ブルー買いました！\n ショート丈でデザインが可愛くて今期1番のお気に入りアイテムです♡ \nデニムに合わせて大人可愛いカジュアルコーデが◎",
+      "copy": "【ボリュームフリルが華やぐレイヤードニット】\n\n【Design/Styling】\n・人気のボリュームフリルニットを今季らしくアップデートしました。\n・波打つ表情のシャツ地ペプラムフリルにニットフリルを重ね、華やかな存在感を演出。\n・ペプラム部分は取り外し可能です。\n\n【Fabric】\n・少しウールを含んだ糸を使用し、暖かみのある風合いに仕上げました。\n・カラーはグレー、ブラック、レッド、ブラウン、ネイビーの5色展開です。\n・ブラックのペプラム部分はドットチュールに仕上げました。\n\n透け感:なし\n裏地:なし\n伸縮性:ややあり\n光沢感:なし\n生地の厚さ:普通\n",
       "points": [
         "グレー×ブルー買いました！今期お気に入りトップス♡"
       ],
       "tag": "",
       "badge": "",
-      "rank": 3,
+      "rank": 2,
       "grad": "linear-gradient(150deg,#e9d9cf 0%,#d8bfb2 55%,#c7a594 100%)",
       "imgs": [
+        "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202610/1793288730010-iqwde.jpg",
         "https://tshop.r10s.jp/stylife/cabinet/item/014/sh2014-05_1.jpg",
-        "https://shop.r10s.jp/stylife/cabinet/item/014/sh2014-05_1.jpg?thum=166&resize=600:*",
         "https://shop.r10s.jp/stylife/cabinet/item/014/sh2014-05_2.jpg?thum=166&resize=600:*",
         "https://shop.r10s.jp/stylife/cabinet/item/014/sh2014-05_3.jpg?thum=166&resize=600:*",
-        "https://shop.r10s.jp/stylife/cabinet/item/014/sh2014-05_4.jpg?thum=166&resize=600:*",
         "https://shop.r10s.jp/stylife/cabinet/item/014/sh2014-05_5.jpg?thum=166&resize=600:*",
         "https://shop.r10s.jp/stylife/cabinet/item/014/sh2014-05_6.jpg?thum=166&resize=600:*",
         "https://shop.r10s.jp/stylife/cabinet/item/014/sh2014-05_7.jpg?thum=166&resize=600:*"
@@ -1139,8 +868,20 @@ window.__LB_OVERRIDE__ = {
         "youtube": ""
       },
       "spec": {},
-      "userReviews": [],
-      "tags": [],
+      "userReviews": [
+        {
+          "name": "ikkun",
+          "meta": "30代・骨格ウェーブ",
+          "rating": 5,
+          "body": "グレー×ブルーの配色が可愛すぎて、こちらを購入しました❤︎\n\nショート丈のシルエットがとにかく可愛くて、今季いちばんのお気に入りトップス♡\n\nデニムと合わせて、ちょっぴり甘さのある大人可愛いカジュアルコーデにするのが好き！\n\n配色がおしゃれなので、シンプルなボトムスと合わせるだけでもコーデが可愛くまとまるのが嬉しいポイント◎\n\nこれは本当に買ってよかったアイテムです♡"
+        }
+      ],
+      "tags": [
+        "トップス",
+        "tops",
+        "SNIDEL",
+        "ニット"
+      ],
       "badges": [
         "favorite"
       ],
@@ -1148,8 +889,8 @@ window.__LB_OVERRIDE__ = {
       "status": "published",
       "order": 18,
       "publishedAt": "2026-10-06T09:31:37.336Z",
-      "updatedAt": "2026-10-26T09:55:52.670Z",
-      "_rev": 3,
+      "updatedAt": "2026-10-29T15:47:03.127Z",
+      "_rev": 4,
       "_edited": true,
       "catManual": true,
       "categoryMeta": {
@@ -1182,7 +923,6 @@ window.__LB_OVERRIDE__ = {
       "grad": "linear-gradient(150deg,#e9d9cf 0%,#d8bfb2 55%,#c7a594 100%)",
       "imgs": [
         "https://tshop.r10s.jp/stylife/cabinet/item/052/ss9052-05_1.jpg",
-        "https://shop.r10s.jp/stylife/cabinet/item/052/ss9052-05_1.jpg?thum=166&resize=600:*",
         "https://shop.r10s.jp/stylife/cabinet/item/052/ss9052-05_2.jpg?thum=166&resize=600:*",
         "https://shop.r10s.jp/stylife/cabinet/item/052/ss9052-05_3.jpg?thum=166&resize=600:*",
         "https://shop.r10s.jp/stylife/cabinet/item/052/ss9052-05_4.jpg?thum=166&resize=600:*",
@@ -1207,12 +947,16 @@ window.__LB_OVERRIDE__ = {
       "userReviews": [
         {
           "name": "ikkun",
-          "meta": "30代・骨格ウェーブ",
+          "meta": "30代・骨格ウェーブ・デニム大好き",
           "rating": 5,
           "body": "152cmの私でも、履くだけで脚がすらっと長く見えるお気に入りデニム❤︎\n\n気に入りすぎて週3回は履いてるほど！色違いも狙ってます♡\n\n152cmで21インチを選びましたが、ウエスト周りは結構フィット感があるので、ご飯を食べた後は少し苦しく感じるかも。\n\n丈は長めなので、私は厚底シューズと合わせて履いてます♪"
         }
       ],
-      "tags": [],
+      "tags": [
+        "デニム",
+        "ボトムス",
+        "骨格ウェーブ"
+      ],
       "badges": [
         "favorite"
       ],
@@ -1220,8 +964,8 @@ window.__LB_OVERRIDE__ = {
       "status": "published",
       "order": 19,
       "publishedAt": "2026-10-06T13:36:00.715Z",
-      "updatedAt": "2026-10-28T10:24:14.590Z",
-      "_rev": 5,
+      "updatedAt": "2026-10-29T15:38:49.620Z",
+      "_rev": 6,
       "_edited": true,
       "catManual": false,
       "categoryMeta": {
