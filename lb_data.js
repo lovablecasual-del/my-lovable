@@ -2779,7 +2779,7 @@ window.__LB_OVERRIDE__ = {
       "status": "published",
       "order": 41,
       "publishedAt": "2026-10-29T17:01:50.328Z",
-      "updatedAt": "2026-10-29T17:28:25.289Z",
+      "updatedAt": "2026-10-29T17:29:12.789Z",
       "_rev": 3,
       "_edited": true,
       "catManual": true,
@@ -2888,8 +2888,6 @@ window.__LB_OVERRIDE__ = {
       "isVisible": true,
       "locked": true,
       "isSystem": true,
-      "img": "",
-      "imgObjectPos": "center",
       "createdAt": "2026-09-03T06:19:46.046Z",
       "updatedAt": "2026-09-03T06:19:46.046Z"
     },
@@ -2910,8 +2908,6 @@ window.__LB_OVERRIDE__ = {
       "isVisible": true,
       "locked": true,
       "isSystem": true,
-      "img": "",
-      "imgObjectPos": "center",
       "createdAt": "2026-09-03T06:19:46.046Z",
       "updatedAt": "2026-09-03T06:19:46.046Z"
     },
@@ -2933,8 +2929,6 @@ window.__LB_OVERRIDE__ = {
       "isVisible": true,
       "locked": true,
       "isSystem": true,
-      "img": "",
-      "imgObjectPos": "center",
       "createdAt": "2026-09-03T06:19:46.046Z",
       "updatedAt": "2026-09-03T06:19:46.046Z"
     },
@@ -2955,8 +2949,6 @@ window.__LB_OVERRIDE__ = {
       "isVisible": true,
       "locked": true,
       "isSystem": true,
-      "img": "",
-      "imgObjectPos": "center",
       "createdAt": "2026-09-03T06:19:46.046Z",
       "updatedAt": "2026-09-10T15:34:12.361Z"
     }
