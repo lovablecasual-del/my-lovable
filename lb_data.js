@@ -2756,13 +2756,12 @@ window.__LB_OVERRIDE__ = {
       "rank": null,
       "grad": "linear-gradient(150deg,#e8e4dc 0%,#c5bfb0 60%,#a3998a 100%)",
       "imgs": [
-        "https://img.snidel.com/snidel/ProductSubImages/0/SWFS264118_p_04_LL.jpg",
+        "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202610/1793258563895-ujfs0.jpg",
+        "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202610/1793258570863-04e6q.jpg",
+        "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202610/1793258568299-2i72m.jpg",
         "https://img.snidel.com/snidel/ProductSubImages/0/SWFS264118_p_05_LL.jpg",
         "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202610/1793258559035-9qttq.jpg",
-        "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202610/1793258561601-p3ega.jpg",
-        "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202610/1793258563895-ujfs0.jpg",
-        "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202610/1793258568299-2i72m.jpg",
-        "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202610/1793258570863-04e6q.jpg"
+        "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202610/1793258561601-p3ega.jpg"
       ],
       "shops": [],
       "links": {
@@ -2787,8 +2786,8 @@ window.__LB_OVERRIDE__ = {
       "status": "published",
       "order": 0,
       "publishedAt": "2026-10-13T00:00:00.000Z",
-      "updatedAt": "2026-10-29T07:25:22.335Z",
-      "_rev": 1,
+      "updatedAt": "2026-10-29T08:08:02.663Z",
+      "_rev": 2,
       "_edited": true,
       "catManual": true,
       "categoryMeta": {
