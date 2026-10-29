@@ -2720,6 +2720,153 @@ window.__LB_OVERRIDE__ = {
         "mappedAt": "2026-10-29T16:43:08.379Z",
         "auto": true
       }
+    },
+    {
+      "id": "pmvtsja0nt19m",
+      "name": "TWEED FRINGE MEDIUM JACKET",
+      "brand": "",
+      "cat": "fashion",
+      "sub": "トップス",
+      "price": 35200,
+      "rating": 0,
+      "reviews": 0,
+      "copy": "オリジナルのツイード素材を使用したミディアム丈のジャケット。\n\n太番手の様々な糸を織り交ぜ、配色にも拘ったAmeriオリジナルのツイード素材を使用。\n身幅を広めに設定し、ドロップショルダーに仕上げカジュアルに落とし込んだアイテムです。 襟ぐりや袖口等のフリンジディテールもさり気ないポイント。\nツイード素材特有のきちんと感もあり、コーディネート次第でカジュアルにもきれいめにも合わせていただける万能アイテム。\nベルトマーク出来るデザインのためバランスよく着用可能です。\n\n---------------------------------\n透け感:なし\n裏地:あり\n伸縮性:なし\n光沢感:なし\n生地の厚さ:普通\nお手入れ方法:クリーニング推奨\n---------------------------------",
+      "points": [
+        "### [Amate会員 定額制のAmate会員になると お得な特典があります。",
+        "ポジションで 新しい仲間を募集中です。",
+        "[特定商取引法・古物営業法に基づく表記]",
+        "[AMATE会員について]"
+      ],
+      "tag": "",
+      "badge": "",
+      "rank": 4,
+      "grad": "linear-gradient(150deg,#e9d9cf 0%,#d8bfb2 55%,#c7a594 100%)",
+      "imgs": [
+        "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202610/1793293054376-fprca.jpg",
+        "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202610/1793293051955-cf644.jpg",
+        "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202610/1793293056892-g3qi9.jpg",
+        "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202610/1793293059714-ibfk2.jpg"
+      ],
+      "shops": [
+        "rakuten",
+        "amazon",
+        "qoo10",
+        "tiktok"
+      ],
+      "links": {
+        "other": "https://amerivintage.co.jp/collections/outers/products/0126206610910"
+      },
+      "social": {
+        "ig": "",
+        "tiktok": "",
+        "youtube": ""
+      },
+      "spec": {},
+      "userReviews": [
+        {
+          "name": "ikkun",
+          "meta": "30代・骨格ウェーブ",
+          "rating": 5,
+          "body": "今季いちばんのお気に入りアウター❤︎\n\nもうデザインがどタイプすぎて、一目惚れで購入しちゃいました♡\n\nモノトーンのツイード素材がとっても上品で、羽織るだけでコーデがぐっと大人っぽい印象に。\n\nシルエットもすごく綺麗で、ボタンのデザインまで可愛いところがお気に入り◎\n\nしかも見た目だけじゃなく、しっかり暖かいのも嬉しいポイント！\n\nカジュアルにもきれいめにも合わせたくなる、今季買って大正解だったコートです♡"
+        }
+      ],
+      "tags": [
+        "AMERI",
+        "アウター"
+      ],
+      "badges": [],
+      "repeatPurchase": false,
+      "status": "published",
+      "order": 41,
+      "publishedAt": "2026-10-29T17:01:50.328Z",
+      "updatedAt": "2026-10-29T17:10:26.893Z",
+      "_rev": 2,
+      "_edited": true,
+      "catManual": true,
+      "categoryMeta": {
+        "common": "Other",
+        "source": "fallback",
+        "confidence": "low",
+        "originalCategory": "",
+        "originalCategoryId": "",
+        "shopCategory": "",
+        "mappedAt": "2026-10-29T16:55:35.997Z",
+        "auto": true
+      }
+    },
+    {
+      "id": "pmvtstv2whafg",
+      "name": "Ameri DEFORMATION M-65 JACKET",
+      "brand": "",
+      "cat": "fashion",
+      "sub": "トップス",
+      "price": 35200,
+      "rating": 0,
+      "reviews": 0,
+      "copy": "シルエット変化が叶うミリタリージャケット。\n\nM-65型をベースにAmeriらしく再構築したジャケットは着丈を変化させることが可能に。\nミディアム丈から内側のドットボタンを留めることで、バルーンシルエットのショート丈に変化。\n襟のファーは取り外し可能で襟は立てても着用いただけます。\n袖口も調整可能で、様々なシルエットでの着こなしが楽しめる1着です。\n\n---------------------------------\n透け感:なし\n裏地:あり\n伸縮性:なし\n光沢感:なし\n生地の厚さ:普通\nお手入れ方法:クリーニング推奨\n---------------------------------",
+      "points": [
+        "### [Amate会員 定額制のAmate会員になると お得な特典があります。",
+        "ポジションで 新しい仲間を募集中です。",
+        "[特定商取引法・古物営業法に基づく表記]",
+        "[AMATE会員について]"
+      ],
+      "tag": "",
+      "badge": "",
+      "rank": null,
+      "grad": "linear-gradient(150deg,#e9d9cf 0%,#d8bfb2 55%,#c7a594 100%)",
+      "imgs": [
+        "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202610/1793293518639-l7bes.jpg",
+        "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202610/1793293521340-it4mi.jpg",
+        "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202610/1793293523455-noo0c.jpg",
+        "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202610/1793293526125-ajblu.jpg",
+        "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202610/1793293528448-qkt7z.jpg"
+      ],
+      "shops": [
+        "rakuten",
+        "amazon",
+        "qoo10",
+        "tiktok"
+      ],
+      "links": {
+        "other": "https://amerivintage.co.jp/collections/outers/products/0126206910890"
+      },
+      "social": {
+        "ig": "",
+        "tiktok": "",
+        "youtube": ""
+      },
+      "spec": {},
+      "userReviews": [
+        {
+          "name": "ikkun",
+          "meta": "30代・骨格ウェーブ",
+          "rating": 5,
+          "body": "秋のお出かけにぴったりな、お気に入りミリタリーコート❤︎\n\n少し薄手の生地なので、秋はもちろん、寒くなってきたらニットと重ね着して楽しめるのが嬉しいポイント♡\n\nとにかくシルエットが綺麗で、羽織るだけでこなれ感が出るのがお気に入り◎\n\nしかも丈感を短くアレンジできるので、その日のコーデに合わせて雰囲気を変えられるのも可愛い！\n\n1着でいろんな着こなしが楽しめる、AMERIらしいおしゃれなアウターです♡"
+        }
+      ],
+      "tags": [
+        "Ameri",
+        "アウター"
+      ],
+      "badges": [],
+      "repeatPurchase": false,
+      "status": "published",
+      "order": 42,
+      "publishedAt": "2026-10-29T17:10:04.184Z",
+      "updatedAt": "2026-10-29T17:10:04.184Z",
+      "_rev": 1,
+      "_edited": true,
+      "catManual": true,
+      "categoryMeta": {
+        "common": "Other",
+        "source": "fallback",
+        "confidence": "low",
+        "originalCategory": "",
+        "originalCategoryId": "",
+        "shopCategory": "",
+        "mappedAt": "2026-10-29T17:04:11.510Z",
+        "auto": true
+      }
     }
   ],
   "CATEGORIES": [
