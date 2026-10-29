@@ -2577,6 +2577,150 @@ window.__LB_OVERRIDE__ = {
         "mappedAt": "2026-10-29T08:13:12.501Z",
         "auto": true
       }
+    },
+    {
+      "id": "pmvtru9udpdkm",
+      "name": "LOVECHROME ヘアコーム (R)K24GPツキ ゴールド ",
+      "brand": "",
+      "cat": "beauty",
+      "sub": "ヘアケア",
+      "price": 13090,
+      "rating": 0,
+      "reviews": 0,
+      "copy": "(R)K24GPツキ ゴールド\nK24GPシリーズの表面加工は純金を使用し、やわらかく、しなやかに髪と頭皮をいたわるプレミアムライン。\n\nコンパクトで軽量なツキは、持ち運びにも便利でお出かけ用にもおすすめ。\n日本古来の伝統的な櫛や簪のかたちが特徴的で、サイドに髪の毛を分けやすくする「取り分け刃」を用意。\n前髪のセットにも使いやすいと好評です。\n\n□ こんな方におすすめ\n・ 外出時のお直し用に\n・ 前髪のセットに\n\n□ 仕様、サイズ\n・ サイズ：100 x 46 x 9 mm\n・ 素材：ABS樹脂 (JP CHROME-TECH加工)\n・ 日本製\n※商品のサイズや重さは、多少の個体差がございます。\n\n□ お手入れ方法\n・ 汚れが気になる場合は、やわらかいスポンジや歯ブラシと中性洗剤をつかいやさしく洗い、日陰で乾かしていただくことをおすすめしております。\n・ 入浴中や濡れ髪にご使用いただいたあとは、ご使用後水気を拭き取り、湿度の低い環境で保管してください。\n\n□ ご使用上の注意\n・カラー剤や白髪染め、パーマ剤等との併用は避けてください。コーティング劣化の原因となります。\n・金属アレルギーに対するコーティングは施しておりますが、貴金属を身につけてアレルギー反応が出たことがある方は使用をお控えください。",
+      "points": [
+        "毎日のコーミングで育む、さらツヤ美髪。",
+        "外出時のお直しや前髪用におすすめ。",
+        "ギフトにぴったりな、ギフトボックス、ショッパーのセットもご用意しております。"
+      ],
+      "tag": "",
+      "badge": "",
+      "rank": null,
+      "grad": "linear-gradient(150deg,#e9d9cf 0%,#d8bfb2 55%,#c7a594 100%)",
+      "imgs": [
+        "https://shop.r10s.jp/lovechrome/cabinet/12534625/12534628/2.jpg",
+        "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202610/1793291855623-r8s73.jpg",
+        "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202610/1793291898635-07f0z.jpg",
+        "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202610/1793291896385-0f7f4.jpg",
+        "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202610/1793291894278-z8wk7.jpg",
+        "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202610/1793291901069-h2qhq.jpg"
+      ],
+      "shops": [
+        "rakuten",
+        "amazon",
+        "qoo10",
+        "tiktok"
+      ],
+      "links": {
+        "rakuten": "https://a.r10.to/hPp4rj"
+      },
+      "social": {
+        "ig": "",
+        "tiktok": "",
+        "youtube": ""
+      },
+      "spec": {},
+      "userReviews": [
+        {
+          "name": "ikkun",
+          "meta": "30代・骨格ウェーブ・傷んだ髪の毛",
+          "rating": 5,
+          "body": "これ、流行る理由が本当にわかる！！❤︎\n\n友達に一度貸してもらったとき、髪がびっくりするくらいサラサラになって感動♡\n\nあまりにも良すぎて、なんと次の日には自分用にも購入しちゃいました！\n\n髪をとかすのが楽しくなるくらい、するんとまとまる感じがお気に入り◎\n\n気に入りすぎて、母の日にもプレゼントしたし、友達の誕生日プレゼントにも選んだほど！\n自分で使うのはもちろん、大切な人にも贈りたくなるアイテム♡\nこれは本当に買ってよかったし、これからもずっと愛用したいヘアコームです❤︎"
+        }
+      ],
+      "tags": [
+        "LOVECHROME",
+        "ヘアケア"
+      ],
+      "badges": [],
+      "repeatPurchase": false,
+      "status": "published",
+      "order": 39,
+      "publishedAt": "2026-10-29T16:42:23.701Z",
+      "updatedAt": "2026-10-29T16:42:23.701Z",
+      "_rev": 1,
+      "_edited": true,
+      "catManual": true,
+      "categoryMeta": {
+        "common": "Book",
+        "source": "keyword-assist",
+        "confidence": "low",
+        "originalCategory": "楽天市場",
+        "originalCategoryId": "100663",
+        "shopCategory": "楽天市場",
+        "mappedAt": "2026-10-29T16:34:39.516Z",
+        "auto": true
+      }
+    },
+    {
+      "id": "pmvts0bena5lm",
+      "name": "CA4LA キャスケット",
+      "brand": "",
+      "cat": "fashion",
+      "sub": "日用品",
+      "price": 10780,
+      "rating": 0,
+      "reviews": 0,
+      "copy": "ミニフォルムのキャスケット。\n\n■デザイン\nシンプルながらもコーディネートを引き立ててくれるアイテム。サイドにはレザーを巻いたパーツを飾り、さり気ないアクセントをプラスしました。\n\n■シルエット\nふっくらとしたクラウンは、少しだけボリュームを抑えて“ミニ”フォルムに。頭馴染みが良く安定したかぶり心地。\n\n■素材\nインドの長綿を高密度に織り上げた生地を使用。UVカットのツバ、撥水、手洗い可能と、春夏に嬉しい機能付きです。\n\n■お手入れ方法\n洗濯可能。洗うことにより風合いに多少の変化が起こります。お洗濯の際は単独手洗いで洗濯後、形を整え陰干ししてください。\n\n※サイズ調節スベリ仕様（サイズを小さくする際は、調節テープをまっすぐ引き出してください。逆向きに引っ張るとスベリを破損する可能性がございます。）",
+      "points": [
+        "■デザインシンプルながらもコーディネートを引き立ててくれるアイテム。",
+        "頭馴染みが良く安定したかぶり心地。",
+        "■素材インドの長綿を高密度に織り上げた生地を使用。",
+        "■シルエットふっくらとしたクラウンは、少しだけボリュームを抑えて“ミニ”フォルムに。"
+      ],
+      "tag": "",
+      "badge": "",
+      "rank": null,
+      "grad": "linear-gradient(150deg,#e9d9cf 0%,#d8bfb2 55%,#c7a594 100%)",
+      "imgs": [
+        "https://tshop.r10s.jp/stylife/cabinet/item/652/nt7652-01_1.jpg"
+      ],
+      "shops": [
+        "rakuten",
+        "amazon",
+        "qoo10",
+        "tiktok"
+      ],
+      "links": {
+        "rakuten": "https://a.r10.to/hgbal9"
+      },
+      "social": {
+        "ig": "",
+        "tiktok": "",
+        "youtube": ""
+      },
+      "spec": {},
+      "userReviews": [
+        {
+          "name": "ikkun",
+          "meta": "30代・骨格ウェーブ",
+          "rating": 5,
+          "body": "今年のお気に入りキャスケット❤︎\nとにかく形が綺麗で、かぶるだけでいつものコーデがぐっとおしゃれに見えるのがお気に入り♡\n\nシンプルなコーデにもプラスするだけで、こなれ感が出るのが嬉しいポイント◎\nちょっと物足りないな〜って日のコーデにも大活躍！\n\nおしゃれしたい日に、ついつい手に取ってしまうお気に入りアイテムです♡"
+        }
+      ],
+      "tags": [
+        "CA4LA",
+        "帽子"
+      ],
+      "badges": [],
+      "repeatPurchase": false,
+      "status": "published",
+      "order": 40,
+      "publishedAt": "2026-10-29T16:47:05.664Z",
+      "updatedAt": "2026-10-29T16:47:05.663Z",
+      "_rev": 1,
+      "_edited": true,
+      "catManual": true,
+      "categoryMeta": {
+        "common": "Drink",
+        "source": "keyword-assist",
+        "confidence": "low",
+        "originalCategory": "Rakuten Fashion > CA4LA (カシラ) > 帽子 > キャスケット",
+        "originalCategoryId": "403737",
+        "shopCategory": "キャスケット",
+        "mappedAt": "2026-10-29T16:43:08.379Z",
+        "auto": true
+      }
     }
   ],
   "CATEGORIES": [
