@@ -2834,9 +2834,11 @@ window.__LB_OVERRIDE__ = {
     },
     "featuredIds": [
       "p16",
-      "p1",
       "p2",
-      "p3"
+      "p3",
+      "p52",
+      "pmuwhbpbshva0",
+      "pmuwq1znve3vz"
     ],
     "showHomePage": true,
     "theme": "light",
@@ -2856,6 +2858,23 @@ window.__LB_OVERRIDE__ = {
         "p16",
         "pmuwhbpbshva0",
         "pmuwh7x4v4az0"
+      ]
+    },
+    "giftSection": {
+      "enabled": true,
+      "items": [
+        {
+          "id": "pmvtru9udpdkm",
+          "comment": "母の日・友達のプレゼントでもすっごい喜ばれたアイテム❤︎"
+        },
+        {
+          "id": "p54",
+          "comment": "美容好きな友達にあげて感謝されるアイテム♪"
+        },
+        {
+          "id": "p37",
+          "comment": "口紅って何本あっても嬉しい〜❤︎"
+        }
       ]
     }
   },
