@@ -2723,7 +2723,7 @@ window.__LB_OVERRIDE__ = {
     },
     {
       "id": "pmvtsja0nt19m",
-      "name": "TWEED FRINGE MEDIUM JACKET",
+      "name": "Ameri TWEED FRINGE MEDIUM JACKET",
       "brand": "",
       "cat": "fashion",
       "sub": "トップス",
@@ -2779,8 +2779,8 @@ window.__LB_OVERRIDE__ = {
       "status": "published",
       "order": 41,
       "publishedAt": "2026-10-29T17:01:50.328Z",
-      "updatedAt": "2026-10-29T17:10:26.893Z",
-      "_rev": 2,
+      "updatedAt": "2026-10-29T17:29:12.789Z",
+      "_rev": 3,
       "_edited": true,
       "catManual": true,
       "categoryMeta": {
