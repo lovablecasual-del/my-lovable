@@ -2726,7 +2726,7 @@ window.__LB_OVERRIDE__ = {
       "name": "Ameri TWEED FRINGE MEDIUM JACKET",
       "brand": "",
       "cat": "fashion",
-      "sub": "アウター",
+      "sub": "トップス",
       "price": 35200,
       "rating": 0,
       "reviews": 0,
@@ -2779,8 +2779,8 @@ window.__LB_OVERRIDE__ = {
       "status": "published",
       "order": 41,
       "publishedAt": "2026-10-29T17:01:50.328Z",
-      "updatedAt": "2026-10-30T07:38:11.833Z",
-      "_rev": 4,
+      "updatedAt": "2026-10-29T17:29:12.789Z",
+      "_rev": 3,
       "_edited": true,
       "catManual": true,
       "categoryMeta": {
@@ -2799,7 +2799,7 @@ window.__LB_OVERRIDE__ = {
       "name": "Ameri DEFORMATION M-65 JACKET",
       "brand": "",
       "cat": "fashion",
-      "sub": "アウター",
+      "sub": "トップス",
       "price": 35200,
       "rating": 0,
       "reviews": 0,
@@ -2853,8 +2853,8 @@ window.__LB_OVERRIDE__ = {
       "status": "published",
       "order": 42,
       "publishedAt": "2026-10-29T17:10:04.184Z",
-      "updatedAt": "2026-10-30T07:38:20.994Z",
-      "_rev": 2,
+      "updatedAt": "2026-10-29T17:10:04.184Z",
+      "_rev": 1,
       "_edited": true,
       "catManual": true,
       "categoryMeta": {
@@ -2915,7 +2915,7 @@ window.__LB_OVERRIDE__ = {
       "img": "",
       "imgObjectPos": "center",
       "createdAt": "2026-09-03T06:19:46.046Z",
-      "updatedAt": "2026-10-30T07:38:56.099Z"
+      "updatedAt": "2026-10-30T07:40:08.757Z"
     },
     {
       "key": "lifestyle",
