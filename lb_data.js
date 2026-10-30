@@ -240,7 +240,7 @@ window.__LB_OVERRIDE__ = {
       ],
       "tag": "",
       "badge": "",
-      "rank": 4,
+      "rank": 3,
       "grad": "linear-gradient(150deg,#e3ddd2 0%,#cabfa9 60%,#a99d83 100%)",
       "imgs": [
         "https://shop.r10s.jp/levis/cabinet/item/252/pv4252-01_1.jpg?_ex=600x800",
@@ -347,8 +347,8 @@ window.__LB_OVERRIDE__ = {
       "status": "published",
       "order": 3,
       "publishedAt": "2026-08-19T06:19:46.046Z",
-      "updatedAt": "2026-10-29T15:43:24.898Z",
-      "_rev": 3,
+      "updatedAt": "2026-10-30T07:42:16.238Z",
+      "_rev": 4,
       "_edited": true,
       "catManual": false,
       "categoryMeta": {}
@@ -2656,7 +2656,7 @@ window.__LB_OVERRIDE__ = {
       "name": "CA4LA キャスケット",
       "brand": "",
       "cat": "fashion",
-      "sub": "日用品",
+      "sub": "小物",
       "price": 10780,
       "rating": 0,
       "reviews": 0,
@@ -2706,8 +2706,8 @@ window.__LB_OVERRIDE__ = {
       "status": "published",
       "order": 40,
       "publishedAt": "2026-10-29T16:47:05.664Z",
-      "updatedAt": "2026-10-29T16:47:05.663Z",
-      "_rev": 1,
+      "updatedAt": "2026-10-30T07:41:41.754Z",
+      "_rev": 2,
       "_edited": true,
       "catManual": true,
       "categoryMeta": {
@@ -2888,6 +2888,8 @@ window.__LB_OVERRIDE__ = {
       "isVisible": true,
       "locked": true,
       "isSystem": true,
+      "img": "",
+      "imgObjectPos": "center",
       "createdAt": "2026-09-03T06:19:46.046Z",
       "updatedAt": "2026-09-03T06:19:46.046Z"
     },
@@ -2902,14 +2904,18 @@ window.__LB_OVERRIDE__ = {
       "subs": [
         "トップス",
         "ボトムス",
-        "ワンピース"
+        "ワンピース",
+        "アウター",
+        "小物"
       ],
       "sortOrder": 1,
       "isVisible": true,
       "locked": true,
       "isSystem": true,
+      "img": "",
+      "imgObjectPos": "center",
       "createdAt": "2026-09-03T06:19:46.046Z",
-      "updatedAt": "2026-09-03T06:19:46.046Z"
+      "updatedAt": "2026-10-30T07:40:08.757Z"
     },
     {
       "key": "lifestyle",
@@ -2929,6 +2935,8 @@ window.__LB_OVERRIDE__ = {
       "isVisible": true,
       "locked": true,
       "isSystem": true,
+      "img": "",
+      "imgObjectPos": "center",
       "createdAt": "2026-09-03T06:19:46.046Z",
       "updatedAt": "2026-09-03T06:19:46.046Z"
     },
@@ -2949,6 +2957,8 @@ window.__LB_OVERRIDE__ = {
       "isVisible": true,
       "locked": true,
       "isSystem": true,
+      "img": "",
+      "imgObjectPos": "center",
       "createdAt": "2026-09-03T06:19:46.046Z",
       "updatedAt": "2026-09-10T15:34:12.361Z"
     }
@@ -3081,5 +3091,10 @@ window.__LB_OVERRIDE__ = {
         "pmuwq1znve3vz"
       ]
     }
-  ]
+  ],
+  "CONTENT": {
+    "footer.igUrl": "https://www.instagram.com/iam___iku?vrfl=MWE5NjlyazB3NmZpMg%3D%3D&utm_source=qr",
+    "footer.tiktokUrl": "https://www.tiktok.com/@iam___iku?_r=1&_t=ZS-9Aysvci0GhS",
+    "footer.brandBlurb": "雑誌のように眺めて、気になったものはそのまま各ストアへ。"
+  }
 };
