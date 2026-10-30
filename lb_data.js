@@ -240,7 +240,7 @@ window.__LB_OVERRIDE__ = {
       ],
       "tag": "",
       "badge": "",
-      "rank": 4,
+      "rank": 3,
       "grad": "linear-gradient(150deg,#e3ddd2 0%,#cabfa9 60%,#a99d83 100%)",
       "imgs": [
         "https://shop.r10s.jp/levis/cabinet/item/252/pv4252-01_1.jpg?_ex=600x800",
@@ -347,8 +347,8 @@ window.__LB_OVERRIDE__ = {
       "status": "published",
       "order": 3,
       "publishedAt": "2026-08-19T06:19:46.046Z",
-      "updatedAt": "2026-10-29T15:43:24.898Z",
-      "_rev": 3,
+      "updatedAt": "2026-10-30T07:42:16.238Z",
+      "_rev": 4,
       "_edited": true,
       "catManual": false,
       "categoryMeta": {}
