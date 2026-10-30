@@ -2888,6 +2888,8 @@ window.__LB_OVERRIDE__ = {
       "isVisible": true,
       "locked": true,
       "isSystem": true,
+      "img": "",
+      "imgObjectPos": "center",
       "createdAt": "2026-09-03T06:19:46.046Z",
       "updatedAt": "2026-09-03T06:19:46.046Z"
     },
@@ -2902,14 +2904,17 @@ window.__LB_OVERRIDE__ = {
       "subs": [
         "トップス",
         "ボトムス",
-        "ワンピース"
+        "ワンピース",
+        "アウター"
       ],
       "sortOrder": 1,
       "isVisible": true,
       "locked": true,
       "isSystem": true,
+      "img": "",
+      "imgObjectPos": "center",
       "createdAt": "2026-09-03T06:19:46.046Z",
-      "updatedAt": "2026-09-03T06:19:46.046Z"
+      "updatedAt": "2026-10-30T07:35:39.006Z"
     },
     {
       "key": "lifestyle",
@@ -2929,6 +2934,8 @@ window.__LB_OVERRIDE__ = {
       "isVisible": true,
       "locked": true,
       "isSystem": true,
+      "img": "",
+      "imgObjectPos": "center",
       "createdAt": "2026-09-03T06:19:46.046Z",
       "updatedAt": "2026-09-03T06:19:46.046Z"
     },
@@ -2949,6 +2956,8 @@ window.__LB_OVERRIDE__ = {
       "isVisible": true,
       "locked": true,
       "isSystem": true,
+      "img": "",
+      "imgObjectPos": "center",
       "createdAt": "2026-09-03T06:19:46.046Z",
       "updatedAt": "2026-09-10T15:34:12.361Z"
     }
@@ -3081,5 +3090,10 @@ window.__LB_OVERRIDE__ = {
         "pmuwq1znve3vz"
       ]
     }
-  ]
+  ],
+  "CONTENT": {
+    "footer.igUrl": "https://www.instagram.com/iam___iku?vrfl=MWE5NjlyazB3NmZpMg%3D%3D&utm_source=qr",
+    "footer.tiktokUrl": "https://www.tiktok.com/@iam___iku?_r=1&_t=ZS-9Aysvci0GhS",
+    "footer.brandBlurb": "雑誌のように眺めて、気になったものはそのまま各ストアへ。"
+  }
 };
