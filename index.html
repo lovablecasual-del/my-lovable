@@ -1075,6 +1075,11 @@ document.addEventListener('DOMContentLoaded', async function() {
         // レビューカード — SPで余白を調整\n' +
         '.pr-card { padding: 18px !important; border-radius: 10px !important; }\n' +
         '.pr-card__profile { margin-bottom: 12px !important; padding-bottom: 10px !important; }\n' +
+        // TOP商品カードの可読性（2026-10-30）— AS SEEN ON SOCIAL（#social-featured）と JUST IN（#new）のみ。共通カードの他ページ表示は不変\n' +
+        '#social-featured .socialcard, #new .card { display: flex !important; flex-direction: column !important; min-width: 0 !important; }\n' +
+        '#social-featured .socialcard__body, #new .card__body { flex: 1 1 auto; display: flex; flex-direction: column; }\n' +
+        '#social-featured .socialcard__name, #new .card__name { font-size: clamp(13px, 3.5vw, 14px) !important; line-height: 1.5 !important; -webkit-line-clamp: 3 !important; margin: 3px 0 8px !important; overflow-wrap: anywhere; }\n' +
+        '#social-featured .card__price, #new .card__price { font-size: 15px !important; letter-spacing: .02em; margin-top: auto !important; }\n' +
         '}';
       document.head.appendChild(s);
     })();
