@@ -2767,7 +2767,7 @@ window.__LB_OVERRIDE__ = {
       ],
       "tag": "",
       "badge": "",
-      "rank": 4,
+      "rank": null,
       "grad": "linear-gradient(150deg,#e9d9cf 0%,#d8bfb2 55%,#c7a594 100%)",
       "imgs": [
         "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202610/1793293054376-fprca.jpg",
@@ -2807,8 +2807,8 @@ window.__LB_OVERRIDE__ = {
       "status": "published",
       "order": 41,
       "publishedAt": "2026-10-29T17:01:50.328Z",
-      "updatedAt": "2026-10-29T17:29:12.789Z",
-      "_rev": 3,
+      "updatedAt": "2026-10-31T14:30:43.161Z",
+      "_rev": 4,
       "_edited": true,
       "catManual": true,
       "categoryMeta": {
