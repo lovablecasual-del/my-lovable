@@ -1225,8 +1225,8 @@ window.__LB_OVERRIDE__ = {
       "status": "published",
       "order": 17,
       "publishedAt": "2026-10-13T00:00:00.000Z",
-      "updatedAt": "2026-10-20T16:30:46.991Z",
-      "_rev": 1,
+      "updatedAt": "2026-10-30T09:42:00.265Z",
+      "_rev": 2,
       "_edited": true,
       "catManual": true,
       "categoryMeta": {
@@ -2580,7 +2580,7 @@ window.__LB_OVERRIDE__ = {
     {
       "id": "pmvtru9udpdkm",
       "name": "LOVECHROME ヘアコーム (R)K24GPツキ ゴールド ",
-      "brand": "",
+      "brand": "LOVECHROME",
       "cat": "beauty",
       "sub": "ヘアケア",
       "price": 13090,
@@ -2636,8 +2636,8 @@ window.__LB_OVERRIDE__ = {
       "status": "published",
       "order": 39,
       "publishedAt": "2026-10-29T16:42:23.701Z",
-      "updatedAt": "2026-10-29T16:42:23.701Z",
-      "_rev": 1,
+      "updatedAt": "2026-10-30T09:41:29.143Z",
+      "_rev": 2,
       "_edited": true,
       "catManual": true,
       "categoryMeta": {
