@@ -276,7 +276,12 @@ try {
   // DevTools detection
   var devtoolsOpen = false;
   var threshold = 160;
+  // 管理画面の記事プレビュー（同じサイト内の iframe・?cms_preview=1）では判定しない（2026-10-31）
+  // iframe 内では outerWidth が親ウィンドウの幅になり、常に「開発者ツールが開いている」と誤判定されるため
+  var isCmsPreview = false;
+  try { isCmsPreview = window.self !== window.top && /[?&]cms_preview=1/.test(location.search) && window.top.location.origin === location.origin; } catch (e) {}
   function checkDevTools() {
+    if (isCmsPreview) return;
     var widthDiff = window.outerWidth - window.innerWidth;
     var heightDiff = window.outerHeight - window.innerHeight;
     if (widthDiff > threshold || heightDiff > threshold) {
