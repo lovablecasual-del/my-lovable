@@ -535,21 +535,24 @@ window.__LB_OVERRIDE__ = {
       "price": 4510,
       "rating": 4.7,
       "reviews": 260,
-      "copy": "氷も砕けるミニボトルブレンダー。毎朝のバナナジュースがこれ一台で完成。作ったボトルはそのまま持ち運べて、洗い物も最小限。",
+      "copy": "材料を入れて上から押すだけ！つくったドリンクをボトルのまま飲めるミニブレンダー。 フタをすれば保存や持ち歩きもでき、忙しい毎日でもスムージー習慣が気軽に続けられます。 飲みきりにちょうどいい280mL容量で、ひとり分を無理なく無駄なくつくることができます。\nボトルは飲みきりにちょうどいい280mL容量。\nひとり分のスムージーにぴったりです。\n4枚刃のカッターは、氷(※1回につき2～3個まで)も一緒に砕くことができます。\nカッターとフタを付け替えることで、ボトルのまま保存&持ち歩きができる便利な仕様。\n底面にゴムが付いているため、滑りにくい仕様です。",
       "points": [
         "氷も砕けるパワフル設計",
         "毎朝のスムージー・バナナジュースに",
         "ボトルのまま持ち運べて洗い物ラク"
       ],
-      "tag": "Rakuten",
+      "tag": "",
       "badge": "毎朝の定番",
       "rank": null,
       "grad": "linear-gradient(150deg,#e2e2dc 0%,#cdccc0 60%,#b0afa0 100%)",
       "imgs": [
-        "https://shop.r10s.jp/bruno-official/cabinet/item/2025_2/7760748_main6.jpg?_ex=600x600",
-        "https://shop.r10s.jp/bruno-official/cabinet/item/2020/7760748/7760748_page2_02.jpg?_ex=600x600",
-        "https://shop.r10s.jp/bruno-official/cabinet/item/2020/7760748/7760748_page2_03.jpg?_ex=600x600",
-        "https://shop.r10s.jp/bruno-official/cabinet/item/2020/7760748/7760748_page4_05.jpg?_ex=600x600"
+        "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202610/1793422467840-wmaeh.jpg",
+        "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202610/1793422469795-7ooh0.jpg",
+        "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202610/1793422471914-bbdx3.jpg",
+        "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202610/1793422473978-3y3ke.jpg",
+        "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202610/1793422476079-hzccd.jpg",
+        "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202610/1793422478165-v9ydu.jpg",
+        "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202610/1793422480274-x1y5o.jpg"
       ],
       "shops": [
         "rakuten",
@@ -565,22 +568,20 @@ window.__LB_OVERRIDE__ = {
       "userReviews": [
         {
           "name": "ikkun",
-          "meta": "30代・毎朝愛用",
+          "meta": "30代・骨格ウェーブ",
           "rating": 5,
-          "body": "毎朝簡単にバナナジュースができるので便利アイテムすぎる。ちなみに牛乳・バナナ・青汁を入れるのがおすすめメニュー"
+          "body": "簡単にバナナジュースが作れるから、便利すぎてお気に入りのアイテム♡\n材料を入れて混ぜるだけなので、忙しい朝にもぴったり！\n\nちなみに私のおすすめは、牛乳＋バナナ＋青汁の組み合わせ\n美味しくて飲みやすいので、ぜひ試してみてほしい❤︎"
         }
       ],
-      "tags": [
-        "Rakuten"
-      ],
+      "tags": [],
       "badges": [],
       "repeatPurchase": false,
       "status": "published",
       "order": 25,
       "publishedAt": "2026-08-09T06:19:46.046Z",
-      "updatedAt": "2026-08-09T06:19:46.046Z",
-      "_rev": 0,
-      "_edited": false,
+      "updatedAt": "2026-10-31T04:57:37.388Z",
+      "_rev": 1,
+      "_edited": true,
       "catManual": false,
       "categoryMeta": {}
     },
@@ -1715,7 +1716,7 @@ window.__LB_OVERRIDE__ = {
           "name": "ikkun",
           "meta": "30代・骨格ウェーブ・イエベ・靴づれしがち",
           "rating": 5,
-          "body": "新しい靴を履くと必ずと言っていいほど靴擦れしていた私の救世主アイテム❤︎\n\nこれ、本当にすごい！！笑\n\n靴擦れしやすい私でも、これを貼ってからは痛くならずに歩けることが増えて感動♡\n透明で目立ちにくいし剥がれやすいから、サンダル・ブーツ・ローファーにも使いやすいのが嬉しいポイント◎\n\n靴擦れしそうな場所にあらかじめ貼っておくだけなので、とっても簡単！\n今では靴擦れしやすい靴を履くときのお守り代わりにしてるよ♡\n\n靴づれなりやすい人ぜひ試してほしいアイテムです❤︎"
+          "body": "これはあまりに良かったから紹介させてください！\n新しい靴を履くと必ずと言っていいほど靴擦れしていた私の救世主アイテム❤︎\n\nこれ、本当にすごい！！笑\n\n靴擦れしやすい私でも、これを貼ってからは痛くならずに歩けることが増えて感動♡\n透明で目立ちにくいし剥がれやすいから、サンダル・ブーツ・ローファーにも使いやすいのが嬉しいポイント◎\n\n靴擦れしそうな場所にあらかじめ貼っておくだけなので、とっても簡単！\n今では靴擦れしやすい靴を履くときのお守り代わりにしてるよ♡\n\n靴づれなりやすい人ぜひ試してほしいアイテムです❤︎"
         }
       ],
       "tags": [
@@ -1726,8 +1727,8 @@ window.__LB_OVERRIDE__ = {
       "status": "published",
       "order": 25,
       "publishedAt": "2026-10-13T00:00:00.000Z",
-      "updatedAt": "2026-10-28T12:11:30.095Z",
-      "_rev": 1,
+      "updatedAt": "2026-10-31T04:43:47.742Z",
+      "_rev": 2,
       "_edited": true,
       "catManual": false,
       "categoryMeta": {
@@ -1746,7 +1747,7 @@ window.__LB_OVERRIDE__ = {
       "name": "光のとこにいてね｜文春文庫",
       "brand": "一穂ミチ",
       "cat": "lifestyle",
-      "sub": "日用品",
+      "sub": "本",
       "price": 636,
       "rating": 0,
       "reviews": 0,
@@ -1791,8 +1792,8 @@ window.__LB_OVERRIDE__ = {
       "status": "published",
       "order": 26,
       "publishedAt": "2026-10-13T00:00:00.000Z",
-      "updatedAt": "2026-10-28T12:15:41.821Z",
-      "_rev": 1,
+      "updatedAt": "2026-10-31T04:44:01.166Z",
+      "_rev": 2,
       "_edited": true,
       "catManual": true,
       "categoryMeta": {}
@@ -1802,7 +1803,7 @@ window.__LB_OVERRIDE__ = {
       "name": "凍りのくじら｜講談社文庫",
       "brand": "辻村深月",
       "cat": "lifestyle",
-      "sub": "日用品",
+      "sub": "本",
       "price": 1078,
       "rating": 0,
       "reviews": 0,
@@ -1845,10 +1846,10 @@ window.__LB_OVERRIDE__ = {
       "status": "published",
       "order": 27,
       "publishedAt": "2026-10-13T00:00:00.000Z",
-      "updatedAt": "2026-10-28T12:21:11.185Z",
-      "_rev": 1,
+      "updatedAt": "2026-10-31T04:44:11.322Z",
+      "_rev": 2,
       "_edited": true,
-      "catManual": false,
+      "catManual": true,
       "categoryMeta": {
         "common": "Book",
         "source": "keyword-assist",
@@ -1865,7 +1866,7 @@ window.__LB_OVERRIDE__ = {
       "name": "朝が来る｜文春文庫",
       "brand": "辻村深月",
       "cat": "lifestyle",
-      "sub": "日用品",
+      "sub": "本",
       "price": 814,
       "rating": 0,
       "reviews": 0,
@@ -1908,10 +1909,10 @@ window.__LB_OVERRIDE__ = {
       "status": "published",
       "order": 28,
       "publishedAt": "2026-10-13T00:00:00.000Z",
-      "updatedAt": "2026-10-28T12:25:13.207Z",
-      "_rev": 1,
+      "updatedAt": "2026-10-31T04:44:20.926Z",
+      "_rev": 2,
       "_edited": true,
-      "catManual": false,
+      "catManual": true,
       "categoryMeta": {
         "common": "Book",
         "source": "keyword-assist",
@@ -1928,7 +1929,7 @@ window.__LB_OVERRIDE__ = {
       "name": "52ヘルツのクジラたち",
       "brand": "町田そのこ",
       "cat": "lifestyle",
-      "sub": "日用品",
+      "sub": "本",
       "price": 880,
       "rating": 0,
       "reviews": 0,
@@ -1974,10 +1975,10 @@ window.__LB_OVERRIDE__ = {
       "status": "published",
       "order": 29,
       "publishedAt": "2026-10-13T00:00:00.000Z",
-      "updatedAt": "2026-10-28T12:29:44.194Z",
-      "_rev": 1,
+      "updatedAt": "2026-10-31T04:44:31.293Z",
+      "_rev": 2,
       "_edited": true,
-      "catManual": false,
+      "catManual": true,
       "categoryMeta": {
         "common": "Book",
         "source": "keyword-assist",
@@ -1994,7 +1995,7 @@ window.__LB_OVERRIDE__ = {
       "name": "VOGUE ON ココ・シャネル",
       "brand": "VOGUE",
       "cat": "lifestyle",
-      "sub": "日用品",
+      "sub": "本",
       "price": 2640,
       "rating": 0,
       "reviews": 0,
@@ -2039,10 +2040,10 @@ window.__LB_OVERRIDE__ = {
       "status": "published",
       "order": 30,
       "publishedAt": "2026-10-13T00:00:00.000Z",
-      "updatedAt": "2026-10-29T08:07:08.137Z",
-      "_rev": 2,
+      "updatedAt": "2026-10-31T04:44:39.026Z",
+      "_rev": 3,
       "_edited": true,
-      "catManual": false,
+      "catManual": true,
       "categoryMeta": {
         "common": "Other",
         "source": "fallback",
@@ -2059,7 +2060,7 @@ window.__LB_OVERRIDE__ = {
       "name": "法廷遊戯｜講談社文庫",
       "brand": "五十嵐律人",
       "cat": "lifestyle",
-      "sub": "日用品",
+      "sub": "本",
       "price": 880,
       "rating": 0,
       "reviews": 0,
@@ -2099,10 +2100,10 @@ window.__LB_OVERRIDE__ = {
       "status": "published",
       "order": 31,
       "publishedAt": "2026-10-13T00:00:00.000Z",
-      "updatedAt": "2026-10-28T12:42:03.575Z",
-      "_rev": 1,
+      "updatedAt": "2026-10-31T04:44:50.666Z",
+      "_rev": 2,
       "_edited": true,
-      "catManual": false,
+      "catManual": true,
       "categoryMeta": {
         "common": "Book",
         "source": "keyword-assist",
@@ -2119,7 +2120,7 @@ window.__LB_OVERRIDE__ = {
       "name": "殺戮にいたる病｜新装版・講談社文庫",
       "brand": "我孫子武丸",
       "cat": "lifestyle",
-      "sub": "日用品",
+      "sub": "本",
       "price": 538,
       "rating": 0,
       "reviews": 0,
@@ -2163,10 +2164,10 @@ window.__LB_OVERRIDE__ = {
       "status": "published",
       "order": 32,
       "publishedAt": "2026-10-13T00:00:00.000Z",
-      "updatedAt": "2026-10-28T12:46:16.973Z",
-      "_rev": 1,
+      "updatedAt": "2026-10-31T04:45:03.841Z",
+      "_rev": 2,
       "_edited": true,
-      "catManual": false,
+      "catManual": true,
       "categoryMeta": {
         "common": "Book",
         "source": "keyword-assist",
@@ -2597,7 +2598,7 @@ window.__LB_OVERRIDE__ = {
       "rank": null,
       "grad": "linear-gradient(150deg,#e9d9cf 0%,#d8bfb2 55%,#c7a594 100%)",
       "imgs": [
-        "https://shop.r10s.jp/lovechrome/cabinet/12534625/12534628/2.jpg",
+        "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202610/1793422315248-4p6ky.jpg",
         "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202610/1793291855623-r8s73.jpg",
         "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202610/1793291898635-07f0z.jpg",
         "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202610/1793291896385-0f7f4.jpg",
@@ -2636,8 +2637,8 @@ window.__LB_OVERRIDE__ = {
       "status": "published",
       "order": 39,
       "publishedAt": "2026-10-29T16:42:23.701Z",
-      "updatedAt": "2026-10-30T09:41:29.143Z",
-      "_rev": 2,
+      "updatedAt": "2026-10-31T04:52:13.455Z",
+      "_rev": 3,
       "_edited": true,
       "catManual": true,
       "categoryMeta": {
@@ -2867,6 +2868,80 @@ window.__LB_OVERRIDE__ = {
         "mappedAt": "2026-10-29T17:04:11.510Z",
         "auto": true
       }
+    },
+    {
+      "id": "pmvvxbx7rxzjb",
+      "name": "cygne｜ロールアップデニム Laetitia",
+      "brand": "",
+      "cat": "fashion",
+      "sub": "ボトムス",
+      "price": 30000,
+      "rating": 0,
+      "reviews": 0,
+      "copy": "特徴的なポケットデザインと、ロールアップディテールが印象的なデニム。\n程よくリラックス感がありながらも、Cygneらしい洗練されたシルエットに仕上げました。\n\n生地には、色移りしにくい反応染めデニムを使用。\nさらにウォッシュ加工を施すことで、風合いを高めながら柔らかな履き心地を実現しています。\n\n脚のラインを美しく見せるシルエットにもこだわり、\nカジュアルになりすぎず、女性らしく着こなしていただける一本に。\n\nCygneのブラウスやジャケットとも相性がよく、\nデイリーからお出かけまで幅広いスタイリングで活躍します。\n\nCygneらしい上品さを纏った、ブランド定番のデニムです。\n\nなお、現在お届け分の仕様にはベルトループが付いております。\nベルトを合わせたスタイリングもお楽しみいただけます。",
+      "points": [
+        "不良品の場合は、商品到着後5日以内にご連絡ください。",
+        "[特定商取引法に基づく表記]",
+        "[新規会員登録]",
+        "[返金ポリシー]"
+      ],
+      "tag": "",
+      "badge": "",
+      "rank": null,
+      "grad": "linear-gradient(150deg,#e9d9cf 0%,#d8bfb2 55%,#c7a594 100%)",
+      "imgs": [
+        "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202610/1793422128116-h4ja2.jpg",
+        "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202610/1793422130234-7m2j3.jpg",
+        "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202610/1793422131903-04h09.jpg",
+        "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202610/1793422133704-e987q.jpg",
+        "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202610/1793422136154-0o010.jpg"
+      ],
+      "shops": [
+        "rakuten",
+        "amazon",
+        "qoo10",
+        "tiktok"
+      ],
+      "links": {
+        "other": "https://cygne.jp/products/cy2411-04-020/iam___iku"
+      },
+      "social": {
+        "ig": "",
+        "tiktok": "",
+        "youtube": ""
+      },
+      "spec": {},
+      "userReviews": [
+        {
+          "name": "ikkun",
+          "meta": "30代・骨格ウェーブ",
+          "rating": 5,
+          "body": "幅広のロールアップデニムをずっと探していて、cygneで理想のデザインを発見♡\n\nロールアップの太さが可愛いのはもちろん、穿いたときのシルエットも綺麗でお気に入り❤︎\n丈が少し短めなので、152cmの私でもぺたんこ靴と合わせられるのが嬉しいポイント！\nカジュアルだけど、上品に見えるデニムです♡"
+        }
+      ],
+      "tags": [
+        "デニム",
+        "ボトムス"
+      ],
+      "badges": [],
+      "repeatPurchase": false,
+      "status": "published",
+      "order": 43,
+      "publishedAt": "2026-10-31T04:51:37.576Z",
+      "updatedAt": "2026-10-31T04:58:00.419Z",
+      "_rev": 2,
+      "_edited": true,
+      "catManual": false,
+      "categoryMeta": {
+        "common": "Fashion",
+        "source": "keyword-assist",
+        "confidence": "medium",
+        "originalCategory": "",
+        "originalCategoryId": "",
+        "shopCategory": "",
+        "mappedAt": "2026-10-31T04:46:25.227Z",
+        "auto": true
+      }
     }
   ],
   "CATEGORIES": [
@@ -2929,7 +3004,8 @@ window.__LB_OVERRIDE__ = {
         "日用品",
         "キッチン用品",
         "ガジェット",
-        "インテリア"
+        "インテリア",
+        "本"
       ],
       "sortOrder": 2,
       "isVisible": true,
@@ -2938,7 +3014,7 @@ window.__LB_OVERRIDE__ = {
       "img": "",
       "imgObjectPos": "center",
       "createdAt": "2026-09-03T06:19:46.046Z",
-      "updatedAt": "2026-09-03T06:19:46.046Z"
+      "updatedAt": "2026-10-31T04:41:41.219Z"
     },
     {
       "key": "travel",
