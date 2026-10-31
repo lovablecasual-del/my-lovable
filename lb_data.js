@@ -535,21 +535,24 @@ window.__LB_OVERRIDE__ = {
       "price": 4510,
       "rating": 4.7,
       "reviews": 260,
-      "copy": "氷も砕けるミニボトルブレンダー。毎朝のバナナジュースがこれ一台で完成。作ったボトルはそのまま持ち運べて、洗い物も最小限。",
+      "copy": "材料を入れて上から押すだけ！つくったドリンクをボトルのまま飲めるミニブレンダー。 フタをすれば保存や持ち歩きもでき、忙しい毎日でもスムージー習慣が気軽に続けられます。 飲みきりにちょうどいい280mL容量で、ひとり分を無理なく無駄なくつくることができます。\nボトルは飲みきりにちょうどいい280mL容量。\nひとり分のスムージーにぴったりです。\n4枚刃のカッターは、氷(※1回につき2～3個まで)も一緒に砕くことができます。\nカッターとフタを付け替えることで、ボトルのまま保存&持ち歩きができる便利な仕様。\n底面にゴムが付いているため、滑りにくい仕様です。",
       "points": [
         "氷も砕けるパワフル設計",
         "毎朝のスムージー・バナナジュースに",
         "ボトルのまま持ち運べて洗い物ラク"
       ],
-      "tag": "Rakuten",
+      "tag": "",
       "badge": "毎朝の定番",
       "rank": null,
       "grad": "linear-gradient(150deg,#e2e2dc 0%,#cdccc0 60%,#b0afa0 100%)",
       "imgs": [
-        "https://shop.r10s.jp/bruno-official/cabinet/item/2025_2/7760748_main6.jpg?_ex=600x600",
-        "https://shop.r10s.jp/bruno-official/cabinet/item/2020/7760748/7760748_page2_02.jpg?_ex=600x600",
-        "https://shop.r10s.jp/bruno-official/cabinet/item/2020/7760748/7760748_page2_03.jpg?_ex=600x600",
-        "https://shop.r10s.jp/bruno-official/cabinet/item/2020/7760748/7760748_page4_05.jpg?_ex=600x600"
+        "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202610/1793422467840-wmaeh.jpg",
+        "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202610/1793422469795-7ooh0.jpg",
+        "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202610/1793422471914-bbdx3.jpg",
+        "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202610/1793422473978-3y3ke.jpg",
+        "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202610/1793422476079-hzccd.jpg",
+        "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202610/1793422478165-v9ydu.jpg",
+        "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202610/1793422480274-x1y5o.jpg"
       ],
       "shops": [
         "rakuten",
@@ -565,22 +568,20 @@ window.__LB_OVERRIDE__ = {
       "userReviews": [
         {
           "name": "ikkun",
-          "meta": "30代・毎朝愛用",
+          "meta": "30代・骨格ウェーブ",
           "rating": 5,
-          "body": "毎朝簡単にバナナジュースができるので便利アイテムすぎる。ちなみに牛乳・バナナ・青汁を入れるのがおすすめメニュー"
+          "body": "簡単にバナナジュースが作れるから、便利すぎてお気に入りのアイテム♡\n材料を入れて混ぜるだけなので、忙しい朝にもぴったり！\n\nちなみに私のおすすめは、牛乳＋バナナ＋青汁の組み合わせ\n美味しくて飲みやすいので、ぜひ試してみてほしい❤︎"
         }
       ],
-      "tags": [
-        "Rakuten"
-      ],
+      "tags": [],
       "badges": [],
       "repeatPurchase": false,
       "status": "published",
       "order": 25,
       "publishedAt": "2026-08-09T06:19:46.046Z",
-      "updatedAt": "2026-08-09T06:19:46.046Z",
-      "_rev": 0,
-      "_edited": false,
+      "updatedAt": "2026-10-31T04:57:37.388Z",
+      "_rev": 1,
+      "_edited": true,
       "catManual": false,
       "categoryMeta": {}
     },
@@ -2870,7 +2871,7 @@ window.__LB_OVERRIDE__ = {
     },
     {
       "id": "pmvvxbx7rxzjb",
-      "name": "Cygne ロールアップデニム ",
+      "name": "cygne｜ロールアップデニム Laetitia",
       "brand": "",
       "cat": "fashion",
       "sub": "ボトムス",
@@ -2927,8 +2928,8 @@ window.__LB_OVERRIDE__ = {
       "status": "published",
       "order": 43,
       "publishedAt": "2026-10-31T04:51:37.576Z",
-      "updatedAt": "2026-10-31T04:51:37.575Z",
-      "_rev": 1,
+      "updatedAt": "2026-10-31T04:58:00.419Z",
+      "_rev": 2,
       "_edited": true,
       "catManual": false,
       "categoryMeta": {
