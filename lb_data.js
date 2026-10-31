@@ -3007,10 +3007,10 @@ window.__LB_OVERRIDE__ = {
       "rank": 4,
       "grad": "linear-gradient(150deg,#e9d9cf 0%,#d8bfb2 55%,#c7a594 100%)",
       "imgs": [
-        "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202610/1793456656219-vq09p.jpg",
-        "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202610/1793456654233-gd95s.jpg",
-        "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202610/1793456652277-wj517.jpg",
-        "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202610/1793456657987-u5f5t.jpg"
+        "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202611/1793462764562-jsu7d.jpg",
+        "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202611/1793462762305-dg7nk.jpg",
+        "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202611/1793462759913-3h7du.jpg",
+        "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202611/1793462766716-7d0k4.jpg"
       ],
       "shops": [
         "rakuten",
@@ -3044,8 +3044,8 @@ window.__LB_OVERRIDE__ = {
       "status": "published",
       "order": 44,
       "publishedAt": "2026-10-31T14:28:01.377Z",
-      "updatedAt": "2026-10-31T14:28:01.376Z",
-      "_rev": 1,
+      "updatedAt": "2026-10-31T16:06:14.765Z",
+      "_rev": 2,
       "_edited": true,
       "catManual": true,
       "categoryMeta": {
