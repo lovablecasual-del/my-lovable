@@ -2929,7 +2929,8 @@ window.__LB_OVERRIDE__ = {
         "日用品",
         "キッチン用品",
         "ガジェット",
-        "インテリア"
+        "インテリア",
+        "本"
       ],
       "sortOrder": 2,
       "isVisible": true,
@@ -2938,7 +2939,7 @@ window.__LB_OVERRIDE__ = {
       "img": "",
       "imgObjectPos": "center",
       "createdAt": "2026-09-03T06:19:46.046Z",
-      "updatedAt": "2026-09-03T06:19:46.046Z"
+      "updatedAt": "2026-10-31T04:41:41.219Z"
     },
     {
       "key": "travel",
