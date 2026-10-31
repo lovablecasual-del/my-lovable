@@ -1,4 +1,31 @@
 window.__LB_OVERRIDE__ = {
+  "ARTICLES": [
+    {
+      "id": "f1",
+      "title": "骨格ウェーブの私が、本当にスタイルよく見えた服♡",
+      "type": "購入品記事",
+      "kicker": "",
+      "excerpt": "152cm骨格ウェーブが選んだおすすめ3選",
+      "body": "身長152cm、骨格ウェーブの私。\n\n可愛い！と思って買った服でも、実際に着てみると「あれ？なんか違う…」ってなること、結構あります\n\n特にデニムは、形によって脚が短く見えたり、腰まわりが気になったり…。\n\nだから洋服を買うときは、可愛さはもちろん、着たときにスタイルよく見えるかもかなり重要！\n\n今回は、そんな私が「これ、形が綺麗♡」と思ったお気に入りの3着を紹介します。\n\n01｜YANUK ワイドフレアデニム「LYDIA」\n\n腰まわり脚が綺麗に見える、お気に入りデニム♡\n\n::product:pmuwq1znve3vz::\n\n購入サイズ：21インチ\n※私は胃下垂なのでご飯食べるとはち切れそうになっているので22インチにしても良かったかも\n\nこのデニムは、初めて穿いたときに「形めっちゃ綺麗！」って思った1本。\n\nワイドデニムって、腰まわりが大きく見えるものもあるけど、LYDIAはハイウエストで腰回りがしっかりよくフィットしてくれるのがお気に入り♡\n\n裾に向かって広がるシルエットも可愛くて、脚のラインを綺麗に見せてくれる感じ。\n\nネイビーの色味も大人っぽくて、カジュアルになりすぎないところが好き。\n\nコンパクトなトップスと合わせると、さらにバランスよく見えるのでおすすめです♡\n\n1年中履けるので1本持っておいて間違いなし❤︎\n\n02｜Levi's 318 シェーピング ワイドレッグ デニム\n\nゆるっと穿けるのに、すっきり見えるデニム。\n\n::product:p16::\n\n骨格ウェーブって、ワイドデニム選びが意外と難しくないですか？\n\nゆるっとしたデニムが好きだけど、形によっては下半身が重たく見えちゃうことも。\n\nLevi'sの318は、ワイドなシルエットが可愛くて、ラフに穿きたい日にぴったり♡\n\n私はワイドデニムを穿くとき、トップスをコンパクトにしたり、ウエストが見えるように着るのが好き。\n\nシンプルなトップスと合わせるだけで、こなれた感じになるのも嬉しいポイントです。\n\n03｜SNIDEL ボリュームフリルペプラムカーディガン\n\n着るだけで可愛い♡ 大人っぽいネイビーカーデ。\n\n::product:pmuwhbpbshva0::\n\nSNIDELのこういう女性らしいデザイン、本当に好き♡\n\nこのカーディガンは、ウエストまわりのペプラムデザインがとにかく可愛い！\n\nふわっと広がるシルエットで、ウエストにメリハリが出るところもお気に入り。\nフリルがあるけど、ネイビーだから甘くなりすぎず、大人っぽく着られるのも嬉しい♡\n\nデニムと合わせるだけでコーデが完成するので、ちょっとお出かけする日にもぴったり。\n\n骨格ウェーブの私が、服を選ぶときに気にしていること♡\n\n・腰まわりが大きく見えないか\n・ウエストの位置が綺麗に見えるか\n・152cmでも全身のバランスがよく見えるか\n\nこの3つ。\n\nもちろん、骨格診断がすべてではないし、好きな服を着るのが一番♡\nでも、自分に似合う形がわかってくると、洋服選びがもっと楽しくなる気がします。\n\n最後に♡\n\n今回紹介した3着は、デザインが可愛いのはもちろん、骨格ウェーブの私がスタイルよく見せたいときに選びたいお気に入りたち。\n\n同じように骨格ウェーブや低身長で洋服選びに悩んでいる方の参考になったら嬉しいです♡\n\nまた本当に買ってよかったお洋服があったら紹介します〜❤︎\n\n※この記事にはアフィリエイトリンクが含まれます。",
+      "cover": null,
+      "img": "",
+      "coverGrad": "linear-gradient(150deg,#f1ece4 0%,#e2d8c8 60%,#cdbfa6 100%)",
+      "items": [
+        "pmuwq1znve3vz",
+        "p16",
+        "pmuwhbpbshva0"
+      ],
+      "read": "",
+      "status": "published",
+      "seo": {
+        "title": "152cm骨格ウェーブが選んだおすすめ3選",
+        "desc": "152cm骨格ウェーブが選んだおすすめ3選",
+        "ogimg": ""
+      },
+      "publishedAt": "2026-09-03T06:19:46.047Z",
+      "updatedAt": "2026-10-31T14:20:57.905Z"
+    }
+  ],
   "PRODUCTS": [
     {
       "id": "p1",
@@ -2942,6 +2969,74 @@ window.__LB_OVERRIDE__ = {
         "mappedAt": "2026-10-31T04:46:25.227Z",
         "auto": true
       }
+    },
+    {
+      "id": "pmvwhx68w9zkm",
+      "name": "Olu. フリルレイヤードケーブルニット",
+      "brand": "Olu.",
+      "cat": "fashion",
+      "sub": "ワンピース",
+      "price": 16142,
+      "rating": 0,
+      "reviews": 0,
+      "copy": "大人気を博した “フリルレイヤードダンボールスウェット”が、 待望のニットバージョンとしてこの冬登場。 印象的な裾フリルのデザインはそのままに、 ふんわりとした風合いと程よい厚みのある ニット素材へとアップデートしました。 シルエットは前回人気だったチュニック丈をキープ。 今季はロングブーツやハイソックス合わせで、 トレンド感のあるレディな着こなしを楽しめます。 さらに今回は、 たくさんのお声を受けてサイズ展開をご用意。 より多くの方に自分にぴったりの シルエットで楽しんでいただけます。 カラーは、 前回ご好評いただいたblack, grayに加え、 新色としてbrown, blue grayが登場。 柔らかく落ち着いたトーンが、 冬のスタイリングを上品に彩ります。 甘さと品を絶妙なバランスで掛け合わせた、 この冬のOlu.を象徴する“特別なニットトップス”です。 ・編地の特性上、サイズの仕上がりに多少のばらつきがあり、洗濯すると風合いが多少変わってしまうことがあります。 また、縮むこともありますので、洗濯の際は取扱い表示を確認の上行ってください。 ・着用時に繊維の表面が擦れたり揉まれたりするため、毛玉ができることがあります。 毛玉ができた際は引っ張らず、毛玉取り器かハサミでひとつずつ取り除いてください。\n品番　OL25OAC30",
+      "points": [],
+      "tag": "",
+      "badge": "",
+      "rank": 4,
+      "grad": "linear-gradient(150deg,#e9d9cf 0%,#d8bfb2 55%,#c7a594 100%)",
+      "imgs": [
+        "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202610/1793456656219-vq09p.jpg",
+        "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202610/1793456654233-gd95s.jpg",
+        "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202610/1793456652277-wj517.jpg",
+        "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202610/1793456657987-u5f5t.jpg"
+      ],
+      "shops": [
+        "rakuten",
+        "amazon",
+        "qoo10",
+        "tiktok"
+      ],
+      "links": {
+        "tiktok": "https://vt.tiktok.com/ZS9ULrovDXU7w-Rkerq/"
+      },
+      "social": {
+        "ig": "",
+        "tiktok": "",
+        "youtube": ""
+      },
+      "spec": {},
+      "userReviews": [
+        {
+          "name": "ikkun",
+          "meta": "30代・骨格ウェーブ",
+          "rating": 5,
+          "body": "私はブラック×ホワイトを選びました♡\nケーブルニットにシャツの襟と裾のフリルが重なったデザインが可愛すぎる❤︎\n\nこれ1枚で大人可愛いコーデが完成するし、ちゃんと暖かいのも嬉しいポイント！\n\n今季は白ソックス×ロングブーツで合わせるのがお気に入り♡\n甘すぎず、ちょっとお上品に見えるので、デート服にもすっごくおすすめです♡"
+        }
+      ],
+      "tags": [
+        "ワンピース",
+        "ニット"
+      ],
+      "badges": [],
+      "repeatPurchase": false,
+      "status": "published",
+      "order": 44,
+      "publishedAt": "2026-10-31T14:28:01.377Z",
+      "updatedAt": "2026-10-31T14:28:01.376Z",
+      "_rev": 1,
+      "_edited": true,
+      "catManual": true,
+      "categoryMeta": {
+        "common": "Other",
+        "source": "fallback",
+        "confidence": "low",
+        "originalCategory": "",
+        "originalCategoryId": "",
+        "shopCategory": "",
+        "mappedAt": "2026-10-31T14:21:38.768Z",
+        "auto": true
+      }
     }
   ],
   "CATEGORIES": [
@@ -2963,8 +3058,6 @@ window.__LB_OVERRIDE__ = {
       "isVisible": true,
       "locked": true,
       "isSystem": true,
-      "img": "",
-      "imgObjectPos": "center",
       "createdAt": "2026-09-03T06:19:46.046Z",
       "updatedAt": "2026-09-03T06:19:46.046Z"
     },
@@ -2987,8 +3080,6 @@ window.__LB_OVERRIDE__ = {
       "isVisible": true,
       "locked": true,
       "isSystem": true,
-      "img": "",
-      "imgObjectPos": "center",
       "createdAt": "2026-09-03T06:19:46.046Z",
       "updatedAt": "2026-10-30T07:40:08.757Z"
     },
@@ -3011,8 +3102,6 @@ window.__LB_OVERRIDE__ = {
       "isVisible": true,
       "locked": true,
       "isSystem": true,
-      "img": "",
-      "imgObjectPos": "center",
       "createdAt": "2026-09-03T06:19:46.046Z",
       "updatedAt": "2026-10-31T04:41:41.219Z"
     },
@@ -3033,8 +3122,6 @@ window.__LB_OVERRIDE__ = {
       "isVisible": true,
       "locked": true,
       "isSystem": true,
-      "img": "",
-      "imgObjectPos": "center",
       "createdAt": "2026-09-03T06:19:46.046Z",
       "updatedAt": "2026-09-10T15:34:12.361Z"
     }
