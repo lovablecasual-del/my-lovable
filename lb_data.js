@@ -3161,7 +3161,7 @@ window.__LB_OVERRIDE__ = {
     "logoHeight": 34,
     "hero": {
       "variant": "stack",
-      "copy": "ときめくものだけ\n日常に。",
+      "copy": "ときめくものを\n毎日のなかに。",
       "copySize": 70,
       "sub": "毎日のちょっとしたご褒美に。コスメも、服も、暮らしの道具も。",
       "image": null,
@@ -3219,10 +3219,10 @@ window.__LB_OVERRIDE__ = {
     }
   },
   "NAVIMGS": {
-    "beauty": "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202611/1793499715413-0your.png",
-    "fashion": "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202611/1793499717123-s8fjb.png",
-    "lifestyle": "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202611/1793499718898-d6ty3.png",
-    "travel": "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202611/1793499720637-gpqtc.png"
+    "beauty": "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202611/1793504228168-4xrxd.png",
+    "fashion": "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202611/1793504229728-mlbfk.png",
+    "lifestyle": "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202611/1793504231267-7vnta.png",
+    "travel": "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202611/1793504232905-7xodi.png"
   },
   "CATIMGS": {},
   "TIKTOK": [
