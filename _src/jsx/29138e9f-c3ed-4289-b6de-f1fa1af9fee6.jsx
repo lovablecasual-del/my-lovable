@@ -213,27 +213,11 @@ function Features({ onOpen }) {
           </div>
           <a className="link-more" href="#/all" onClick={(e) => {e.preventDefault();window.LBnav("/all");}}>{T("top.features.more")}<span className="arrow"></span></a>
         </div>
-        <div className="featgrid">
-          {LB.FEATURES.map((f, i) => {
-            const first = (f.items || []).map((id) => LB.get(id)).find(Boolean);
-            return (
-          <article key={f.key} className={"featcard reveal" + (i === 0 ? " featcard--lead" : "")}
-          style={{ transitionDelay: i * 60 + "ms" }}
-          role="link" tabIndex={0}
-          onClick={() => window.LBnav("/feature/" + f.key)}
-          onKeyDown={(e) => { if (e.key==="Enter"||e.key===" ") { e.preventDefault(); window.LBnav("/feature/"+f.key); } }}>
-              <Ph grad={f.img ? null : f.grad} img={f.img || null} ratio={i === 0 ? "16 / 10" : "3 / 2"} className="featcard__img" labelSize={0}>
-                <div className="featcard__veil"></div>
-                <div className="featcard__overlay">
-                  <span className="featcard__kicker">{f.kicker} · {f.read}</span>
-                  <h3 className="featcard__title serif">{f.title}</h3>
-                  {i === 0 && <p className="featcard__excerpt">{f.excerpt}</p>}
-                </div>
-              </Ph>
-              {i !== 0 && <div className="featcard__body"><span className="featcard__kicker">{f.kicker}</span><h3 className="featcard__title serif">{f.title}</h3></div>}
-            </article>
-            );
-          })}
+        {/* 2026-11-01 カードは共通の JournalCard（記事ページの関連記事と同じ）。画像の上に文字を重ねない */}
+        <div className="jgrid">
+          {LB.FEATURES.map((f, i) => window.JournalCard
+            ? React.createElement(window.JournalCard, { key: f.key, f, lead: i === 0, delay: i * 60 })
+            : null)}
         </div>
       </div>
     </section>);

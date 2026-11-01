@@ -269,9 +269,44 @@ function ArticleProductCard({ pid, onOpen }) {
   );
 }
 
+/* 2026-11-01 記事の公開日を「YYYY.MM.DD」で表示（閲覧者の端末の日付）。日付が無い・読めない場合は空 */
+function lbFmtDate(iso) {
+  if (!iso) return "";
+  const d = new Date(iso);
+  if (isNaN(d.getTime())) return "";
+  return d.getFullYear() + "." + String(d.getMonth() + 1).padStart(2, "0") + "." + String(d.getDate()).padStart(2, "0");
+}
+
+/* 2026-11-01 JOURNALカード（TOPのJOURNAL・記事ページの関連記事で共通）
+   画像がある場合は画像の下に文字（画像の上に長いタイトルを重ねない）。画像が無い場合は文字だけの上品なカード */
+function JournalCard({ f, lead = false, delay = 0 }) {
+  const img = f.img || f.cover || null;
+  const kicker = f.kicker || "";
+  const date = lbFmtDate(f.publishedAt);
+  const go = () => window.LBnav("/feature/" + f.key);
+  return (
+    <article className={"jcard reveal" + (lead ? " jcard--lead" : "") + (img ? "" : " jcard--noimg")}
+      style={{ transitionDelay: delay + "ms" }}
+      role="link" tabIndex={0} aria-label={f.title}
+      onClick={go}
+      onKeyDown={(e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); go(); } }}>
+      {img && <Ph img={img} ratio={lead ? "16 / 9" : "3 / 2"} className="jcard__img" labelSize={0} alt="" />}
+      <div className="jcard__body">
+        {kicker && <span className="jcard__kicker">{kicker}</span>}
+        <h3 className="jcard__title serif">{f.title}</h3>
+        {lead && f.excerpt && <p className="jcard__excerpt">{f.excerpt}</p>}
+        {(date || f.read) && <div className="jcard__meta">{date && <time dateTime={f.publishedAt}>{date}</time>}{f.read && <span>{f.read}</span>}</div>}
+      </div>
+    </article>
+  );
+}
+
 /* JOURNAL article detail page */
 function FeaturePage({ featureKey, onOpen }) {
   useEffect(() => { window.scrollTo({ top: 0 }); }, [featureKey]);
+  // 2026-11-01 関連記事のカード（.reveal）を表示状態にする。以前はこのページで呼んでおらず、
+  // カードが透明のまま枠と背景だけが残り、記事の最後に大きなベージュの空白に見えていた
+  useReveal([featureKey]);
 
   // Get full article from store (has body field), fall back to window.LB.FEATURES
   const article = (window.LBStore && window.LBStore.getArticle && window.LBStore.getArticle(featureKey))
@@ -315,31 +350,32 @@ function FeaturePage({ featureKey, onOpen }) {
     .filter(f => f.key !== featureKey)
     .slice(0, 3);
 
-  // Cover image / gradient
-  const coverImg = article.cover || null;
-  const coverGrad = article.coverGrad || (window.LB.GRAD && window.LB.GRAD.blush) || "";
-
+  // 2026-11-01 カバー画像（サムネイル）：記事データの cover、無ければ img（管理画面の旧「サムネイル画像URL」）。無い場合は画像を出さない
+  const coverImg = article.cover || article.img || null;
+  const pubDate = lbFmtDate(article.publishedAt);
 
   return (
     <main className="article-page">
-      {/* Hero cover */}
-      <div className="article-hero">
-        <Ph eager grad={coverImg ? null : coverGrad} img={coverImg} ratio="16 / 7" labelSize={0} className="article-hero__ph">
-          <div className="article-hero__veil"></div>
-        </Ph>
-        <div className="article-hero__inner wrap-wide">
-          <Breadcrumb items={[{label:"Home",href:"/"},{label:"Journal",href:"/journal"},{label:article.title}]} />
-          <span className="eyebrow" style={{color:"#fff"}}>{article.kicker || article.type || "The Journal"}</span>
-          <h1 className="article-hero__title serif">{article.title}</h1>
-          <div className="article-hero__meta">
+      {/* 2026-11-01 タイトル部分：濃いグラデーションと白文字をやめ、アイボリーの地にダークブラウンの文字 */}
+      <header className="article-head wrap-article">
+        <Breadcrumb items={[{label:"Home",href:"/"},{label:"Journal",href:"/journal"},{label:article.title}]} />
+        <span className="article-head__kicker">{article.kicker || article.type || "The Journal"}</span>
+        <h1 className="article-head__title serif">{article.title}</h1>
+        {(pubDate || article.read) && (
+          <div className="article-head__meta">
+            {pubDate && <time dateTime={article.publishedAt}>{pubDate}</time>}
             {article.read && <span>{article.read}</span>}
-            {article.publishedAt && <span>{new Date(article.publishedAt).toLocaleDateString("ja-JP",{year:"numeric",month:"long",day:"numeric"})}</span>}
           </div>
+        )}
+      </header>
+      {coverImg && (
+        <div className="wrap-article">
+          <Ph eager img={coverImg} ratio="16 / 9" labelSize={0} className="article-cover" alt="" />
         </div>
-      </div>
+      )}
 
       {/* Article body */}
-      <div className="wrap-article sect">
+      <div className="wrap-article sect article-main">
         {article.excerpt && (
           <p className="article-lead serif">{article.excerpt}</p>
         )}
@@ -368,33 +404,15 @@ function FeaturePage({ featureKey, onOpen }) {
 
         {/* Related articles */}
         {relatedFeatures.length > 0 && (
-          <section className="article-related-posts sect--sink">
+          <section className="article-related-posts">
             <div className="section-head reveal">
               <div>
                 <span className="eyebrow">More from Journal</span>
                 <h2 className="section-title">関連記事</h2>
               </div>
             </div>
-            <div className="featgrid">
-              {relatedFeatures.map((f, i) => (
-                <article key={f.key} className="featcard reveal"
-                  style={{ transitionDelay: i * 60 + "ms" }}
-                  role="link" tabIndex={0}
-                  onClick={() => window.LBnav("/feature/" + f.key)}
-                  onKeyDown={(e) => { if (e.key==="Enter"||e.key===" ") { e.preventDefault(); window.LBnav("/feature/"+f.key); } }}>
-                  <Ph grad={f.cover ? null : f.grad} img={f.cover || null} ratio="3 / 2" className="featcard__img" labelSize={0}>
-                    <div className="featcard__veil"></div>
-                    <div className="featcard__overlay">
-                      <span className="featcard__kicker">{f.kicker} · {f.read}</span>
-                      <h3 className="featcard__title serif">{f.title}</h3>
-                    </div>
-                  </Ph>
-                  <div className="featcard__sub">
-                    <span className="featcard__kicker">{f.kicker}</span>
-                    <h4 className="featcard__name">{f.title}</h4>
-                  </div>
-                </article>
-              ))}
+            <div className="jgrid jgrid--related">
+              {relatedFeatures.map((f, i) => <JournalCard key={f.key} f={f} delay={i * 60} />)}
             </div>
           </section>
         )}
@@ -403,4 +421,4 @@ function FeaturePage({ featureKey, onOpen }) {
   );
 }
 
-Object.assign(window, { CategoryPage, SavedPage, AllPage, SearchPage, FeaturePage, ArticleProductCard });
+Object.assign(window, { CategoryPage, SavedPage, AllPage, SearchPage, FeaturePage, ArticleProductCard, JournalCard, lbFmtDate });
