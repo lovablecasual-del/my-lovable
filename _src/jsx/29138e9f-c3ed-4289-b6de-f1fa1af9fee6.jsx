@@ -5,8 +5,9 @@
 /* ---------- HERO (3 variants via tweak) ---------- */
 function Hero({ variant }) {
   const site = (window.LB.site && window.LB.site.hero) || {};
-  const headlineRaw = site.copy || "ときめくものだけ、日常に。";
-  const headline = <>{String(headlineRaw).split("\n").map((l, i) => <React.Fragment key={i}>{i > 0 && <br />}{l}</React.Fragment>)}</>;
+  const headlineRaw = site.copy || "ときめくものを\n毎日のなかに。";
+  // 2026-11-01 各行を span.hero__line に（中央レイアウトでは行の途中で折り返さない＝管理画面で入れた改行どおりの行数で表示）
+  const headline = <>{String(headlineRaw).split("\n").map((l, i) => <React.Fragment key={i}>{i > 0 && <br />}<span className="hero__line">{l}</span></React.Fragment>)}</>;
   const titleSize = Number(site.copySize) || 70;
   const sub = site.sub
     ? <>{site.sub.split("\n").map((l, i) => <React.Fragment key={i}>{i > 0 && <br />}{l}</React.Fragment>)}</>
