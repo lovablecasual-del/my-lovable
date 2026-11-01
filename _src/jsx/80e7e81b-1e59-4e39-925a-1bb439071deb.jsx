@@ -26,7 +26,7 @@ function useRoute() {
     if (parts[0] === "saved")    return { name: "saved", raw: h };
     if (parts[0] === "search")   return { name: "search", q: decodeURIComponent(parts.slice(1).join("/") || ""), raw: h };
     if (parts[0] === "feature")  return { name: "feature", key: parts[1] || "", raw: h };
-    if (parts[0] === "journal")  return { name: "feature", key: parts[1] || "", raw: h };
+    if (parts[0] === "journal")  return parts[1] ? { name: "feature", key: parts[1], raw: h } : { name: "journal", raw: h };   // 2026-11-01 #/journal＝記事一覧
     if (parts[0] === "about")    return { name: "about", raw: h };
     if (parts[0] === "privacy")  return { name: "privacy", raw: h };
     if (parts[0] === "affiliate")return { name: "affiliate", raw: h };
@@ -114,6 +114,7 @@ function App() {
   else if (route.name === "affiliate"){ page = <AffiliatePage />; key = "affiliate"; }
   else if (route.name === "search")   { const SP = window.SearchPage; page = SP ? <SP q={route.q} onOpen={onOpen} /> : <AllPage onOpen={onOpen} />; key = "search:"+route.q; }
   else if (route.name === "feature")  { const FP = window.FeaturePage; page = FP ? <FP featureKey={route.key} onOpen={onOpen} /> : <AllPage onOpen={onOpen} />; key = "feature:"+route.key; }
+  else if (route.name === "journal")  { const JL = window.JournalListPage; page = JL ? <JL /> : <AllPage onOpen={onOpen} />; key = "journal"; }
   else if (route.name === "tiktok")     { page = window.TikTokPage ? React.createElement(window.TikTokPage, {onOpen}) : React.createElement("div",null); key = "tiktok"; }
   else if (!showHome)                { page = <AllPage onOpen={onOpen} />; key = "top-as-all"; }
   else                               { page = <TopPage heroVariant={t.heroVariant} onOpen={onOpen} />; key = "top"; }
@@ -132,6 +133,7 @@ function App() {
       desc = (cat && cat.blurb) || T("seo.top.desc");
     } else if (route.name === "all") { title = T("seo.all.title"); desc = T("seo.all.desc"); }
     else if (route.name === "saved") { title = T("seo.saved.title"); desc = T("seo.top.desc"); }
+    else if (route.name === "journal") { title = "記事一覧 | LOVABLE"; desc = T("seo.top.desc"); }
     else if (route.name === "feature") { const fa = window.LBStore && window.LBStore.getArticle && window.LBStore.getArticle(route.key); if (fa) { title = fa.title + " | LOVABLE"; desc = fa.excerpt || ""; } }
     else { title = T("seo.top.title"); desc = T("seo.top.desc"); }
     if (title) document.title = title;

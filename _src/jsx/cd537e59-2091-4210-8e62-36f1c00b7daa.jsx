@@ -301,6 +301,66 @@ function JournalCard({ f, lead = false, delay = 0 }) {
   );
 }
 
+/* 2026-11-01 公開日の新しい順に並べる（公開済み記事＝LB.FEATURES が対象）。
+   公開日が無い・読めない記事は日付を補わず最後へ。同じ時刻・日付なしどうしは元の並び順のまま */
+function lbSortByPublished(list) {
+  const t = (f) => { const v = f && f.publishedAt ? new Date(f.publishedAt).getTime() : NaN; return isNaN(v) ? null : v; };
+  return (list || []).map((f, i) => ({ f, i, t: t(f) }))
+    .sort((a, b) => {
+      if (a.t === null && b.t === null) return a.i - b.i;
+      if (a.t === null) return 1;
+      if (b.t === null) return -1;
+      return b.t - a.t || a.i - b.i;
+    })
+    .map((x) => x.f);
+}
+
+/* 2026-11-01 JOURNALの横長カード（TOPの最新4記事・記事一覧ページで共通、すべて同じデザイン）
+   左：正方形のサムネイル（無い・読めない場合は文字のプレースホルダー）／右：カテゴリ・タイトル・公開日 */
+function JournalRow({ f, delay = 0 }) {
+  const img = f.img || f.cover || null;
+  const date = lbFmtDate(f.publishedAt);
+  const go = () => window.LBnav("/feature/" + f.key);
+  return (
+    <article className="jrow reveal" style={{ transitionDelay: delay + "ms" }}
+      role="link" tabIndex={0} aria-label={f.title}
+      onClick={go}
+      onKeyDown={(e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); go(); } }}>
+      <div className={"jrow__thumb" + (img ? "" : " jrow__thumb--empty")}>
+        {img
+          ? <img className="jrow__img" src={img} alt="" loading="lazy" decoding="async"
+              onError={(e) => { const el = e.currentTarget; el.style.display = "none"; el.parentNode && el.parentNode.classList.add("jrow__thumb--empty"); }} />
+          : null}
+        <span className="jrow__mark serif" aria-hidden="true">LOVABLE<br/>JOURNAL</span>
+      </div>
+      <div className="jrow__body">
+        {f.kicker && <span className="jrow__kicker">{f.kicker}</span>}
+        <h3 className="jrow__title serif">{f.title}</h3>
+        {date && <time className="jrow__date" dateTime={f.publishedAt}>{date}</time>}
+      </div>
+    </article>
+  );
+}
+
+/* 2026-11-01 記事一覧ページ（#/journal）：公開済みの全記事を公開日の新しい順に */
+function JournalListPage() {
+  useReveal([]);
+  useEffect(() => { window.scrollTo({ top: 0 }); }, []);
+  const list = lbSortByPublished(LB.FEATURES || []);
+  return (
+    <main className="wrap-wide sect journal-list">
+      <Breadcrumb items={[{label:"Home",href:"/"},{label:"Journal"}]} />
+      <div className="allhead reveal in">
+        <span className="eyebrow">The Journal · {list.length}</span>
+        <h1 className="section-title">記事一覧</h1>
+      </div>
+      {list.length
+        ? <div className="jrows">{list.map((f, i) => <JournalRow key={f.key} f={f} delay={Math.min(i, 8) * 40} />)}</div>
+        : <p className="journal-list__empty">まだ記事がありません。</p>}
+    </main>
+  );
+}
+
 /* JOURNAL article detail page */
 function FeaturePage({ featureKey, onOpen }) {
   useEffect(() => { window.scrollTo({ top: 0 }); }, [featureKey]);
@@ -421,4 +481,4 @@ function FeaturePage({ featureKey, onOpen }) {
   );
 }
 
-Object.assign(window, { CategoryPage, SavedPage, AllPage, SearchPage, FeaturePage, ArticleProductCard, JournalCard, lbFmtDate });
+Object.assign(window, { CategoryPage, SavedPage, AllPage, SearchPage, FeaturePage, ArticleProductCard, JournalCard, lbFmtDate, lbSortByPublished, JournalRow, JournalListPage });

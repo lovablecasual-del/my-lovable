@@ -211,12 +211,12 @@ function Features({ onOpen }) {
             <span className="eyebrow">{T("top.features.eyebrow")}</span>
             <h2 className="section-title">{T("top.features.title")}</h2>
           </div>
-          <a className="link-more" href="#/all" onClick={(e) => {e.preventDefault();window.LBnav("/all");}}>{T("top.features.more")}<span className="arrow"></span></a>
+          <a className="link-more" href="#/journal" onClick={(e) => {e.preventDefault();window.LBnav("/journal");}}>{T("top.features.more")}<span className="arrow"></span></a>
         </div>
-        {/* 2026-11-01 カードは共通の JournalCard（記事ページの関連記事と同じ）。画像の上に文字を重ねない */}
-        <div className="jgrid">
-          {LB.FEATURES.map((f, i) => window.JournalCard
-            ? React.createElement(window.JournalCard, { key: f.key, f, lead: i === 0, delay: i * 60 })
+        {/* 2026-11-01 公開済み記事のうち公開日の新しい4件を、すべて同じ横長カードで表示（1記事目だけ大きくする表示は廃止） */}
+        <div className="jrows">
+          {(window.lbSortByPublished ? window.lbSortByPublished(LB.FEATURES) : LB.FEATURES).slice(0, 4).map((f, i) => window.JournalRow
+            ? React.createElement(window.JournalRow, { key: f.key, f, delay: i * 60 })
             : null)}
         </div>
       </div>
