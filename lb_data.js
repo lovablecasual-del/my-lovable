@@ -3219,10 +3219,10 @@ window.__LB_OVERRIDE__ = {
     }
   },
   "NAVIMGS": {
-    "beauty": "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202611/1793504228168-4xrxd.png",
-    "fashion": "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202611/1793504229728-mlbfk.png",
-    "lifestyle": "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202611/1793504231267-7vnta.png",
-    "travel": "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202611/1793504232905-7xodi.png"
+    "beauty": "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202611/1793598047567-va6fg.png",
+    "fashion": "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202611/1793598049310-zhg9v.png",
+    "lifestyle": "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202611/1793598050944-nm6ht.png",
+    "travel": "https://lovablecasual-del.github.io/my-lovable/assets/uploads/202611/1793598052583-pcwif.png"
   },
   "CATIMGS": {},
   "TIKTOK": [
